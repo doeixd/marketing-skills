@@ -4,6 +4,8 @@
 
 **Search-to-conversion extension:** when diagnosing organic search or AI-answer discovery, use [SEO 5A](05a-seo-and-organic-search.md) and [AEO 5B](05b-aeo-ai-search-visibility.md) for discovery/index/citation evidence, then [CRO 4A](04a-conversion-rate-optimization.md) for post-click usability and qualified conversion. Citation counts are not clicks or sales; attribution is not incrementality.
 
+**Promotion and paid-search extensions:** [Promotion 5C](05c-promotion-strategy-and-distribution.md) uses [AMEC-aligned outcomes review](../templates/promotion-outcomes-review.md) to separate reach, attention, trust and commercial effect; creator/PR results must distinguish paid, earned, syndicated and actual purchases. [Google Ads 5G](05g-paid-search-google-ads.md) uses [paid-search optimization brief](../templates/google-ads-optimization-and-experiments.md) to diagnose search terms/match/negatives, conversion goals, Smart Bidding, AI Max expansion, brand cannibalization and margin. Search ad CTR and reported ROAS are not proof of incremental profit.
+
 ## A. Check data quality before forming a causal story
 
 Reconcile ad platform events with commerce order totals and net sales (accounting for time window, click/view attribution, currency, taxes, duplicates, refunds, cancellations and discounts). Inspect major traffic sources, inventory, promotions and seasonality. **Attributed sales are not necessarily incremental sales**; a reliable causal claim requires appropriate comparison or lift/holdout design. Small-sample results should often be called directional or inconclusive.
