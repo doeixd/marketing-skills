@@ -156,6 +156,39 @@ Use these as **primary documentation and user-research evidence**, not claims of
 - [Google location targeting options](https://support.google.com/google-ads/answer/1722038), [Google Ads editorial/destination policies](https://support.google.com/adspolicy/answer/6008942) — geographic precision and policy safeguards.
 - Practitioner/agent examples: [Brad Geddes / Adalysis](https://adalysis.com/blog/) (creative/testing audits); [Frederick Vallaeys / Optmyzr](https://www.optmyzr.com/blog/) (automation supervision); [Kirk Williams / ZATO](https://zatomarketing.com/blog/) (paid-search/Shopping commentary); [Search Engine Land PPC](https://searchengineland.com/library/channel/ppc); [Corey Haines ads skill](https://github.com/coreyhaines31/marketingskills/blob/main/skills/ads/SKILL.md). Treat these as tactical discussions subject to platform, data and profitability validation—not official Google rules.
 
+## Shopify and ecommerce marketing — reviewed 2026-11-06
+
+**In-depth Shopify references:** [Commerce economics](shopify-ecommerce-strategy-and-economics.md), [catalog/merchandising](shopify-catalog-merchandising-and-data.md), [Shopify SEO/Markets](shopify-ecommerce-seo-and-markets.md), [PDP/cart/checkout CRO](shopify-ecommerce-cro-and-checkout.md), [Shopping/Meta ads and pixels](shopify-shopping-ads-feeds-and-attribution.md), [customer lifecycle](shopify-lifecycle-retention-and-automation.md), [technical performance/analytics](shopify-theme-performance-and-measurement.md), [curated ecommerce skills and sources](shopify-ecommerce-skill-and-resource-library.md). These guides adapt existing Marketing OS brand, offering, search, ads and CRO principles to the Shopify platform.
+
+### Shopify primary merchant and technical sources
+
+- [Shopify SEO overview](https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview), [International SEO with Markets](https://help.shopify.com/en/manual/markets/seo) — generated sitemaps/canonicals, international language/URL configuration and its limits.
+- [Shopify Search & Discovery](https://help.shopify.com/en/manual/online-store/storefront-search), [Search & Discovery filters](https://help.shopify.com/en/manual/online-store/storefront-search/search-and-discovery-filters), [Metaobjects](https://help.shopify.com/en/manual/custom-data/metaobjects/connecting-to-your-online-store/connecting-metaobjects) — shopper finding, filter data and structured custom fields.
+- [Shopify Theme Performance](https://shopify.dev/docs/storefronts/themes/best-practices/performance), [Liquid Product object](https://shopify.dev/docs/api/liquid/objects/product) — search-readable HTML, performance, product/variant details.
+- [Shopify Checkout Customization](https://help.shopify.com/en/manual/checkout-settings/checkout-customization) — plan-specific checkout extension limits; don't propose universal Plus-only edits.
+- [Shopify Web Pixels](https://shopify.dev/docs/api/web-pixels-api) — sandboxed customer events, consent and app/custom pixel behavior.
+- [Shopify September 2026 session/CVR change](https://help.shopify.com/en/manual/reports-and-analytics/discrepancies/session-measurement-update), [report consolidation](https://help.shopify.com/en/manual/reports-and-analytics/discrepancies/analytics-updates) — beware reporting denominator breaks.
+- [Shopify Google & YouTube channel requirements](https://help.shopify.com/en/manual/online-sales-channels/marketplaces/google/requirements) and [Facebook & Instagram by Meta](https://help.shopify.com/en/manual/online-sales-channels/facebook-instagram-by-meta) — product synchronization and account eligibility.
+- [Shopify customer segments/Forms/Messaging/Flow](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/automation-tools), [Shopify Messaging automations](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/marketing-automations), [Shopify Flow events](https://help.shopify.com/en/manual/shopify-flow/reference/triggers), [Shopify Autopilot](https://help.shopify.com/en/manual/promoting-marketing/autopilot) — available marketing workflows, consent and approval.
+- [Google Merchant Center product data specification](https://support.google.com/merchants/answer/7052112) and [Google Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product) — actual product/variant feed and rich-result consistency.
+
+### Independent ecommerce UX and lifecycle references
+
+- [Baymard Product Page UX](https://baymard.com/research/product-page), [Product Lists/Filtering UX](https://baymard.com/research/ecommerce-product-lists), [Ecommerce Onsite Search UX](https://baymard.com/research/ecommerce-search) and [Checkout Research](https://baymard.com/research/checkout-usability) — observed choice/navigation/checkout friction, not universal lift guarantees.
+- [Nielsen Norman Group Product Pages](https://www.nngroup.com/reports/ecommerce-ux-product-pages-including-reviews/) and [Trust/Credibility](https://www.nngroup.com/reports/ecommerce-ux-trust-and-credibility/) — useful product information, evidence and trust.
+- [Klaviyo ecommerce lifecycle guidance](https://www.klaviyo.com/blog/ecommerce-email-marketing) — vendor perspective; no automatic recommendation to purchase/install.
+- [Google Analytics GA4 ecommerce](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce) — event structure and value interpretation.
+
+### Agent skill repositories (read actual content and licenses)
+
+- [Shopify/Shopify-AI-Toolkit](https://github.com/Shopify/Shopify-AI-Toolkit) and [Shopify/agent-skills](https://github.com/Shopify/agent-skills) — **Shopify-authored technical agent skills** for Liquid, Admin GraphQL, ShopifyQL, Flow, custom data and extensions. Specialized API/schema/code validation, not evidence that a marketing campaign works.
+- [proskillpacks/shopify-store-skills](https://github.com/proskillpacks/shopify-store-skills) — narrowly scoped store policy audit, honest review replies, real-image alt text and titles/CSV; author reports real-store testing.
+- [nexscope-ai/eCommerce-Skills](https://github.com/nexscope-ai/eCommerce-Skills) — wide ecommerce/shopify SEO, ads, email and CRO skill catalog. Many skill descriptions marked beta; evaluate actual depth rather than using catalog titles as factual authority.
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — reusable advertising, SEO, CRO, experiment, email and marketing strategy workflows; cross-platform rather than Shopify-specific.
+- [benjaminsehl/liquid-skills](https://github.com/benjaminsehl/liquid-skills) — third-party Shopify Liquid theme accessibility and coding patterns.
+
+**Governance:** don't auto-install, reproduce large upstream content, or assume these are present in the user's runtime. Skills are research/workflow design references; primary official docs control current technical behavior. Merchant account data and owner approval control actual changes.
+
 ## Research maintenance
 
 Review Meta specs and policies when campaigns are launched and at major platform changes. Periodically check source URLs, note publication dates, and update any platform-dependent instructions. Cite customer and business data from its actual provenance rather than treating this general bibliography as evidence about a given product.
