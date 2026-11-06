@@ -125,6 +125,7 @@ class TestWorkflows(unittest.TestCase):
             "workflows/05h-shopify-ecommerce-seo.md",
             "workflows/05i-shopify-shopping-ads-and-tracking.md",
             "workflows/09a-shopify-lifecycle-retention.md",
+            "workflows/05j-shopify-ecommerce-promotions.md",
             "references/shopify-ecommerce-strategy-and-economics.md",
             "references/shopify-catalog-merchandising-and-data.md",
             "references/shopify-ecommerce-cro-and-checkout.md",
@@ -132,6 +133,7 @@ class TestWorkflows(unittest.TestCase):
             "references/shopify-shopping-ads-feeds-and-attribution.md",
             "references/shopify-lifecycle-retention-and-automation.md",
             "references/shopify-theme-performance-and-measurement.md",
+            "references/shopify-promotions-bundles-and-seasonal-campaigns.md",
             "references/shopify-ecommerce-skill-and-resource-library.md",
             "templates/shopify-store-audit-and-roadmap.md",
             "templates/shopify-product-collection-content-brief.md",
@@ -139,6 +141,7 @@ class TestWorkflows(unittest.TestCase):
             "templates/shopify-search-merchandising-audit.md",
             "templates/shopify-merchant-feed-and-pixel-qa.md",
             "templates/shopify-lifecycle-and-retention-plan.md",
+            "templates/shopify-ecommerce-promotion-brief.md",
             "examples/shopify-ecommerce-end-to-end.md",
         )
         for name in files:
@@ -153,6 +156,7 @@ class TestWorkflows(unittest.TestCase):
             "05h-shopify-ecommerce-seo.md",
             "05i-shopify-shopping-ads-and-tracking.md",
             "09a-shopify-lifecycle-retention.md",
+            "05j-shopify-ecommerce-promotions.md",
         ):
             self.assertIn(filename, skill)
             self.assertIn(filename, system)
