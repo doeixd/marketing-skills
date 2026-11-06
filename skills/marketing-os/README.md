@@ -1,10 +1,24 @@
 # Marketing OS
 
-**Version 5.0 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.1 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.1: Promotion, social media, creator partnerships, PR and Google Ads
+
+This release adds a coordinated **promotion operating system**—not just more social post suggestions—plus detailed **Google Ads paid search planning, copy and campaign QA**.
+
+- [Integrated promotion workflow 5C](workflows/05c-promotion-strategy-and-distribution.md) + [PESO strategy reference](references/promotion-fundamentals-and-integrated-distribution.md): set audience and communication purpose, coordinate paid/earned/shared/owned media, choose real distribution and commercial success measures.
+- [Organic social and hooks 5D](workflows/05d-social-content-hooks-and-community.md) + [social reference](references/social-media-strategy-hooks-and-community.md): platform-native Instagram, TikTok, YouTube, LinkedIn, community response, content pillars, truthful hooks, caption/storyboards and repeatable calendars.
+- [Micro-influencer and collaborations 5E](workflows/05e-creators-influencers-and-collaborations.md) + [partner reference](references/influencers-collaborations-and-community-partnerships.md): partner discovery/vetting, UGC vs endorsement, gifted/paid disclosures, licenses, Meta Partnership Ads, TikTok Spark Ads, sponsorships and affiliate economics.
+- [PR / earned media / newswires 5F](workflows/05f-pr-earned-media-and-press-releases.md) + [newsroom reference](references/pr-press-releases-newswires-and-earned-media.md): newsworthiness gate, truthful press release, editorial-specific pitch, press kit, direct outreach and paid wire comparison. Distribution/syndication does not guarantee independent editorial pickup.
+- [Google Ads paid search 5G](workflows/05g-paid-search-google-ads.md) + [complete search research guide](references/paid-search-google-ads-fundamentals.md): intent/keyword research, semantic match/negative keywords, campaign structure, brand-vs-nonbrand, bidding, primary/qualified conversion data, 2026 AI Max expansion, ad assets, RSA copy, landing quality, policy/geo settings, experiments and profit-oriented diagnostics.
+- [Paid promotion and measurement](references/paid-social-amplification-and-promotion-measurement.md), [campaign brief](templates/promotion-campaign-brief.md), [social hook calendar](templates/social-content-and-hooks-calendar.md), [creator agreement input](templates/creator-and-collaboration-brief.md), [press/pitch kit](templates/pr-newsroom-and-pitch.md), [promotion outcome review](templates/promotion-outcomes-review.md).
+- [Google Search campaign blueprint](templates/google-ads-search-campaign-blueprint.md), [RSA copy/asset sheet](templates/google-search-rsa-and-assets.md), [experiment/optimization brief](templates/google-ads-optimization-and-experiments.md), [fictional worked campaign](examples/google-ads-search-campaign-example.md), and a [structural RSA copy checker](scripts/check_search_ads.py) with tests.
+
+The new sections distinguish **official platform rules from practitioner/guru heuristics**, **truly earned media from sponsored promotion**, and **platform-reported activity from customer/business value**. No live publishing, outreach, partner commitment or spend without approval.
 
 ## New in v5.0: Marketing OS identity
 
@@ -113,6 +127,10 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 
 ## Example prompts
 
+> Plan a promotion strategy for this product using social content, paid distribution, relevant creators and possible PR. Find the real buyer story, write hooks and build a realistic content and outreach calendar without inventing news or endorsements.
+
+> Research and plan a Google Search Ads campaign: keyword intent groups, positive/negative match strategies, bidding, verified conversions, RSAs/headlines, sitelinks, landing-page checks, AI Max controls, spend safeguards and what to test.
+
 > Diagnose whether my product-page and Meta ad conversion problem comes from weak copy, a confusing offer, buyer uncertainty or product-market mismatch. Give me evidence gaps and a test plan.
 
 > Research how buyers choose this product, including buying occasions, actual alternatives, feature-to-benefit ladders, brand cues, emotional motives and real drawbacks; then write three distinct ad concepts.
@@ -138,6 +156,12 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 | [SEO fundamentals and ecommerce](references/seo-fundamentals-and-ecommerce.md) | Technical eligibility, buyer intent, architecture, on-page copy and product search features |
 | [AEO / AI search citations](references/aeo-generative-search-and-citations.md) | Google AI Search requirements, question-first information and citation measurement limits |
 | [CRO and experimentation](references/cro-research-and-experimentation.md) | Buyer friction, store funnels, data integrity and trustworthy A/B testing |
+| [Promotion / PESO fundamentals](references/promotion-fundamentals-and-integrated-distribution.md) | Coordinating paid/earned/shared/owned distribution, guru frameworks and communication measurement |
+| [Social strategy, hooks and community](references/social-media-strategy-hooks-and-community.md) | Native platform idioms, useful hooks, editorial planning, engagement and response |
+| [Influencers, UGC, collaborations](references/influencers-collaborations-and-community-partnerships.md) | Vetting, nano/micro fit, gifting/sponsorship, FTC disclosures, license/affiliate economics |
+| [PR, releases and newswires](references/pr-press-releases-newswires-and-earned-media.md) | Newsworthiness, editorial pitches, press kit, paid syndication and outcome evaluation |
+| [Paid promotion measurement](references/paid-social-amplification-and-promotion-measurement.md) | Paid creative, platform roles, budget and conversion/brand value |
+| [Google Ads paid search](references/paid-search-google-ads-fundamentals.md) | Keywords, match types, negatives, conversion goals, bidding, RSAs, AI Max, experiments |
 | [Marketing fundamentals](references/marketing-fundamentals.md) | Diagnose the broader business and marketing system |
 | [Buyer research](references/buyer-research.md) | JTBD, buyer situations, customer language and evidence |
 | [Market positioning](references/market-positioning.md) | Alternatives, capabilities, value, best-fit customers, category |
@@ -162,9 +186,12 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 
 ## Operational workflows
 
-See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), brand discovery (3A), CRO (4A), SEO (5A), and AEO (5B)**, decision gates, and the source-backed operating loop.
+See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), brand discovery (3A), CRO (4A), SEO (5A), AEO (5B), integrated promotion (5C), social (5D), creators (5E), PR (5F) and Google Ads (5G)**, decision gates, and the source-backed operating loop.
 
 ## Templates and examples
+
+- [Integrated promotion brief](templates/promotion-campaign-brief.md), [social hooks/calendar](templates/social-content-and-hooks-calendar.md), [creator collaboration brief](templates/creator-and-collaboration-brief.md), [press release/pitch kit](templates/pr-newsroom-and-pitch.md), [promotion review](templates/promotion-outcomes-review.md), and [promotion example](examples/promotion-from-research-to-distribution.md)
+- [Google Ads Search blueprint](templates/google-ads-search-campaign-blueprint.md), [RSA creative asset sheet](templates/google-search-rsa-and-assets.md), [optimization/experiment brief](templates/google-ads-optimization-and-experiments.md), and [worked campaign](examples/google-ads-search-campaign-example.md)
 
 - [Search and conversion audit](templates/search-and-conversion-audit.md), [CRO experiment brief](templates/cro-experiment-brief.md), [SEO/AEO/CRO worked example](examples/seo-aeo-cro-from-offering.md)
 
@@ -189,6 +216,7 @@ All example products, buyer motives and ads are **illustrative**; do not treat t
 ```bash
 python3 scripts/check_copy.py examples/ad-variants.json
 python3 scripts/check_creative.py examples/creative-manifest.json
+python3 scripts/check_search_ads.py examples/google-search-rsa-draft.json
 python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 ```
