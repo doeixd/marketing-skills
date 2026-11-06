@@ -1,10 +1,21 @@
 # Meta Ad Copy Strategist
 
-**Version 4.2 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 4.3 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding customers' buying decisions before drafting Facebook/Instagram ad copy. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v4.3: SEO, AEO and CRO foundations + workflows
+
+The skill now covers **the full discovery-to-conversion path**, connecting brand and offering knowledge with organic search, AI answers and purchase experience:
+
+- [SEO Workflow 5A](workflows/05a-seo-and-organic-search.md) and [SEO reference](references/seo-fundamentals-and-ecommerce.md): buyer search intent, index/crawl/JS rendering, site architecture, page copy, merchant product/offer schema and feeds, technical/mobile UX, Search Console and results.
+- [AEO Workflow 5B](workflows/05b-aeo-ai-search-visibility.md) and [AI answer reference](references/aeo-generative-search-and-citations.md): reliable first-party answers, entity/product correctness, Google AI Search requirements, Bing Copilot citations and honest reporting limitations. No guaranteed inclusion or special llms.txt requirement.
+- [CRO Workflow 4A](workflows/04a-conversion-rate-optimization.md) and [CRO reference](references/cro-research-and-experimentation.md): mobile product-page usability, price/trust/shipping/returns, checkout/form funnel issues, business outcome quality, statistically responsible experiments and guardrails.
+- [Search and conversion audit](templates/search-and-conversion-audit.md), [CRO experiment brief](templates/cro-experiment-brief.md), [worked research-to-sale example](examples/seo-aeo-cro-from-offering.md), and an updated [annotated source library](references/sources.md).
+
+**Core distinction:** SEO helps potential buyers find appropriate pages; AEO concerns useful, accurate answers and measurable citation surfaces; CRO reduces obstacles to making an informed, commercially valuable decision. They share the same verified product/brand evidence. These are optional specialist workflows within the original nine-stage system.
 
 ## New in v4.2: Offering discovery → buyer value → full marketing plan
 
@@ -120,6 +131,9 @@ For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist
 
 | Document | When to read |
 |---|---|
+| [SEO fundamentals and ecommerce](references/seo-fundamentals-and-ecommerce.md) | Technical eligibility, buyer intent, architecture, on-page copy and product search features |
+| [AEO / AI search citations](references/aeo-generative-search-and-citations.md) | Google AI Search requirements, question-first information and citation measurement limits |
+| [CRO and experimentation](references/cro-research-and-experimentation.md) | Buyer friction, store funnels, data integrity and trustworthy A/B testing |
 | [Marketing fundamentals](references/marketing-fundamentals.md) | Diagnose the broader business and marketing system |
 | [Buyer research](references/buyer-research.md) | JTBD, buyer situations, customer language and evidence |
 | [Market positioning](references/market-positioning.md) | Alternatives, capabilities, value, best-fit customers, category |
@@ -144,9 +158,11 @@ For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist
 
 ## Operational workflows
 
-See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional brand discovery (3A)**, decision gates, and the source-backed operating loop.
+See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), brand discovery (3A), CRO (4A), SEO (5A), and AEO (5B)**, decision gates, and the source-backed operating loop.
 
 ## Templates and examples
+
+- [Search and conversion audit](templates/search-and-conversion-audit.md), [CRO experiment brief](templates/cro-experiment-brief.md), [SEO/AEO/CRO worked example](examples/seo-aeo-cro-from-offering.md)
 
 - [Brand discovery intake](templates/brand-discovery-intake.md), [messaging library template](templates/brand-messaging-library.md), and [worked example](examples/brand-discovery-to-copy.md)
 - [Product and campaign intake](templates/intake.md)
