@@ -2,6 +2,8 @@
 
 **Trigger:** Campaign live, revenue lower than expected, ROI weak, tests need review, or results are surprisingly strong.
 
+**Search-to-conversion extension:** when diagnosing organic search or AI-answer discovery, use [SEO 5A](05a-seo-and-organic-search.md) and [AEO 5B](05b-aeo-ai-search-visibility.md) for discovery/index/citation evidence, then [CRO 4A](04a-conversion-rate-optimization.md) for post-click usability and qualified conversion. Citation counts are not clicks or sales; attribution is not incrementality.
+
 ## A. Check data quality before forming a causal story
 
 Reconcile ad platform events with commerce order totals and net sales (accounting for time window, click/view attribution, currency, taxes, duplicates, refunds, cancellations and discounts). Inspect major traffic sources, inventory, promotions and seasonality. **Attributed sales are not necessarily incremental sales**; a reliable causal claim requires appropriate comparison or lift/holdout design. Small-sample results should often be called directional or inconclusive.
