@@ -4,6 +4,8 @@
 
 **Promotion extension:** Community participation, real customer advocacy, ethical referral/affiliate collaboration and earned sharing can complement retention. Use [Promotion 5C](05c-promotion-strategy-and-distribution.md) and [Creators 5E](05e-creators-influencers-and-collaborations.md) for partner terms/permissions. Never buy fake reviews or imply repeat purchasing is naturally frequent for every category; evaluate qualified lifetime value and retention before scaling.
 
+**Shopify implementation:** [Lifecycle 9A](09a-shopify-lifecycle-retention.md) maps Shopify customer segments, actual consent, Messaging/Flow automation triggers, suppression, genuine repeat/gift needs and economic impact. Avoid duplicate emails from installed apps and never activate a sequence without explicit permission.
+
 ## A. Understand whether repeat purchase is realistic
 
 The product category determines natural repeat behavior. A long-lived keepsake may be purchased infrequently; gifts can recur by occasion; consumables may invite replenishment. Do not assume a subscription or monthly reactivation is appropriate. Inspect actual return time, order frequencies, product adjacency, repeat contribution and customer service outcomes.
