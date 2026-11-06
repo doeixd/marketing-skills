@@ -1,5 +1,14 @@
 # Changelog
 
+## 4.2.0 — 2026-11-06
+
+- Added optional **Workflow 1A — Offering Discovery → Marketing Plan**, a research-to-decision playbook for one physical product, SaaS, service, subscription, bundle or other commercial offering.
+- Added end-to-end mapping of actual deliverables, product features, benefits, Jobs-to-Be-Done, buyer roles, purchase occasions, competing alternatives, barriers, real drawbacks, pricing and economic constraints, honest assurances, creative proof and destination readiness.
+- Added value-proposition and evidence traceability, customer choice and objections matrix, adaptive intake, full offering dossier, claim-safe copy library and prioritized channel/creative/experimentation plan.
+- Added service-specific extensions (people/process/physical evidence, implementation scope and capacity) and illustrative product/service examples.
+- Integrated offering workflow into skill routing, marketing operating system, discovery, offer and creative handoffs; added CI validation tests and source-backed reference links.
+
+
 ## 4.1.0 — 2026-11-06
 
 - Added optional **Workflow 3A: Brand discovery → voice → messaging library**, before the existing positioning and creative-production stages.
