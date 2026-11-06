@@ -1,10 +1,14 @@
 # Meta Ad Copy Strategist
 
-**Version 4.0 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 4.1 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding customers' buying decisions before drafting Facebook/Instagram ad copy. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v4.1: brand discovery → voice → reusable copy
+
+The new [Brand Discovery Workflow 3A](workflows/03a-brand-discovery-and-messaging.md) investigates what a brand **claims**, **demonstrates**, and what buyers **perceive**. It analyzes brand perspective, personality, customer desires, selling points, verified advantages, tone, phrase patterns and limitations, then turns the findings into a coherent [message and copy library](templates/brand-messaging-library.md): benefit bullets, product descriptions, headlines, Meta primary texts and supporting descriptions, hooks, CTAs and channel-specific variants. The process includes a [discovery interview template](templates/brand-discovery-intake.md), a [voice/copywriting research guide](references/brand-voice-and-copy-system.md), and a [worked example](examples/brand-discovery-to-copy.md). No invented founder story, customer quotes, exclusive benefits, or fake scarcity.
 
 ## New in v4: creative direction, Instagram/Reels native formats and QA
 
@@ -88,6 +92,8 @@ For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist
 
 > Research how buyers choose this product, including buying occasions, actual alternatives, feature-to-benefit ladders, brand cues, emotional motives and real drawbacks; then write three distinct ad concepts.
 
+> Discover this brand from its website, products, reviews and existing marketing. Explain what makes it special, its actual voice and perspective, the claims it can support and customer reservations; create a reusable copy bank with benefit bullets, headlines, descriptions and Meta ad units.
+
 > Develop a positioning strategy for my brand: category expectations, points of parity/difference, best-fit customers, distinctive assets, category entry points and value to communicate in ads.
 
 > Write Facebook Feed and Instagram Feed primary text/headline/description combinations that preserve our brand identity while testing gifting, aesthetic and product-led angles.
@@ -106,6 +112,7 @@ For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist
 | [Buyer research](references/buyer-research.md) | JTBD, buyer situations, customer language and evidence |
 | [Market positioning](references/market-positioning.md) | Alternatives, capabilities, value, best-fit customers, category |
 | [Brand strategy](references/brand-strategy.md) | Brand equity, distinctiveness, category entry points and memory |
+| [Brand voice and copy system](references/brand-voice-and-copy-system.md) | Discover the real voice, differentiate identity from perception, distill into reusable phrasing |
 | [Product value and pricing](references/product-value-and-pricing.md) | Feature–benefit ladders, total sacrifice and price concerns |
 | [Persuasion and signaling](references/persuasion-and-signaling.md) | ELM, Cialdini, PKM, quality signals and buyer decision barriers |
 | [Positioning and objections](references/positioning-and-objections.md) | Objection matrices, benefits and drawbacks |
@@ -125,10 +132,11 @@ For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist
 
 ## Operational workflows
 
-See [the complete workflow guide](WORKFLOWS.md), which links to all nine stage runbooks, decision gates, and the source-backed operating loop.
+See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional brand discovery (3A)**, decision gates, and the source-backed operating loop.
 
 ## Templates and examples
 
+- [Brand discovery intake](templates/brand-discovery-intake.md), [messaging library template](templates/brand-messaging-library.md), and [worked example](examples/brand-discovery-to-copy.md)
 - [Product and campaign intake](templates/intake.md)
 - [Strategic marketing brief](templates/strategy-brief.md)
 - [Output and example JSON contract](templates/output-format.md)
