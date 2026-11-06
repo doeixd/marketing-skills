@@ -6,6 +6,8 @@
 
 **Shopify implementation:** [Lifecycle 9A](09a-shopify-lifecycle-retention.md) maps Shopify customer segments, actual consent, Messaging/Flow automation triggers, suppression, genuine repeat/gift needs and economic impact. Avoid duplicate emails from installed apps and never activate a sequence without explicit permission.
 
+**Email, SMS and data handoffs:** use [Email 9B](09b-email-marketing-campaigns-and-copy.md) for actual campaign and sequence copy, [SMS 9C](09c-sms-text-and-messaging-marketing.md) for consented time-sensitive texts, [Lifecycle 9D](09d-cross-channel-lifecycle-and-segmentation.md) for customer-state and suppression logic, and [Deliverability 9E](09e-email-deliverability-and-list-health.md) for sender/list trust. [RFM/Cohorts 8C](08c-customer-segmentation-rfm-and-clv.md) informs actual segments, and [Attribution 8B](08b-attribution-incrementality-and-experiments.md) can evaluate whether lifecycle contact creates incremental contribution rather than merely claimed ESP revenue.
+
 ## A. Understand whether repeat purchase is realistic
 
 The product category determines natural repeat behavior. A long-lived keepsake may be purchased infrequently; gifts can recur by occasion; consumables may invite replenishment. Do not assume a subscription or monthly reactivation is appropriate. Inspect actual return time, order frequencies, product adjacency, repeat contribution and customer service outcomes.
