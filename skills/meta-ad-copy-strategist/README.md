@@ -1,10 +1,20 @@
 # Meta Ad Copy Strategist
 
-**Version 4.1 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 4.2 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding customers' buying decisions before drafting Facebook/Instagram ad copy. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v4.2: Offering discovery → buyer value → full marketing plan
+
+The [Offering Discovery Workflow 1A](workflows/01a-offering-discovery-and-marketing-plan.md) investigates a **specific product, service, software tool, subscription or bundle** holistically: what is delivered, who buys or uses it, buying occasions, desired outcomes (including aesthetic or emotional desires), alternatives/status quo, features and buyer benefits, actual limitations, objections, assurances, pricing and economics, credible proof, brand fit and voice. It turns that research into a product-specific positioning proposal, evidence-backed selling-point bullets, short/long descriptions, headline and support-line banks, Meta ad concepts/visuals, product-page fixes, channel recommendations and testable go-to-market priorities.
+
+- [Workflow 1A](workflows/01a-offering-discovery-and-marketing-plan.md) — questions → evidence → diagnosis → decisions → marketing outputs.
+- [Research and planning framework](references/offering-research-and-marketing-planning.md) — JTBD, Strategyzer, alternatives-first positioning, service 7Ps, truthful assurances and offer economics.
+- [Offering intake](templates/offering-discovery-intake.md) · [Dossier/marketing plan template](templates/offering-dossier-and-marketing-plan.md) · [Worked physical-product and service examples](examples/offering-discovery-to-marketing-plan.md).
+
+Brand discovery is **optional when sufficient approved brand context exists**; otherwise gather a light brand scan or run 3A. The offering workflow is an optional sub-workflow of Stage 1, not an additional mandatory stage.
 
 ## New in v4.1: brand discovery → voice → reusable copy
 
@@ -91,6 +101,8 @@ For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist
 > Diagnose whether my product-page and Meta ad conversion problem comes from weak copy, a confusing offer, buyer uncertainty or product-market mismatch. Give me evidence gaps and a test plan.
 
 > Research how buyers choose this product, including buying occasions, actual alternatives, feature-to-benefit ladders, brand cues, emotional motives and real drawbacks; then write three distinct ad concepts.
+
+> Investigate this product or service end-to-end. Discover exactly what is sold, the customers and situations it serves, motivations and drawbacks, alternatives, positioning, feature-benefit proof, pricing, assurances and the best plan to market it. Generate a reusable copy bank with bullets, descriptions, headlines, Meta ad concepts and what should be fixed before launching.
 
 > Discover this brand from its website, products, reviews and existing marketing. Explain what makes it special, its actual voice and perspective, the claims it can support and customer reservations; create a reusable copy bank with benefit bullets, headlines, descriptions and Meta ad units.
 
