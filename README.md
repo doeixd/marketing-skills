@@ -8,6 +8,12 @@ Marketing skills
 An evidence-grounded Agent Skill for ecommerce marketing and Facebook/Instagram ads. Includes brand and offering discovery, Shopify/ecommerce merchandising, product and collection SEO, Shopify CRO, Google/Meta Shopping ads and product feeds, lifecycle email/SMS, tracking and analytics; plus general SEO/AEO, paid search, PR, social and creator partnerships, experimentation and growth.
 
 - [Getting started](skills/marketing-os/README.md)
+- [Marketing data/ETL and analytics workflow 8D](skills/marketing-os/workflows/08d-marketing-data-pipelines-and-measurement.md)
+- [Data engineering and ETL reference](skills/marketing-os/references/marketing-data-engineering-and-etl.md)
+- [Meta Pixel/CAPI, GA4, GTM, UTMs and attribution](skills/marketing-os/references/measurement-pixels-ga4-and-attribution.md)
+- [Shopify/Etsy/Amazon API integration](skills/marketing-os/references/commerce-data-shopify-etsy-amazon.md)
+- [Audiences, identity and reverse ETL](skills/marketing-os/references/audiences-identity-and-reverse-etl.md)
+- [Data tools, agent skills and resources](skills/marketing-os/references/marketing-data-tools-skills-and-resources.md)
 - [Marketing workflows](skills/marketing-os/WORKFLOWS.md)
 - [Integrated promotion / PESO workflow](skills/marketing-os/workflows/05c-promotion-strategy-and-distribution.md)
 - [Social media strategy and hooks workflow](skills/marketing-os/workflows/05d-social-content-hooks-and-community.md)

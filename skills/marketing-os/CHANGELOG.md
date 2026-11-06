@@ -1,5 +1,13 @@
 # Changelog
 
+## 5.4.0 — 2026-11-06
+
+- Added Stage **8D Marketing Data Pipelines and Measurement** integrating attribution/analytics engineering with the existing marketing operating system, plus implementation blueprint, event/UTM QA plan and hypothetical Shopify/Etsy/Amazon pipeline example.
+- Researched and added separate references for **ETL/ELT and warehouse contracts; Meta datasets, Pixel/CAPI dedup and conversion QA; GA4 ecommerce, Measurement Protocol, BigQuery, GTM and consent mode; Amazon SP-API/Attribution and Etsy v3 API; SKU/order reconciliation; audience identity, suppression and reverse ETL**.
+- Curated and classified **real agent skills** from dbt Labs, RudderStack, Shopify, Corey Haines and Dataslayer plus Airbyte, dlt, Meltano, dbt, DuckDB, Great Expectations, official APIs and learning resources. External skills are optional references, not automatically installed.
+- Added governance for marketplace buyer data, source-scoped identities, data quality, event deduplication, privacy and activation approval; linked the data specialist into Meta/Shopify ads and measurement routes.
+
+
 ## 5.3.0 — 2026-11-06
 
 - Added seven specialist workflows: **Analytics 8A**, **Attribution/Incrementality 8B**, **Customer RFM/Cohorts/CLV 8C**, **Email Marketing 9B**, **SMS/Text Marketing 9C**, **Cross-Channel Lifecycle 9D**, **Email Deliverability/List Health 9E**.
