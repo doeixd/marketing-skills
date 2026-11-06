@@ -1,6 +1,6 @@
 # Marketing operating system — question → evidence → decision → action → learning
 
-This is the **operational layer** of [Meta Ad Copy Strategist](SKILL.md). It is a repeatable, evidence-grounded approach to choosing what marketing work to do, making it, and learning whether it worked. **Never jump directly from product title to ad copy unless the user only requests a quick rewrite.** The full system is modular, not a compulsory nine-stage report. For an unknown brand, insert [Workflow 3A: brand discovery → voice → messaging library](workflows/03a-brand-discovery-and-messaging.md) before positioning or creative; it is an optional sub-workflow, not an additional mandatory stage.
+This is the **operational layer** of [Meta Ad Copy Strategist](SKILL.md). It is a repeatable, evidence-grounded approach to choosing what marketing work to do, making it, and learning whether it worked. **Never jump directly from product title to ad copy unless the user only requests a quick rewrite.** The full system is modular, not a compulsory nine-stage report. For one offering that needs holistic investigation and a product-level marketing plan, use [Workflow 1A: offering discovery → marketing plan](workflows/01a-offering-discovery-and-marketing-plan.md); it joins product truth, buying situations, alternatives, pricing, risks, proof and communication into one decision dossier. For an unknown brand, insert [Workflow 3A: brand discovery → voice → messaging library](workflows/03a-brand-discovery-and-messaging.md) before positioning or creative; it is an optional sub-workflow, not an additional mandatory stage.
 
 ## The operating loop
 
@@ -32,6 +32,7 @@ flowchart TD
 | Stage | Essential questions | Minimum evidence | Decision / artifact | Move forward when… |
 |---|---|---|---|---|
 | [1. Diagnose business and product](workflows/01-commercial-diagnosis.md) | What product, objective, profit constraint, inventory, time horizon? | Catalog, price, costs, sales, inventory, returns | Commercial scorecard and chosen product/job | Product, objective, allowable economics, and known unknowns are clear |
+| [1A. Research a particular offering and create a marketing plan](workflows/01a-offering-discovery-and-marketing-plan.md) *(optional within Stage 1; orchestrates 2–8)* | What is actually sold, who values it and why, why might they not buy, how can it be positioned, offered, communicated and tested? | Actual product/service specs and terms, brand evidence, buyer data, alternatives, economics, claims/rights | [Offering dossier + copy bank + marketing plan](templates/offering-dossier-and-marketing-plan.md) | Core promise, buyer choice, evidence/unknowns, blockers and next actions are explicit |
 | [2. Research buyers and occasions](workflows/02-buyer-discovery.md) | Who buys, when, why, instead of what, with which doubts? | Reviews, support, interviews, search, analytics | Buyer/job/occasion map and objection register | At least one plausible buying situation and evidence/confidence are documented |
 | [3. Position and build brand](workflows/03-positioning-and-brand.md) | Why this vs alternatives; what should people recognize? | Competitor offers, product proof, assets, buyer data | Positioning statement, reasons to believe, brand cue map | Claims are supportable and the fit is coherent |
 | [3A. Discover the brand and distill copy](workflows/03a-brand-discovery-and-messaging.md) *(optional within stage 3)* | What are its demonstrated identity, perspective, voice, selling points, personality and competitive advantages? | Site, owned copy, product evidence, customer language, reviews, competitors, owner goals | Voice guide, brand truth and approved [messaging library](templates/brand-messaging-library.md) | Claims, voice confidence and approval status are clear |
@@ -46,6 +47,7 @@ flowchart TD
 
 | Situation | Start here | Why |
 |---|---|---|
+| Investigate one product/service and create a marketing plan or full copy bank | Brand scan/3A if needed → 1A → relevant stages 2–8 | Produce a single offering dossier connecting facts, buyers, value, objections, price, copy and the prioritized plan |
 | New product with no sales | 1 → 2 → 3 → 4 | Validate demand and economics before buying reach |
 | New or unfamiliar brand; scattered, inconsistent copy | 2 → 3A → 3 → 6 | Discover brand reality, customer perception, voice and approved language before creating ads |
 | New Meta campaign for an existing profitable SKU | 2 → 3 → 5 → 6 → 7 | Product economics may be known; still ground message |
@@ -74,6 +76,7 @@ flowchart TD
 | [Commercial + product brief](templates/operating-brief.md) | Workflow 1 | All subsequent stages |
 | Buyer/occasion map + evidence ledger | Workflow 2 | Positioning, ad production, PDP, lifecycle |
 | Positioning / reason-to-believe / brand cues | Workflow 3 | Offer, creative, channels |
+| [Offering intelligence dossier](templates/offering-dossier-and-marketing-plan.md) + [adaptive product/service intake](templates/offering-discovery-intake.md) | Workflow 1A | Buyer research, offer/PDP, positioning, channels, creative and experiment design |
 | [Brand voice and copy library](templates/brand-messaging-library.md) + [discovery intake](templates/brand-discovery-intake.md) | Workflow 3A | Positioning, creative, web copy, lifecycle, product catalog |
 | Product page and offer checklist | Workflow 4 | Ad claims and landing page QA |
 | Campaign hypothesis and measurement plan | Workflow 5 | Creative, launch, experiment |
