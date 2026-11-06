@@ -45,6 +45,32 @@ class TestWorkflows(unittest.TestCase):
         plan = (ROOT / 'WORKFLOWS.md').read_text(encoding='utf-8')
         self.assertIn('Workflow 1A', plan)
 
+    def test_seo_aeo_cro_specialist_workflows(self):
+        paths = (
+            'workflows/05a-seo-and-organic-search.md',
+            'workflows/05b-aeo-ai-search-visibility.md',
+            'workflows/04a-conversion-rate-optimization.md',
+            'references/seo-fundamentals-and-ecommerce.md',
+            'references/aeo-generative-search-and-citations.md',
+            'references/cro-research-and-experimentation.md',
+            'templates/search-and-conversion-audit.md',
+            'templates/cro-experiment-brief.md',
+            'examples/seo-aeo-cro-from-offering.md',
+        )
+        for name in paths:
+            self.assertTrue((ROOT / name).is_file(), name)
+        skill = (ROOT / 'SKILL.md').read_text(encoding='utf-8')
+        operating = (ROOT / 'WORKFLOWS.md').read_text(encoding='utf-8')
+        for name in ('04a-conversion-rate-optimization.md', '05a-seo-and-organic-search.md', '05b-aeo-ai-search-visibility.md'):
+            self.assertIn(name, skill)
+            self.assertIn(name, operating)
+        aeo = (ROOT / 'references/aeo-generative-search-and-citations.md').read_text(encoding='utf-8').lower()
+        self.assertIn('llms.txt', aeo)
+        self.assertIn('citation', aeo)
+        cro = (ROOT / 'references/cro-research-and-experimentation.md').read_text(encoding='utf-8').lower()
+        self.assertIn('sample-ratio', cro)
+        self.assertIn('guardrails', cro)
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
