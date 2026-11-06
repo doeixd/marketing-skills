@@ -25,5 +25,7 @@ jobs:
         run: python scripts/check_copy.py examples/ad-variants.json
       - name: Validate creative example
         run: python scripts/check_creative.py examples/creative-manifest.json
+      - name: Validate Google Search RSA draft
+        run: python scripts/check_search_ads.py examples/google-search-rsa-draft.json
       - name: Validate internal links
         run: python scripts/check_links.py .
