@@ -2,6 +2,8 @@
 
 **Use when:** brand identity, memorability, trust, top-of-funnel advertising, creative consistency or brand-vs-performance strategy could change the answer.
 
+**For brand discovery, voice, perspective and reusable copy assets:** run [Workflow 3A](../workflows/03a-brand-discovery-and-messaging.md), then read [the brand voice/copy system](brand-voice-and-copy-system.md) and complete [the messaging library](../templates/brand-messaging-library.md).
+
 ## A brand exists partly in customer memory
 
 Kevin Lane Keller's customer-based brand equity model distinguishes brand awareness from brand image/associations and asks how brand knowledge changes responses to the same marketing. Ehrenberg-Bass research emphasizes *mental availability* (being thought of in purchase situations) and *physical availability* (being easy to find/buy). These are different but useful perspectives, not mutually exclusive copywriting formulas.
