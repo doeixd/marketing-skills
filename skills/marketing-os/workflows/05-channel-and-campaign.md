@@ -6,6 +6,8 @@
 
 **Organic discovery extension:** [SEO 5A](05a-seo-and-organic-search.md) maps real search intent to findable/helpful pages and catalog/merchant data; [AEO 5B](05b-aeo-ai-search-visibility.md) investigates AI-answer source quality and citation observability. Neither guarantees rankings or citations. For landing-page failures see [CRO 4A](04a-conversion-rate-optimization.md).
 
+**Promotion and demand-capture extensions:** Choose [Promotion 5C](05c-promotion-strategy-and-distribution.md) when coordinating paid/earned/shared/owned work, [Social 5D](05d-social-content-hooks-and-community.md) for hooks/content/community, [Creator 5E](05e-creators-influencers-and-collaborations.md) for micro-influencers/affiliates/UGC and proper rights, [PR 5F](05f-pr-earned-media-and-press-releases.md) for genuine news and editorial outreach, and [Paid Search 5G](05g-paid-search-google-ads.md) when buyers actively search for a solution/product. Google Search must use correct conversion goals, match and negative keyword policies, real landing evidence and budget authorization. See [promotion plan](../templates/promotion-campaign-brief.md) and [Google Ads blueprint](../templates/google-ads-search-campaign-blueprint.md).
+
 ## A. Choose the commercial job before the channel
 
 | Commercial job | Buyer state / business question | Candidate channels or tactics | Primary evaluation |
