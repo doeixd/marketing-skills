@@ -27,5 +27,7 @@ jobs:
         run: python scripts/check_creative.py examples/creative-manifest.json
       - name: Validate Google Search RSA draft
         run: python scripts/check_search_ads.py examples/google-search-rsa-draft.json
+      - name: Validate email and SMS plan draft
+        run: python scripts/check_messaging_plan.py examples/messaging-plan-draft.json
       - name: Validate internal links
         run: python scripts/check_links.py .
