@@ -129,6 +129,13 @@ Record `asset ID, buyer/occasion, angle, source claim IDs, status` for every pub
 | Concept | What buyer should notice | Visual/demo proof | Format/placement | Opening hook | Brand cue | Rights / asset gap |
 |---|---|---|---|---|---|---|
 
+## 9A. SEO / AEO / CRO handoff (when relevant)
+
+- **Search intent and landing page plan:** key buyer questions, page URLs and original proof, indexability and merchant data needs.
+- **AI-answer resource plan:** authentic concise answers, authoritative product facts, relevant surfaces and observable citation/reporting limits; no special AI schema/llms.txt requirement for Google.
+- **Conversion readiness:** actual page/checkout blockers, visitor mismatch, trust/pricing/policy information and valid experiment hypotheses.
+- **Shared audit:** [Search and conversion audit](search-and-conversion-audit.md); [CRO experiment brief](cro-experiment-brief.md).
+
 ## 10. Product-level go-to-market plan
 | Priority | Issue/hypothesis | Action | Owner | Dependency | Business KPI / test | Review point |
 |---|---|---|---|---|---|---|
