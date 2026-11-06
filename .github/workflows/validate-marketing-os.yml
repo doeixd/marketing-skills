@@ -1,19 +1,19 @@
-name: Validate Meta Ad Copy Strategist
+name: Validate Marketing OS
 on:
   push:
     paths:
-      - "skills/meta-ad-copy-strategist/**"
-      - ".github/workflows/validate-meta-ad-copy-strategist.yml"
+      - "skills/marketing-os/**"
+      - ".github/workflows/validate-marketing-os.yml"
   pull_request:
     paths:
-      - "skills/meta-ad-copy-strategist/**"
-      - ".github/workflows/validate-meta-ad-copy-strategist.yml"
+      - "skills/marketing-os/**"
+      - ".github/workflows/validate-marketing-os.yml"
 jobs:
   validate:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: skills/meta-ad-copy-strategist
+        working-directory: skills/marketing-os
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5

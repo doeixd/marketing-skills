@@ -1,10 +1,14 @@
-# Meta Ad Copy Strategist
+# Marketing OS
 
-**Version 4.3 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.0 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
-A reusable [Agent Skills](https://agentskills.io/specification) package for understanding customers' buying decisions before drafting Facebook/Instagram ad copy. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
+A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.0: Marketing OS identity
+
+Renamed from **Meta Ad Copy Strategist** to **Marketing OS** (`marketing-os`) to reflect the full marketing operating system: brand and offering research, positioning, messaging, SEO/AEO/CRO, Meta creative and advertising, measurement, and growth. Installation paths and validation configuration have been updated; all existing workflows remain.
 
 ## New in v4.3: SEO, AEO and CRO foundations + workflows
 
@@ -92,20 +96,20 @@ A quick copy-edit request takes a shorter route; the skill does **not** require 
 
 ## Install
 
-When this repo has been published at `doeixd/meta-ad-copy-strategist`, compatible installers can use:
+Install from the published `doeixd/marketing-skills` repository with a compatible Agent Skills installer:
 
 ```bash
-npx skills add doeixd/meta-ad-copy-strategist
+npx skills add doeixd/marketing-skills --skill marketing-os
 ```
 
 Or download the ZIP, unpack it and copy the full directory to your tool's agent skills folder, for example:
 
 ```bash
 mkdir -p .agents/skills
-cp -R meta-ad-copy-strategist .agents/skills/meta-ad-copy-strategist
+cp -R marketing-os .agents/skills/marketing-os
 ```
 
-For Claude Code, the local folder can be `.claude/skills/meta-ad-copy-strategist/`. See your tool's specific installation instructions. **Do not assume the GitHub URL is live until the repository is actually created and published.**
+For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See your tool's specific installation instructions. The skill lives at `skills/marketing-os/` inside [doeixd/marketing-skills](https://github.com/doeixd/marketing-skills).
 
 ## Example prompts
 

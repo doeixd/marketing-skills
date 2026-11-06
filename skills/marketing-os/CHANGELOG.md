@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.0 — 2026-11-06
+
+- Renamed skill from **Meta Ad Copy Strategist** (`meta-ad-copy-strategist`) to **Marketing OS** (`marketing-os`), reflecting its full brand, offering, acquisition, SEO/AEO/CRO, creative, measurement and growth capabilities.
+- Moved the skill to `skills/marketing-os/`; updated Agent Skills frontmatter, installation instructions, repository links and GitHub Actions validation paths. Existing playbooks and reference materials are preserved.
+
+
 ## 4.3.0 — 2026-11-06
 
 - Added **SEO 5A**, **AEO/AI-answer visibility 5B**, and **CRO 4A** as optional specialist workflows within the nine-stage marketing system.

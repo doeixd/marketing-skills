@@ -1,14 +1,14 @@
 ---
-name: meta-ad-copy-strategist
-description: Evidence-grounded ecommerce marketing workflows and Meta (Facebook/Instagram) ad copy. Diagnose product economics, buying occasions, customer motivations, brand memory, competitive positioning, product benefits, offers, objections, trust, purchase paths and campaign results; turn answers into positioning, channel plans, complete ads, experiments, merchandising and retention actions. Use for SEO, AEO/GEO/AI answer visibility, CRO and ecommerce conversion experiments; holistic product, service and offering discovery, product-specific go-to-market plans, brand discovery, voice and copy style definition, product launches, ad campaigns, store conversion, brand strategy, testing and growth. Plan creative strategy, visual direction, Instagram-native Reels/Stories, scripts, creator rights, placement crops and ad QA.
+name: marketing-os
+description: Evidence-grounded marketing operating system spanning brand, customer and offering discovery; positioning, pricing, SEO, AEO, CRO, paid advertising, creative, experimentation and growth. Includes Meta (Facebook/Instagram) ad copy. Diagnose product economics, buying occasions, customer motivations, brand memory, competitive positioning, product benefits, offers, objections, trust, purchase paths and campaign results; turn answers into positioning, channel plans, complete ads, experiments, merchandising and retention actions. Use for SEO, AEO/GEO/AI answer visibility, CRO and ecommerce conversion experiments; holistic product, service and offering discovery, product-specific go-to-market plans, brand discovery, voice and copy style definition, product launches, ad campaigns, store conversion, brand strategy, testing and growth. Plan creative strategy, visual direction, Instagram-native Reels/Stories, scripts, creator rights, placement crops and ad QA.
 license: MIT
 compatibility: Agent Skills compatible; Python 3.10+ optionally supports ad copy validation. Live platform documentation, real product data and customer research improve accuracy.
 metadata:
-  version: '4.3.0'
+  version: '5.0.0'
   category: marketing
 ---
 
-# Meta Ad Copy Strategist
+# Marketing OS
 
 **Understand the customer's choice, identify the business constraint, select the intervention, then write the ad only if needed.**
 
