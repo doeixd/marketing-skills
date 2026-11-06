@@ -151,6 +151,8 @@ Make a reusable **copy bank**:
 
 Test the **substitution test** (could any competitor say the same?) and **proof test** (could this customer verify it?), then run [brand fidelity](03a-brand-discovery-and-messaging.md), [creative production](06-creative-production.md) and [launch QA](07-launch-qa.md). Each text asset should carry `audience | job | angle | claim IDs | brand cue | placement | status`. Important offer facts cannot live only in a Meta description field which might not display.
 
+**Discovery-to-purchase channel extensions:** for an offering whose customers actively search, use [SEO 5A](05a-seo-and-organic-search.md); where AI-answer discovery matters, [AEO 5B](05b-aeo-ai-search-visibility.md); and where product pages or checkout underperform, [CRO 4A](04a-conversion-rate-optimization.md). Reuse the same brand/product proof ledger and honest limitations across page content, AI-answer resources and sales conversion.
+
 ## 9. Produce a prioritized go-to-market and improvement plan
 
 The deliverable is **not** a pile of copy. It is an ordered decision plan:
