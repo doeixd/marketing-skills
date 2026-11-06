@@ -190,6 +190,42 @@ Use these as **primary documentation and user-research evidence**, not claims of
 
 **Governance:** don't auto-install, reproduce large upstream content, or assume these are present in the user's runtime. Skills are research/workflow design references; primary official docs control current technical behavior. Merchant account data and owner approval control actual changes.
 
+## Email, SMS, lifecycle and marketing analytics — reviewed 2026-11-06
+
+**New reference set:** [Email marketing and creative](email-marketing-strategy-copy-and-creative.md), [Email deliverability, authentication and consent](email-deliverability-consent-and-reputation.md), [SMS/text marketing](sms-text-marketing-and-compliance.md), [Lifecycle orchestration](lifecycle-orchestration-and-channel-governance.md), [Analytics and event/KPI foundations](marketing-analytics-data-model-and-reporting.md), [Attribution, lift tests and MMM](attribution-incrementality-experimentation-and-mmm.md), [Customer RFM/cohorts/CLV](customer-analytics-segmentation-rfm-and-clv.md), and [agent skills/resources](email-sms-analytics-skills-and-resources.md).
+
+### Email sender, consumer rights and delivery
+
+- [Google Gmail Sender Guidelines](https://support.google.com/mail/answer/81126) and [2026 FAQ](https://support.google.com/mail/answer/14229414) — SPF/DKIM/DMARC/From alignment, high-volume 5,000/day Gmail bulk sender requirements, spam complaint thresholds, RFC 8058 one-click unsubscribe for eligible marketing, November 2025 enforcement.
+- [Google Postmaster Tools](https://postmaster.google.com/) and [Yahoo Sender Best Practices](https://senders.yahooinc.com/best-practices/) — provider-specific reputation and delivery diagnostics; acceptance ≠ inbox placement.
+- [FTC CAN-SPAM Business Guide](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) — commercial vs transactional primary purpose, identity/postal address/opt-out, 10-business-day US unsubscribe deadline. **Not a US universal prior opt-in mandate**.
+- [UK ICO PECR Email/Text Guide (Apr 2026)](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/) — country-specific individual vs corporate, channel-specific consent and existing-customer soft opt-in.
+- [Klaviyo Apple Mail Privacy Protection (2026)](https://help.klaviyo.com/hc/en-us/articles/4416803987739) — pixel prefetch inflates apparent opens. [Klaviyo 2026 benchmark overview](https://www.klaviyo.com/uk/blog/email-marketing-benchmarks-open-click-and-conversion-rates) — useful directional averages, not causal proof or universal targets.
+- [Shopify Messaging](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging), [email campaigns](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/email/create-email/create-campaigns) and [automations](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/marketing-automations) — actual app features, segmentation and constraints; verify account eligibility.
+
+### SMS/text/carrier rules and contact safety
+
+- [Shopify Messaging SMS requirements](https://help.shopify.com/en/manual/promoting-marketing/create-marketing/shopify-messaging/sms/requirements) — lawful opt-in, provider and availability requirements.
+- [Twilio A2P 10DLC registration](https://www.twilio.com/docs/messaging/compliance/a2p-10dlc/quickstart) and [STOP/HELP/Advanced Opt-Out](https://www.twilio.com/docs/messaging/tutorials/advanced-opt-out) — example provider routing, registered campaign and opt-out handling; others may differ.
+- [FCC marketing phone/text rules](https://www.fcc.gov/general/telemarketing-and-robocalls) and [Federal Register Oct 26 2026 rule](https://www.govinfo.gov/content/pkg/FR-2026-10-26/html/2026-21821.htm) — evolving US revocation details, **some provisions not effective until Nov 25, 2026**, verify counsel/current date before use.
+- [UK ICO direct-marketing email and texts](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/) — not a global legal rulebook.
+
+### Analytics, attribution and research
+
+- [GA4 Ecommerce Measurement](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce) — `view_item`, cart/checkout, `purchase`, `refund`, item/transaction identifiers and value/currency.
+- [GA4 Key Events vs Ads Conversions](https://support.google.com/analytics/answer/13965727) — attribution/conversion configuration; [BigQuery Export](https://support.google.com/analytics/answer/9358801) for consent-aware data warehousing.
+- [Shopify marketing attribution reports](https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/marketing-reports) — default last non-direct vs selectable credit models; [Sep 2026 session definition change](https://help.shopify.com/en/manual/reports-and-analytics/discrepancies/session-measurement-update) can break CVR comparisons.
+- [Google Meridian 2.0 MMM](https://developers.google.com/meridian/mmm) and [Meridian GeoX](https://developers.google.com/meridian/geox) — statistical measurement, calibrated experimentation, expertise and scale required; no pretend incremental proof from ordinary attribution.
+
+### Agent skills and practitioner workflows (not official rules)
+
+- [Corey Haines marketing-skills](https://github.com/coreyhaines31/marketingskills) — `emails`, `sms`, `analytics`, `attribution`, `conversion-tracking`, `ab-testing`, `churn-prevention`, `onboarding`; verify current versions/license.
+- [Rebecca Rae / claude-marketing](https://github.com/thatrebeccarae/claude-marketing) — Klaviyo Analyst/Developer, Braze, GA4, GTM, Looker Studio, UTM attribution and DTC workflow chaining. Its [Klaviyo skill](https://github.com/thatrebeccarae/claude-marketing/blob/main/skills/klaviyo-analyst/SKILL.md) illustrates real event/flow/segment audits; example benchmarks and connector rights aren't universal facts.
+- [Aaron email marketing skills](https://github.com/aaron-he-zhu/aaron-marketing-skills/tree/main/email) — deliverability, audience segmentation, subject, render QA and lifecycle task packaging.
+- [Agile Agentic Analytics skill specification](https://github.com/weisberg/agile_agentic_analytics/blob/main/docs/marketing_analytics_skill_specs.md) — modular proposed data extraction, attribution, RFM, CLV, experimentation and email reporting; proposal ≠ tested deployment.
+
+**Evidence hierarchy:** primary platform/regulator docs for technical/legal behavior, actual merchant/CRM data for business facts, genuine customer research for buying jobs, carefully designed experiments for causal lift, practitioner frameworks as hypotheses. Do not install or copy third-party skills without assessing license/tool availability.
+
 ## Research maintenance
 
 Review Meta specs and policies when campaigns are launched and at major platform changes. Periodically check source URLs, note publication dates, and update any platform-dependent instructions. Cite customer and business data from its actual provenance rather than treating this general bibliography as evidence about a given product.
