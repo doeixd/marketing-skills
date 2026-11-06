@@ -136,6 +136,16 @@ Record `asset ID, buyer/occasion, angle, source claim IDs, status` for every pub
 - **Conversion readiness:** actual page/checkout blockers, visitor mismatch, trust/pricing/policy information and valid experiment hypotheses.
 - **Shared audit:** [Search and conversion audit](search-and-conversion-audit.md); [CRO experiment brief](cro-experiment-brief.md).
 
+## 9B. Promotion, social, earned media and paid search handoff (when relevant)
+
+- **Promotion job and media roles:** which existing or future buyer needs awareness, understanding, confidence or action? [Promotion/PESO brief](promotion-campaign-brief.md).
+- **Organic social and hooks:** 3–5 genuine content pillars, native formats, brand voice, actual demonstration, calendar and social-response owner. [Social template](social-content-and-hooks-calendar.md).
+- **Creator/partner strategy:** real audience overlap, partnership concept, gifted/paid relationship, disclosure, rights, fees and measured value. [Creator brief](creator-and-collaboration-brief.md).
+- **PR/newsy angle:** does any verified event, milestone, research, public interest or community story qualify as actual news? If no, prefer owned content. [Press/pitch kit](pr-newsroom-and-pitch.md).
+- **Google Ads paid search:** buyer query intent, keyword match/negative decisions, campaign goals/geo, verified purchase/qualified lead tracking, RSA/assets, AI Max expansion controls, margin/budget and approval. [Search blueprint](google-ads-search-campaign-blueprint.md).
+- **Measurement:** [promotion results](promotion-outcomes-review.md) and [Google Search optimization/experiments](google-ads-optimization-and-experiments.md) separate reach, activity and platform attribution from profit, buyer quality and causal impact.
+- **Non-copy blockers/permissions:** product or service readiness, truthful policies, creator rights, disclosure, press/founder approval, authorized budget and spend.
+
 ## 10. Product-level go-to-market plan
 | Priority | Issue/hypothesis | Action | Owner | Dependency | Business KPI / test | Review point |
 |---|---|---|---|---|---|---|
