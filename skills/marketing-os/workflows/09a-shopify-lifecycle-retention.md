@@ -4,6 +4,8 @@
 
 **Place:** Stage 9 specialist. Read [Lifecycle reference](../references/shopify-lifecycle-retention-and-automation.md), [Retention 9](09-retention-and-scale.md), [Brand 3A](03a-brand-discovery-and-messaging.md), [Offering 1A](01a-offering-discovery-and-marketing-plan.md) and [Lifecycle Plan](../templates/shopify-lifecycle-and-retention-plan.md).
 
+**Advanced lifecycle handoff:** For [email strategy and copy 9B](09b-email-marketing-campaigns-and-copy.md), [SMS marketing/consent 9C](09c-sms-text-and-messaging-marketing.md), [cross-provider flow collision and channel priority 9D](09d-cross-channel-lifecycle-and-segmentation.md), [sender deliverability 9E](09e-email-deliverability-and-list-health.md), [marketing measurement 8A](08a-marketing-analytics-and-measurement.md), or [customer RFM/cohorts 8C](08c-customer-segmentation-rfm-and-clv.md), use the corresponding specialist. Shopify Messaging, Flow or installed ESP workflows must coordinate eligibility and suppression; Shopify doesn't grant universal SMS marketing permission.
+
 ## 0. Establish real customer lifecycle and permissions
 
 Identify natural repeat-purchase pattern, product usage/gift cycles, first/returning cohorts, margin, refund/complaint data, consent by email/SMS/WhatsApp, local laws, suppression and installed Shopify Messaging/Forms/Flow/third-party ESP. No assertion that a vendor app is installed just because store uses Shopify. Distinguish transactional from marketing consent and message types.
