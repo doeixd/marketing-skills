@@ -2,6 +2,8 @@
 
 **Trigger:** Positioning is complete, but buying requires price, stock, page, checkout, or policy readiness; high traffic with weak sales; returns or gift friction.
 
+**Shopify ecommerce variant:** for product/collection/cart/checkout issues, use [Shopify CRO 4B](04b-shopify-ecommerce-cro.md) to enforce Shopify plan/checkout eligibility, real product variant/policy facts, late-September-2026 analytics definitions and real buyer purchase QA. For collection/variant content see [3B](03b-shopify-catalog-and-merchandising.md).
+
 **Product/service-level context:** [Offering Discovery 1A](01a-offering-discovery-and-marketing-plan.md) assembles the exact delivery scope, price, limits, buyer objections, potential alternatives and claim register. Use its [offering dossier](../templates/offering-dossier-and-marketing-plan.md) to decide whether the necessary action is better copy, PDP evidence, an honest policy clarification, pricing changes or a real product/service improvement.
 
 **When traffic is present but qualified conversion is weak**, run [CRO Workflow 4A](04a-conversion-rate-optimization.md) with the [CRO reference](../references/cro-research-and-experimentation.md) and [experiment brief](../templates/cro-experiment-brief.md). Diagnose actual visitor friction and economic outcomes before rewriting a hero headline or increasing spend.
