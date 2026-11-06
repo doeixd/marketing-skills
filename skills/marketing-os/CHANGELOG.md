@@ -1,5 +1,14 @@
 # Changelog
 
+## 5.3.0 — 2026-11-06
+
+- Added seven specialist workflows: **Analytics 8A**, **Attribution/Incrementality 8B**, **Customer RFM/Cohorts/CLV 8C**, **Email Marketing 9B**, **SMS/Text Marketing 9C**, **Cross-Channel Lifecycle 9D**, **Email Deliverability/List Health 9E**.
+- Added eight research references on email creative, sender authentication/Gmail bulk rules/consent, SMS/TCPA/carriers/STOP, GA4/Shopify metric integrity, cohort/RFM/CLV, attribution/holdouts/Meridian MMM, lifecycle/flow collisions and open-source marketing skills.
+- Added eight production and analytical templates (email, sender, SMS, lifecycle, KPI/event dictionary, attribution experiment, cohorts, performance review), two worked examples, and a deterministic email/SMS draft-manifest checker with tests.
+- Integrated specialists into Marketing OS routing, Stage 8/9 and Shopify lifecycle handoffs, source bibliography, README and CI validation.
+- Emphasized **email consent is not SMS consent**, differences between US CAN-SPAM, ESP/receiver and other jurisdictions, one-click unsubscribe/Gmail deliverability, Apple MPP open-rate artifacts, attribution vs incremental profit and explicit approval for every live send or data mutation.
+
+
 ## 5.2.0 — 2026-11-06
 
 - Added Shopify-specific operating system specialists: **Store Diagnosis 1B**, **Catalog & Merchandising 3B**, **Shopify CRO/Checkout 4B**, **Shopify Ecommerce SEO/Markets 5H**, **Shopping/Meta Feeds and Web Pixel Tracking 5I**, **Lifecycle/Retention 9A**.
