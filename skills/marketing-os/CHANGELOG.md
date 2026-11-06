@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.1.0 — 2026-11-06
+
+- Added optional Stage 5 specialists: **5C integrated promotion**, **5D organic social/hooks/community**, **5E influencers, UGC and collaborations**, **5F earned PR, press releases and newswires**, and **5G Google Ads paid search**.
+- Added source-based research references covering PESO, brand/promotion fundamentals, platform-native short-video and hooks, partnership vetting/FTC disclosure/rights, public relations/newsworthiness/wire limits, and paid distribution/business outcomes.
+- Added comprehensive Google Search Ads guide: buying/query intent, Keyword Planner, match types and negatives, account architecture, lead/sales conversion integrity, 2026 Smart Bidding/AI Max and Data Manager changes, RSA assets, quality diagnostics, experiments and commercial safeguards.
+- Added reusable promotion, content, partnership, newsroom, search campaign, RSA copy and optimization templates plus worked physical-product/service examples.
+- Added structural Google RSA JSON checker and tests for headline/description lengths, distinct assets, brand cues and publication prerequisites; wired into CI and skill routing.
+- Reinforced explicit approval before publishing, spending, outreach or committing to creator/newswire services.
+
+
 ## 5.0.0 — 2026-11-06
 
 - Renamed skill from **Meta Ad Copy Strategist** (`meta-ad-copy-strategist`) to **Marketing OS** (`marketing-os`), reflecting its full brand, offering, acquisition, SEO/AEO/CRO, creative, measurement and growth capabilities.
