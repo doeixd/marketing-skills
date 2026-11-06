@@ -71,6 +71,52 @@ class TestWorkflows(unittest.TestCase):
         self.assertIn('sample-ratio', cro)
         self.assertIn('guardrails', cro)
 
+    def test_promotion_and_paid_search_specialists(self):
+        paths = (
+            'workflows/05c-promotion-strategy-and-distribution.md',
+            'workflows/05d-social-content-hooks-and-community.md',
+            'workflows/05e-creators-influencers-and-collaborations.md',
+            'workflows/05f-pr-earned-media-and-press-releases.md',
+            'workflows/05g-paid-search-google-ads.md',
+            'references/promotion-fundamentals-and-integrated-distribution.md',
+            'references/social-media-strategy-hooks-and-community.md',
+            'references/influencers-collaborations-and-community-partnerships.md',
+            'references/pr-press-releases-newswires-and-earned-media.md',
+            'references/paid-social-amplification-and-promotion-measurement.md',
+            'references/paid-search-google-ads-fundamentals.md',
+            'templates/promotion-campaign-brief.md',
+            'templates/social-content-and-hooks-calendar.md',
+            'templates/creator-and-collaboration-brief.md',
+            'templates/pr-newsroom-and-pitch.md',
+            'templates/promotion-outcomes-review.md',
+            'templates/google-ads-search-campaign-blueprint.md',
+            'templates/google-search-rsa-and-assets.md',
+            'templates/google-ads-optimization-and-experiments.md',
+            'examples/promotion-from-research-to-distribution.md',
+            'examples/google-ads-search-campaign-example.md',
+            'examples/google-search-rsa-draft.json',
+            'scripts/check_search_ads.py',
+        )
+        for name in paths:
+            self.assertTrue((ROOT / name).is_file(), name)
+        skill = (ROOT / 'SKILL.md').read_text(encoding='utf-8')
+        system = (ROOT / 'WORKFLOWS.md').read_text(encoding='utf-8')
+        for name in (
+            '05c-promotion-strategy-and-distribution.md',
+            '05d-social-content-hooks-and-community.md',
+            '05e-creators-influencers-and-collaborations.md',
+            '05f-pr-earned-media-and-press-releases.md',
+            '05g-paid-search-google-ads.md',
+        ):
+            self.assertIn(name, skill)
+            self.assertIn(name, system)
+        paid = (ROOT / 'references/paid-search-google-ads-fundamentals.md').read_text(encoding='utf-8').lower()
+        for phrase in ('keyword planner', 'negative keywords', 'ai max', 'conversion', 'rsa', 'smart bidding', 'quality score', 'experiment'):
+            self.assertIn(phrase, paid)
+        promo = (ROOT / 'references/pr-press-releases-newswires-and-earned-media.md').read_text(encoding='utf-8').lower()
+        self.assertIn('syndication', promo)
+        self.assertIn('newsworthiness', promo)
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
