@@ -2,6 +2,8 @@
 
 **Trigger:** A campaign job and product/offer are selected; the task is to generate ad concepts, copy, visual guidance and a matching destination.
 
+**When the brand is unfamiliar or its voice is inconsistent:** first run [Brand discovery → messaging (Workflow 3A)](03a-brand-discovery-and-messaging.md), then draw from the approved [brand messaging library](../templates/brand-messaging-library.md) and [voice guide](../references/brand-voice-and-copy-system.md). Copy may vary by buying occasion, but should retain the brand's recognizable perspective, product truth and allowed claims. Do not infer brand personality from category clichés.
+
 ## A. Construct a concept from a specific decision
 
 For each concept answer:
