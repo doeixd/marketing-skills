@@ -190,6 +190,33 @@ Use these as **primary documentation and user-research evidence**, not claims of
 
 **Governance:** don't auto-install, reproduce large upstream content, or assume these are present in the user's runtime. Skills are research/workflow design references; primary official docs control current technical behavior. Merchant account data and owner approval control actual changes.
 
+## Marketing data, analytics engineering and tracking resources — reviewed 2026-11-06
+
+**Original expanded guides:** [ETL and canonical modeling](marketing-data-engineering-and-etl.md), [Meta/GA4/pixels/UTM and attribution](measurement-pixels-ga4-and-attribution.md), [Shopify/Etsy/Amazon seller APIs](commerce-data-shopify-etsy-amazon.md), [first-party audiences/reverse ETL](audiences-identity-and-reverse-etl.md), and [curated skills, platforms and resources](marketing-data-tools-skills-and-resources.md). [Workflow 8B](../workflows/08b-marketing-data-pipelines-and-measurement.md) operationalizes these into an access-controlled, testable implementation.
+
+### Measurement and ad-event official docs
+
+- [Meta Blueprint data sources](https://www.facebookblueprint.com/student/path/211560-tracking-events-course), [Meta Blueprint CAPI optimization](https://bep.facebookblueprint.com/student/path/253116-optimize-conversions-api-course), [Meta Conversions API docs](https://developers.facebook.com/docs/marketing-api/conversions-api/) — event collection, coverage, deduplication, freshness, matching; verify live Graph API and Events Manager because developer docs can be account/rate limited.
+- [GA4 recommended ecommerce events](https://developers.google.com/analytics/devguides/collection/ga4/reference/events), [GA4 Measurement Protocol](https://developers.google.com/analytics/devguides/collection/protocol/ga4), [validation](https://developers.google.com/analytics/devguides/collection/protocol/ga4/validating-events), [BigQuery schema](https://support.google.com/analytics/answer/7029846) — purchase transaction ID, client/server relationship and event/raw export differences.
+- [Google UTM builder](https://support.google.com/analytics/answer/10917952), [auto/manual tagging semantics](https://support.google.com/analytics/answer/11242870), [Google consent mode](https://developers.google.com/tag-platform/security/guides/consent), [server-side GTM](https://developers.google.com/tag-platform/tag-manager/server-side/intro), [Google Ads offline conversions](https://developers.google.com/google-ads/api/docs/conversions/upload-offline) — contract and policy rather than a promise of parity/attribution.
+
+### Shopify and marketplaces
+
+- [Shopify Web Pixels](https://shopify.dev/docs/api/web-pixels-api), [Customer Privacy](https://shopify.dev/docs/api/customer-privacy), [GraphQL bulk ops](https://shopify.dev/docs/apps/build/apis/graphql-admin/bulk-operations/queries) — sandbox, data access, consent and scalable export.
+- [Etsy Open API v3](https://developer.etsy.com/), [reference](https://developer.etsy.com/documentation/reference), [auth](https://developer.etsy.com/documentation/essentials/authentication/), [rate limits](https://developers.etsy.com/documentation/essentials/rate-limits/) — authorized seller records and no assumed checkout pixel.
+- [Amazon SP-API Reports](https://developer-docs.amazon/sp-api/docs/reports-api), [Data Kiosk](https://developer-docs.amazon/sp-api/lang-en_US/docs/data-kiosk-api), [restricted data access](https://developer-docs.amazon/sp-api/lang-US/docs/authorization-with-the-restricted-data-token), [Amazon Attribution](https://advertising.amazon.com/en-us/solutions/products/amazon-attribution/) — operational and ads measurement are separate sources.
+
+### Agent skills and data engineering tools
+
+- [dbt-labs/dbt-agent-skills](https://github.com/dbt-labs/dbt-agent-skills) — vendor-managed analytics engineering, unit tests, semantic layer, versioned models.
+- [rudderlabs/rudder-agent-skills](https://github.com/rudderlabs/rudder-agent-skills) — vendor-managed event tracking plans, data governance, transformations, profiles.
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — independent analytics-tracking and experiment workflow patterns.
+- [Dataslayer-AI/Marketing-skills](https://github.com/Dataslayer-AI/Marketing-skills) — vendor-based cross-channel report skills and MCP; requires real account access.
+- [Airbyte integrations](https://docs.airbyte.com/integrations), [dlt sources](https://dlthub.com/docs/dlt-ecosystem/verified-sources), [Meltano](https://docs.meltano.com/) — connector selection; verify maintainers, field coverage and auth.
+- [dbt CDC/snapshots](https://docs.getdbt.com/best-practices/how-we-handle-cdc/2-choosing-incremental-or-snapshots), [RudderStack](https://www.rudderstack.com/docs/destinations/overview/), [DuckDB](https://duckdb.org/docs/stable/) — normalized models, activation and lightweight diagnostics.
+
+**Boundaries:** sources do not grant permission to install, scrape or bypass platform restrictions. Hashing is not consent; marketplace seller access is not authorization to build third-party ad audiences; platform-reported attributed purchases are not canonical net sales or causal lift.
+
 ## Research maintenance
 
 Review Meta specs and policies when campaigns are launched and at major platform changes. Periodically check source URLs, note publication dates, and update any platform-dependent instructions. Cite customer and business data from its actual provenance rather than treating this general bibliography as evidence about a given product.
