@@ -1,0 +1,29 @@
+name: Validate Meta Ad Copy Strategist
+on:
+  push:
+    paths:
+      - "skills/meta-ad-copy-strategist/**"
+      - ".github/workflows/validate-meta-ad-copy-strategist.yml"
+  pull_request:
+    paths:
+      - "skills/meta-ad-copy-strategist/**"
+      - ".github/workflows/validate-meta-ad-copy-strategist.yml"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: skills/meta-ad-copy-strategist
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate copy example
+        run: python scripts/check_copy.py examples/ad-variants.json
+      - name: Validate creative example
+        run: python scripts/check_creative.py examples/creative-manifest.json
+      - name: Validate internal links
+        run: python scripts/check_links.py .

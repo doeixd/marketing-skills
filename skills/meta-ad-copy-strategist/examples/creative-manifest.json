@@ -1,0 +1,54 @@
+{
+  "status": "draft",
+  "product": "Fictional vintage-inspired ring collection (not verified inventory)",
+  "concepts": [
+    {
+      "id": "C-DETAIL",
+      "buyer_motivation": "Evaluate distinctive details and visual appeal",
+      "promise": "See the design details clearly",
+      "brand_cue": "Actual brand wordmark in opening composition; source required"
+    },
+    {
+      "id": "C-GIFT",
+      "buyer_motivation": "Find a distinctive gift for a recipient",
+      "promise": "Explore real design variants before selecting",
+      "brand_cue": "Actual product/brand treatment; source required"
+    }
+  ],
+  "assets": [
+    {
+      "id": "V-DETAIL-9X16",
+      "concept_id": "C-DETAIL",
+      "type": "video",
+      "width": 1440,
+      "height": 2560,
+      "placements": ["instagram_reels", "instagram_stories"],
+      "media_status": "planned_not_produced",
+      "brand_visible": true,
+      "captions": true,
+      "silent_comprehensible": true,
+      "rights_status": "pending",
+      "audio_rights_status": "pending",
+      "preview_status": "not_started",
+      "claims_status": "unverified",
+      "overlay_boxes": [
+        {"label": "detail message", "x": 0.12, "y": 0.26, "w": 0.70, "h": 0.08, "essential": true}
+      ]
+    },
+    {
+      "id": "I-GIFT-4X5",
+      "concept_id": "C-GIFT",
+      "type": "image",
+      "width": 1440,
+      "height": 1800,
+      "placements": ["instagram_feed", "facebook_feed"],
+      "media_status": "planned_not_produced",
+      "brand_visible": true,
+      "rights_status": "pending",
+      "preview_status": "not_started",
+      "claims_status": "unverified",
+      "overlay_boxes": []
+    }
+  ],
+  "explicit_launch_approval": false
+}

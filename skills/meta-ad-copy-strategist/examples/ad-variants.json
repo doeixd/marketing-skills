@@ -1,0 +1,14 @@
+{
+  "product": { "name": "Hypothetical vintage-inspired rings", "source_url": null },
+  "evidence": [{ "id": "E1", "claim": "Vintage-inspired ring collection used for illustration", "status": "hypothesis", "source": "example prompt", "caveat": "Not verified inventory" }],
+  "angles": [
+    { "angle_id": "A1", "name": "Personal style", "confidence": "low", "evidence_ids": ["E1"] },
+    { "angle_id": "A2", "name": "Gifting", "confidence": "low", "evidence_ids": ["E1"] },
+    { "angle_id": "A3", "name": "Exploration", "confidence": "low", "evidence_ids": ["E1"] }
+  ],
+  "ads": [
+    { "angle_id": "A1", "primary_text": "Vintage-inspired rings with character in every curve. Find a style that feels like yours.", "headline": "Explore Vintage-Style Rings", "description": "Find your favorite", "cta": "Shop Now", "evidence_ids": ["E1"] },
+    { "angle_id": "A2", "primary_text": "Some gifts feel more personal than others. Explore rings with vintage-inspired details for someone special.", "headline": "A Gift Worth Choosing", "description": "Browse the collection", "cta": "Shop Now", "evidence_ids": ["E1"] },
+    { "angle_id": "A3", "primary_text": "Explore vintage-inspired ring designs, compare the details, and find the one that catches your eye.", "headline": "Find Your Next Ring", "description": "See all ring styles", "cta": "Shop Now", "evidence_ids": ["E1"] }
+  ]
+}
