@@ -2,6 +2,8 @@
 
 **Trigger:** Buyer evidence exists; the product seems interchangeable; price comparison is difficult; customers don't recognize the brand; new product/category entry.
 
+**Specific offering?** For deep product/service understanding, use [Offering Discovery 1A](01a-offering-discovery-and-marketing-plan.md) and its [dossier](../templates/offering-dossier-and-marketing-plan.md) to supply a verified feature→benefit→tradeoff map, real competing alternatives, buyer situations and price/assurance context. Revisit this workflow to challenge the candidate positioning rather than accepting a nice-sounding tagline.
+
 **Brand not yet understood?** Run [Workflow 3A — discover brand identity, voice, positioning and copy system](03a-brand-discovery-and-messaging.md) first. It separates owner aspiration, observed product/communication reality and buyer perception, then delivers a reusable copy bank. Use the [voice reference](../references/brand-voice-and-copy-system.md) and [messaging library](../templates/brand-messaging-library.md). Proceed with this competitive-positioning workflow to scrutinize the candidate promises against alternatives.
 
 ## A. Competitive positioning procedure
