@@ -1,10 +1,10 @@
 ---
 name: meta-ad-copy-strategist
-description: Evidence-grounded ecommerce marketing workflows and Meta (Facebook/Instagram) ad copy. Diagnose product economics, buying occasions, customer motivations, brand memory, competitive positioning, product benefits, offers, objections, trust, purchase paths and campaign results; turn answers into positioning, channel plans, complete ads, experiments, merchandising and retention actions. Use for holistic product, service and offering discovery, product-specific go-to-market plans, brand discovery, voice and copy style definition, product launches, ad campaigns, store conversion, brand strategy, testing and growth. Plan creative strategy, visual direction, Instagram-native Reels/Stories, scripts, creator rights, placement crops and ad QA.
+description: Evidence-grounded ecommerce marketing workflows and Meta (Facebook/Instagram) ad copy. Diagnose product economics, buying occasions, customer motivations, brand memory, competitive positioning, product benefits, offers, objections, trust, purchase paths and campaign results; turn answers into positioning, channel plans, complete ads, experiments, merchandising and retention actions. Use for SEO, AEO/GEO/AI answer visibility, CRO and ecommerce conversion experiments; holistic product, service and offering discovery, product-specific go-to-market plans, brand discovery, voice and copy style definition, product launches, ad campaigns, store conversion, brand strategy, testing and growth. Plan creative strategy, visual direction, Instagram-native Reels/Stories, scripts, creator rights, placement crops and ad QA.
 license: MIT
 compatibility: Agent Skills compatible; Python 3.10+ optionally supports ad copy validation. Live platform documentation, real product data and customer research improve accuracy.
 metadata:
-  version: '4.2.0'
+  version: '4.3.0'
   category: marketing
 ---
 
@@ -26,7 +26,9 @@ This skill combines marketing strategy with Meta-specific ad writing. Its core o
 8. **Meta specifics are placement-dependent.** Short-copy targets are display heuristics, not immutable universal caps. Check Meta's current field rules, assets, preview and policies before deployment.
 9. **Creative is communication, not decoration.** Design a visible product/benefit demonstration with purposeful composition, brand cues, clear overlays, screen-specific pacing, accessible speech/text, and a coherent page handoff. Adapt to Feed, Reels and Stories instead of relying on one crop.
 10. **Creative rights and authenticity are mandatory.** Review music licenses for paid advertising, creator permissions, real product depictions, genuine endorsements and necessary paid-relationship disclosures. Do not fabricate UGC or let AI transformations silently change product truths.
-11. **Ads are drafts until authorized.** Do not publish, activate or modify campaigns, budgets, or accounts without explicit permission. Never guarantee Meta policy approval or business performance.
+11. **SEO/AEO are discovery and answer quality, not hacks.** Preserve indexability, crawlable text, useful original evidence, structured-data fidelity, honest authorship and true buyer value. For Google AI Overviews/AI Mode, no special AI schema or llms.txt is required. Never guarantee a rank/citation.
+12. **CRO is commercial and customer success.** Fix tracking or broken purchase flows before optimizing buttons. Measure qualified purchases/leads, margin, returns and customer experience, not only conversion percentage; run valid experiments with guardrails and uncertainty.
+13. **Ads are drafts until authorized.** Do not publish, activate or modify campaigns, budgets, or accounts without explicit permission. Never guarantee Meta policy approval or business performance.
 
 ## Operational workflows: the default for end-to-end marketing requests
 
@@ -35,6 +37,12 @@ For requests to **launch a product, market or sell an offering, create a campaig
 `commercial viability → buyer/occasion discovery → positioning/brand → offer/PDP → channel plan → creative/ad unit → launch QA → measurement/experiments → retention/scale`.
 
 **When asked to research, understand, position, market, sell or launch a specific product/service/offering**, run [Offering Discovery → Marketing Plan (Workflow 1A)](workflows/01a-offering-discovery-and-marketing-plan.md). It gathers product/service truth, brand context, buyer jobs and buying situations, real alternatives, value/feature→benefit paths, drawbacks, objections, price/economics, assurances and claim proof, then delivers a [product/service dossier and prioritized marketing plan](templates/offering-dossier-and-marketing-plan.md) with reusable bullets, descriptions, headlines, Meta ad units, creative directions, channel hypotheses and experiments. Use the [adaptive intake](templates/offering-discovery-intake.md) and [offering research reference](references/offering-research-and-marketing-planning.md). Brand research is helpful, not a blocking prerequisite: use approved identity/voice when available, or a brief evidence-labeled scan and [Workflow 3A](workflows/03a-brand-discovery-and-messaging.md) when needed.
+
+**When asked about organic search, technical/on-page SEO, product/schema search visibility or search-driven sales**, use [SEO Workflow 5A](workflows/05a-seo-and-organic-search.md) and [SEO fundamentals](references/seo-fundamentals-and-ecommerce.md). Diagnose intent, technical eligibility, page architecture, original content, merchant data, search appearance and search-to-purchase handoff.
+
+**When asked about AI Overviews, Copilot/AI-answer citations, AEO/GEO or LLM visibility**, use [AEO Workflow 5B](workflows/05b-aeo-ai-search-visibility.md) and [AI search reference](references/aeo-generative-search-and-citations.md). Build upon SEO and original expert evidence; measure available platform citation data without treating citation counts as visits, rankings or sales. Do not claim that llms.txt, arbitrary AI markup or mechanical chunking is required for Google AI Search.
+
+**When asked to optimize a landing page, PDP, checkout, signup, lead form or conversion rate**, use [CRO Workflow 4A](workflows/04a-conversion-rate-optimization.md), [CRO research](references/cro-research-and-experimentation.md) and [experiment brief](templates/cro-experiment-brief.md). Diagnose traffic intent, offer, purchase friction, tracking and actual business outcomes before testing copy/layout.
 
 **When asked to discover a brand, identify its voice or create a reusable brand copy library**, start with [Brand discovery → messaging (Workflow 3A)](workflows/03a-brand-discovery-and-messaging.md). Investigate claimed vs expressed vs customer-perceived identity, goals, advantages, personality, perspective, proof and vocabulary; then produce a [brand discovery brief](templates/brand-discovery-intake.md), [voice reference](references/brand-voice-and-copy-system.md), and [approved messaging/copy library](templates/brand-messaging-library.md). If a brand guide already exists, assess and adapt it rather than inventing an identity. 
 
@@ -46,6 +54,9 @@ For requests to **launch a product, market or sell an offering, create a campaig
 
 | Request | Minimum suitable route | References to load |
 |---|---|---|
+| SEO, site/search audit, product discoverability or organic content strategy | Buyer search intent → crawl/index/architecture → page/merchant proof → original page brief → search and business outcomes | [SEO 5A](workflows/05a-seo-and-organic-search.md), [SEO reference](references/seo-fundamentals-and-ecommerce.md), [audit template](templates/search-and-conversion-audit.md) |
+| AEO/GEO, AI search answers and citation visibility | Search eligibility → first-party answer resources → correct product/entity facts → platform citation monitoring with limitations | [AEO 5B](workflows/05b-aeo-ai-search-visibility.md), [AI search reference](references/aeo-generative-search-and-citations.md) |
+| CRO, page/checkout/lead-form diagnosis or A/B test | Verify metrics → find buyer friction → repair obvious defects → experiment on uncertainty → measure qualified conversions and guardrails | [CRO 4A](workflows/04a-conversion-rate-optimization.md), [CRO guide](references/cro-research-and-experimentation.md), [test template](templates/cro-experiment-brief.md) |
 | Deep research of one product, service, offering, product-specific go-to-market plan or full copy bank | Brand context (quick/approved) → offering truth → buyer jobs and alternatives → benefits, tradeoffs and proof → position and price/assurances → copy/creative → prioritized marketing plan | [Offering Workflow 1A](workflows/01a-offering-discovery-and-marketing-plan.md), [research guide](references/offering-research-and-marketing-planning.md), [dossier template](templates/offering-dossier-and-marketing-plan.md) |
 | Multi-stage product marketing / product launch | Choose route by constraint; produce clear handoffs and decision gates | [Marketing operating system](WORKFLOWS.md), [worked end-to-end example](examples/workflow-from-research-to-sales.md) |
 | Creative concept, art direction, short-video storyboard or placement adaptation | Buyer promise → shot/visual idea → brand/proof → placement-specific script/crops → rights/QA | [Creative strategy](references/creative-strategy.md), [visual direction](references/visual-direction.md), [video storytelling](references/video-storytelling.md), [Meta placement playbook](references/meta-placement-playbook.md) |
@@ -60,6 +71,8 @@ For requests to **launch a product, market or sell an offering, create a campaig
 **Progressive disclosure:** read only relevant references and workflow stages; never force a lengthy strategy report for an ordinary text-edit request. For strategy or new-campaign tasks, the complete reasoning chain below is the default.
 
 ## Workflow
+
+**Search and conversion option:** A single offering can need [SEO 5A](workflows/05a-seo-and-organic-search.md) to be discovered, [AEO 5B](workflows/05b-aeo-ai-search-visibility.md) to answer questions accurately in AI-mediated discovery, and [CRO 4A](workflows/04a-conversion-rate-optimization.md) to turn relevant visits into informed, profitable outcomes. Use the shared [audit](templates/search-and-conversion-audit.md) and [worked example](examples/seo-aeo-cro-from-offering.md). Don't present these as separate hacks or impose all three on a simple ad-copy request.
 
 **Brand discovery option:** For a brand-first task, run [Workflow 3A](workflows/03a-brand-discovery-and-messaging.md) before selecting ad angles. Its output is a documented voice system, claim register, brand perspective and copy bank; neither founder aspirations nor hypothesized customer perceptions should be treated as verified product claims. See [worked brand example](examples/brand-discovery-to-copy.md).
 
