@@ -1,0 +1,30 @@
+{
+  "description": "Fictional example only: no verified product specifications, live URLs or authorized paid budget",
+  "ads": [
+    {
+      "name": "Vintage-inspired patterned ring — concept draft",
+      "brand_name": "Example Atelier",
+      "require_brand_cue": true,
+      "headlines": [
+        "Vintage-Inspired Ring",
+        "Explore Patterned Details",
+        "Example Atelier",
+        "An Ornamental Ring Design",
+        "Look Closer at the Pattern",
+        "See the Ring Up Close",
+        "Explore the Ring",
+        "Inspired by Vintage Style",
+        "Consider a Detailed Look"
+      ],
+      "descriptions": [
+        "Explore this vintage-inspired patterned ring and view its design details.",
+        "A closer look at an ornamental ring style. See the product before you choose.",
+        "Prefer something with more visual detail? Explore the ring and its design."
+      ],
+      "final_url": "PENDING_VERIFIED_PRODUCT_URL",
+      "publication_approved": false,
+      "claims_verified": false,
+      "conversion_validated": false
+    }
+  ]
+}
