@@ -1,10 +1,24 @@
 # Marketing OS
 
-**Version 5.2 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.3 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.3: Marketing data, ETL, Meta/GA4 measurement, audiences and marketplace analytics
+
+This expansion gives the skill an engineering and measurement layer: **Shopify/Etsy/Amazon seller APIs and reports → source-scoped, reliable ETL → canonical orders, variants, refunds and fees → GA4/Meta/Google collection and attribution → reconciliation, data quality, governed audiences and experimentation**. It keeps order ledgers, observed analytics, platform-attributed results and incremental effects distinct.
+
+- [Workflow 8B: Data Pipelines and Measurement](workflows/08b-marketing-data-pipelines-and-measurement.md): a decision-to-architecture-to-QA specialist with explicit consent, auth, approval and release gates.
+- [Data engineering and ETL reference](references/marketing-data-engineering-and-etl.md): source contracts, idempotent ingestion, backfills, CDC/snapshots, canonical warehouse grain, data quality and monitoring.
+- [GA4/Meta/UTM measurement guide](references/measurement-pixels-ga4-and-attribution.md): GA4 ecommerce + BigQuery + Measurement Protocol, Shopify Web Pixels, Meta dataset/Pixel/CAPI deduplication, GTM, consent, UTM naming and Google Ads offline measurement.
+- [Commerce API reference](references/commerce-data-shopify-etsy-amazon.md): Shopify GraphQL Bulk and webhooks, Etsy Open API v3, Amazon SP-API/Reports/Data Kiosk/Amazon Attribution, SKU mapping, marketplace tracking limitations and financial reconciliation.
+- [Audience, identity and reverse ETL](references/audiences-identity-and-reverse-etl.md): customer segmentation, first-party eligibility, suppression and deletion propagation, audience diagnostics and policy-safe syncs.
+- [Curated data skills and resources](references/marketing-data-tools-skills-and-resources.md): dbt's official agent skills, RudderStack maintained skills, Shopify technical skills, marketing analytics tracking skills, Dataslayer, Airbyte, dlt, Meltano, dbt, DuckDB, GTM server-side and primary platform docs, with tool-selection guidance and caveats.
+- [Pipeline implementation blueprint](templates/marketing-data-pipeline-blueprint.md), [event/UTM plan and QA](templates/marketing-event-tracking-and-utm-plan.md), [worked multi-marketplace example](examples/multichannel-marketing-data-pipeline.md).
+
+**Guardrails:** no fabricated live metrics or accesses, no invented customer identity joins, no marketplace buyer-list export for retargeting without permission, no sensitive PII in UTMs, no server-side consent bypass, and no modifying live tagging, audiences or spend without approval. Review platform API versions and rules at implementation time.
 
 ## New in v5.2: Shopify and ecommerce operating system
 
@@ -174,6 +188,11 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 | [Shopify catalog and merchandising](references/shopify-catalog-merchandising-and-data.md) | Variants, collections, Search & Discovery, metafields and accurate copy |
 | [Shopify ecommerce SEO and Markets](references/shopify-ecommerce-seo-and-markets.md) | Product/collection discovery, schema and international store search |
 | [Shopify CRO/checkout](references/shopify-ecommerce-cro-and-checkout.md) | PDP/cart/checkout usability, plan-specific extensions and experiments |
+| [Marketing data engineering / ETL](references/marketing-data-engineering-and-etl.md) | Data pipelines, idempotency, backfills, warehouses, source reconciliation and QA |
+| [Meta Pixel/CAPI, GA4/BigQuery, GTM and UTM tracking](references/measurement-pixels-ga4-and-attribution.md) | Event contracts, conversion deduplication, consent, attribution, Measurement Protocol |
+| [Shopify/Etsy/Amazon data integrations](references/commerce-data-shopify-etsy-amazon.md) | Seller APIs, marketplace limits, financial events and cross-channel product ID bridge |
+| [Audiences / identity / reverse ETL](references/audiences-identity-and-reverse-etl.md) | Meta datasets vs audiences, first-party customer segments and governed activation |
+| [Data tools and agent skills](references/marketing-data-tools-skills-and-resources.md) | dbt, RudderStack, Airbyte, dlt, official API docs and curated agent skill repositories |
 | [Shopify Shopping/Meta feeds and pixels](references/shopify-shopping-ads-feeds-and-attribution.md) | Merchant sync, ads/product data, Web Pixels, events and contribution |
 | [Shopify lifecycle and retention](references/shopify-lifecycle-retention-and-automation.md) | Messaging/Flow, segments, consent and customer lifetime |
 | [Shopify promotions and seasonal campaigns](references/shopify-promotions-bundles-and-seasonal-campaigns.md) | Discount classes/stacking, bundles, gift occasions, fulfillment and margin |
