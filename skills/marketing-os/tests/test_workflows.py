@@ -117,6 +117,53 @@ class TestWorkflows(unittest.TestCase):
         self.assertIn('syndication', promo)
         self.assertIn('newsworthiness', promo)
 
+    def test_shopify_ecommerce_specialists(self):
+        files = (
+            "workflows/01b-shopify-ecommerce-diagnosis.md",
+            "workflows/03b-shopify-catalog-and-merchandising.md",
+            "workflows/04b-shopify-ecommerce-cro.md",
+            "workflows/05h-shopify-ecommerce-seo.md",
+            "workflows/05i-shopify-shopping-ads-and-tracking.md",
+            "workflows/09a-shopify-lifecycle-retention.md",
+            "references/shopify-ecommerce-strategy-and-economics.md",
+            "references/shopify-catalog-merchandising-and-data.md",
+            "references/shopify-ecommerce-cro-and-checkout.md",
+            "references/shopify-ecommerce-seo-and-markets.md",
+            "references/shopify-shopping-ads-feeds-and-attribution.md",
+            "references/shopify-lifecycle-retention-and-automation.md",
+            "references/shopify-theme-performance-and-measurement.md",
+            "references/shopify-ecommerce-skill-and-resource-library.md",
+            "templates/shopify-store-audit-and-roadmap.md",
+            "templates/shopify-product-collection-content-brief.md",
+            "templates/shopify-pdp-cro-brief.md",
+            "templates/shopify-search-merchandising-audit.md",
+            "templates/shopify-merchant-feed-and-pixel-qa.md",
+            "templates/shopify-lifecycle-and-retention-plan.md",
+            "examples/shopify-ecommerce-end-to-end.md",
+        )
+        for name in files:
+            self.assertTrue((ROOT / name).is_file(), name)
+
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        system = (ROOT / "WORKFLOWS.md").read_text(encoding="utf-8")
+        for filename in (
+            "01b-shopify-ecommerce-diagnosis.md",
+            "03b-shopify-catalog-and-merchandising.md",
+            "04b-shopify-ecommerce-cro.md",
+            "05h-shopify-ecommerce-seo.md",
+            "05i-shopify-shopping-ads-and-tracking.md",
+            "09a-shopify-lifecycle-retention.md",
+        ):
+            self.assertIn(filename, skill)
+            self.assertIn(filename, system)
+
+        source = (ROOT / "references/shopify-ecommerce-skill-and-resource-library.md").read_text(encoding="utf-8")
+        for name in ("Shopify/agent-skills", "Shopify/Shopify-AI-Toolkit", "proskillpacks", "nexscope-ai", "Baymard"):
+            self.assertIn(name, source)
+        self.assertIn("session", (ROOT / "references/shopify-ecommerce-cro-and-checkout.md").read_text(encoding="utf-8").lower())
+        self.assertIn("Plus", (ROOT / "references/shopify-ecommerce-cro-and-checkout.md").read_text(encoding="utf-8"))
+        self.assertIn("Web Pixels", (ROOT / "references/shopify-shopping-ads-feeds-and-attribution.md").read_text(encoding="utf-8"))
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
