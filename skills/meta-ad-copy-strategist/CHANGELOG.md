@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.1.0 — 2026-11-06
+
+- Added optional **Workflow 3A: Brand discovery → voice → messaging library**, before the existing positioning and creative-production stages.
+- Added a structured, evidence-calibrated review of claimed, expressed and customer-perceived identity; brand purpose, perspective, goals, selling points, personality, category advantage and tradeoffs.
+- Added a practical voice-discovery framework using real sample copy (pronouns, lexicon, syntax, rhythm, tone axes, claims and say/do-not-say examples).
+- Added owner/customer discovery intake, cross-channel messaging library template, sources and worked example; compresses research into approved feature–benefit bullets, Meta primary text/headlines/descriptions, page copy, hooks, CTAs and scripts.
+- Updated routing, positioning and marketing-system handoffs to use this step when brand understanding is missing. Added validation coverage for reference and template presence.
+
 ## 4.0.0 — 2026-11-06
 
 - Added research-backed creative strategy, visual/art direction, placement specs and safe-zone caveats, Reels and Stories scripts, Instagram idioms, creator/UGC legal and rights safeguards, and creative QA guides.
