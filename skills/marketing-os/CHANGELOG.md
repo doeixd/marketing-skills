@@ -5,7 +5,8 @@
 - Added Shopify-specific operating system specialists: **Store Diagnosis 1B**, **Catalog & Merchandising 3B**, **Shopify CRO/Checkout 4B**, **Shopify Ecommerce SEO/Markets 5H**, **Shopping/Meta Feeds and Web Pixel Tracking 5I**, **Lifecycle/Retention 9A**.
 - Added original research references for Shopify economics, product/variant catalog and Search & Discovery, collection/PDP usability, ecommerce technical SEO and Markets, Google/Meta catalog campaigns, Web Pixels and consent, Liquid/theme performance, Shopify Messaging/Flow and cohort retention.
 - Added **curated ecommerce/Shopify agent skills and resources**: Shopify official AI Toolkit and developer skills, merchant-oriented store audit skills, ecommerce skill collections, Corey Haines marketing skills, Baymard, NN/g, Google Merchant and Klaviyo; documented maturity/licensing/official-vs-practitioner differences.
-- Added six reusable merchant-facing audit, PDP/collection, SEO, pixel/feed and lifecycle templates plus a source- and caveat-labeled worked example.
+- Added Shopify **Promotions 5J** for seasonal/gifting, bundle and discount design with plan/stacking/stock checks, margin models, coordinated media and no fabricated urgency.
+- Added seven reusable merchant-facing audit, PDP/collection, SEO, pixel/feed, promotion and lifecycle templates plus a source- and caveat-labeled worked example.
 - Integrated Shopify branches into Marketing OS main routing and existing commerce/channel/retention/creative handoffs. Special attention to checkout plan eligibility, Web Pixel sandbox/consent and Shopify Sep 2026 session analytics changes.
 - Required source-linked product facts, approved store mutations, realistic campaign economics and qualified business outcomes.
 
