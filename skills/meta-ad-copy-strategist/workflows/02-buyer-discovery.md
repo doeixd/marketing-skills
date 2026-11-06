@@ -2,6 +2,8 @@
 
 **Trigger:** Unclear customer needs, inconsistent product response, new category, high-curiosity/low-conversion creative, weak product claims.
 
+**Offering-specific discovery:** when studying one SKU, service or package holistically, record the buyer-by-job/occasion map in [Workflow 1A's offering dossier](../templates/offering-dossier-and-marketing-plan.md) and use [the deep-dive workflow](01a-offering-discovery-and-marketing-plan.md) to carry these insights into proof, pricing, copy and campaign priorities.
+
 ## A. Gather observable data before imagining personas
 
 1. First-party: product reviews (including negatives), questions and support conversations, onsite searches, sales/returns, survey/interview statements, repeated objections. Observe permission/privacy constraints.
