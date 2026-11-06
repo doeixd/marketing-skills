@@ -2,6 +2,8 @@
 
 **Trigger:** Positioning is complete, but buying requires price, stock, page, checkout, or policy readiness; high traffic with weak sales; returns or gift friction.
 
+**Product/service-level context:** [Offering Discovery 1A](01a-offering-discovery-and-marketing-plan.md) assembles the exact delivery scope, price, limits, buyer objections, potential alternatives and claim register. Use its [offering dossier](../templates/offering-dossier-and-marketing-plan.md) to decide whether the necessary action is better copy, PDP evidence, an honest policy clarification, pricing changes or a real product/service improvement.
+
 ## A. Distinguish the product from the offer
 
 - **Product:** actual physical/digital attributes and outcomes.
