@@ -2,6 +2,8 @@
 
 **Trigger:** Product, buyer, positioning and purchase experience are understood well enough to acquire attention; team needs a channel plan rather than isolated ads.
 
+**Product/service-specific plan:** Use [Offering Discovery 1A](01a-offering-discovery-and-marketing-plan.md) to establish whom the offering serves, what purchase occasions exist, what evidence and creative assets are available, what blockers remain and how the offer economics constrain spend. Its [offering dossier](../templates/offering-dossier-and-marketing-plan.md) supplies input here. Choose channels by buyer intent and feasibility rather than defaulting to Meta.
+
 ## A. Choose the commercial job before the channel
 
 | Commercial job | Buyer state / business question | Candidate channels or tactics | Primary evaluation |
