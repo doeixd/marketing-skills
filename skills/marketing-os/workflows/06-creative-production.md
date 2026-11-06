@@ -6,6 +6,8 @@
 
 **When the brand is unfamiliar or its voice is inconsistent:** first run [Brand discovery → messaging (Workflow 3A)](03a-brand-discovery-and-messaging.md), then draw from the approved [brand messaging library](../templates/brand-messaging-library.md) and [voice guide](../references/brand-voice-and-copy-system.md). Copy may vary by buying occasion, but should retain the brand's recognizable perspective, product truth and allowed claims. Do not infer brand personality from category clichés.
 
+**Broader creative handoffs:** Meta/Instagram visual creative is not the only promotion format. Use [Social/Hook 5D](05d-social-content-hooks-and-community.md) for platform-native content and reply strategy, [Creator 5E](05e-creators-influencers-and-collaborations.md) for authentic partnership content/permissions, [PR 5F](05f-pr-earned-media-and-press-releases.md) for factual editorial materials, and [Google Ads 5G](05g-paid-search-google-ads.md) for intent-first responsive search ads, [RSA assets](../templates/google-search-rsa-and-assets.md), sitelinks and policy/landing consistency. Different channels require different hooks, proof and approval gates.
+
 ## A. Construct a concept from a specific decision
 
 For each concept answer:
