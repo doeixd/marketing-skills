@@ -13,6 +13,20 @@ class TestWorkflows(unittest.TestCase):
             self.assertIn("Workflow ", txt)
             self.assertIn("Handoff", txt)
 
+    def test_brand_discovery_subworkflow(self):
+        paths = (
+            'workflows/03a-brand-discovery-and-messaging.md',
+            'references/brand-voice-and-copy-system.md',
+            'templates/brand-discovery-intake.md',
+            'templates/brand-messaging-library.md',
+            'examples/brand-discovery-to-copy.md',
+        )
+        for name in paths:
+            self.assertTrue((ROOT / name).is_file(), name)
+        workflow = (ROOT / paths[0]).read_text(encoding='utf-8')
+        for heading in ('brand reality', 'voice', 'selling points', 'headline', 'description', 'Handoff'):
+            self.assertIn(heading.lower(), workflow.lower())
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
