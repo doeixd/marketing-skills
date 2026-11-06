@@ -1,10 +1,26 @@
 # Marketing OS
 
-**Version 5.1 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.2 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.2: Shopify and ecommerce operating system
+
+The new Shopify expansion connects **verified catalog/variant/brand data → buyer jobs → collection/PDP merchandising → Shopify SEO/Markets → conversion and checkout → Google/Meta Shopping feeds and Web Pixel analytics → consented lifecycle marketing → net contribution and experiments**.
+
+- [Shopify Store Diagnosis 1B](workflows/01b-shopify-ecommerce-diagnosis.md) and [commerce economics](references/shopify-ecommerce-strategy-and-economics.md): storewide profitability, assortment, customer journey, traffic/channel quality, Shopify plan/theme/Markets, data integrity and prioritized growth roadmap.
+- [Shopify Catalog and Merchandising 3B](workflows/03b-shopify-catalog-and-merchandising.md) and [catalog reference](references/shopify-catalog-merchandising-and-data.md): accurate products/variants, buyer-focused collections, Search & Discovery, metafields/metaobjects, titles, bullets, imagery and merchandising.
+- [Shopify Ecommerce CRO 4B](workflows/04b-shopify-ecommerce-cro.md) and [CRO/checkout reference](references/shopify-ecommerce-cro-and-checkout.md): mobile collection/PDP/cart/checkout diagnosis, plan-eligible checkout customization, buyer trust, accurate policy/price, valid tests and contribution.
+- [Shopify Ecommerce SEO 5H](workflows/05h-shopify-ecommerce-seo.md) and [Shopify SEO/Markets reference](references/shopify-ecommerce-seo-and-markets.md): search-intent pages, Shopify default SEO, canonical/facet/variant URLs, original descriptions, eligible merchant schema, localization and catalog availability.
+- [Shopify Shopping/Meta Ads and Tracking 5I](workflows/05i-shopify-shopping-ads-and-tracking.md) and [feed/pixel reference](references/shopify-shopping-ads-feeds-and-attribution.md): Google & YouTube/Merchant Center, Shopping/PMax, Meta catalogs, product sync/IDs/stock, sandboxed Web Pixels, consent, deduplication and profit-oriented ads.
+- [Shopify Lifecycle Retention 9A](workflows/09a-shopify-lifecycle-retention.md) and [lifecycle reference](references/shopify-lifecycle-retention-and-automation.md): Shopify Messaging, Flow, Forms, segments, welcome/cart/checkout/postpurchase/winback, customer consent and real cohort economics.
+- [Technical storefront and analytics](references/shopify-theme-performance-and-measurement.md): Liquid/theme performance, app weight, Web Vitals, plan-specific checkout and Shopify's late-September 2026 sessions/conversion measurement change.
+- [Curated ecommerce skills and resource library](references/shopify-ecommerce-skill-and-resource-library.md): Shopify's official developer agent skills, ecommerce/Shopify marketing skill libraries, Baymard usability, search/merchant, Klaviyo and cross-channel references. Skills vary in scope/maturity and are not automatically installed.
+- [Store audit](templates/shopify-store-audit-and-roadmap.md), [product/collection brief](templates/shopify-product-collection-content-brief.md), [PDP CRO brief](templates/shopify-pdp-cro-brief.md), [SEO audit](templates/shopify-search-merchandising-audit.md), [merchant feed/pixel QA](templates/shopify-merchant-feed-and-pixel-qa.md), [lifecycle plan](templates/shopify-lifecycle-and-retention-plan.md) and [worked ecommerce example](examples/shopify-ecommerce-end-to-end.md).
+
+**Guardrails:** no invented store metrics, product/variant facts, access, conversion lifts or merchant feed approvals; no live store edits, ad spending, theme publishing or customer messaging without explicit approval. A merchant's Shopify plan, installed apps, consent settings and real reports control which changes are feasible.
 
 ## New in v5.1: Promotion, social media, creator partnerships, PR and Google Ads
 
@@ -153,6 +169,14 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 
 | Document | When to read |
 |---|---|
+| [Shopify commerce strategy and economics](references/shopify-ecommerce-strategy-and-economics.md) | Profit, assortment, store health and commerce roadmap |
+| [Shopify catalog and merchandising](references/shopify-catalog-merchandising-and-data.md) | Variants, collections, Search & Discovery, metafields and accurate copy |
+| [Shopify ecommerce SEO and Markets](references/shopify-ecommerce-seo-and-markets.md) | Product/collection discovery, schema and international store search |
+| [Shopify CRO/checkout](references/shopify-ecommerce-cro-and-checkout.md) | PDP/cart/checkout usability, plan-specific extensions and experiments |
+| [Shopify Shopping/Meta feeds and pixels](references/shopify-shopping-ads-feeds-and-attribution.md) | Merchant sync, ads/product data, Web Pixels, events and contribution |
+| [Shopify lifecycle and retention](references/shopify-lifecycle-retention-and-automation.md) | Messaging/Flow, segments, consent and customer lifetime |
+| [Shopify performance and measurement](references/shopify-theme-performance-and-measurement.md) | Liquid/theme/app performance, analytics and safe rollout |
+| [Ecommerce skills/resources](references/shopify-ecommerce-skill-and-resource-library.md) | Official Shopify developer skills and audited third-party workflow examples |
 | [SEO fundamentals and ecommerce](references/seo-fundamentals-and-ecommerce.md) | Technical eligibility, buyer intent, architecture, on-page copy and product search features |
 | [AEO / AI search citations](references/aeo-generative-search-and-citations.md) | Google AI Search requirements, question-first information and citation measurement limits |
 | [CRO and experimentation](references/cro-research-and-experimentation.md) | Buyer friction, store funnels, data integrity and trustworthy A/B testing |
@@ -186,9 +210,11 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 
 ## Operational workflows
 
-See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), brand discovery (3A), CRO (4A), SEO (5A), AEO (5B), integrated promotion (5C), social (5D), creators (5E), PR (5F) and Google Ads (5G)**, decision gates, and the source-backed operating loop.
+See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), Shopify diagnosis (1B), brand discovery (3A), Shopify catalog (3B), CRO (4A/4B), SEO (5A/5H), AEO (5B), promotion/social/creators/PR (5C–5F), Google Ads (5G), Shopify ads/feed tracking (5I) and lifecycle (9A)**, decision gates, and the source-backed operating loop.
 
 ## Templates and examples
+
+- [Shopify store audit](templates/shopify-store-audit-and-roadmap.md), [collection/PDP content](templates/shopify-product-collection-content-brief.md), [Shopify CRO brief](templates/shopify-pdp-cro-brief.md), [SEO/merchandising audit](templates/shopify-search-merchandising-audit.md), [feed and pixel QA](templates/shopify-merchant-feed-and-pixel-qa.md), [lifecycle plan](templates/shopify-lifecycle-and-retention-plan.md) and [Shopify ecommerce worked example](examples/shopify-ecommerce-end-to-end.md)
 
 - [Integrated promotion brief](templates/promotion-campaign-brief.md), [social hooks/calendar](templates/social-content-and-hooks-calendar.md), [creator collaboration brief](templates/creator-and-collaboration-brief.md), [press release/pitch kit](templates/pr-newsroom-and-pitch.md), [promotion review](templates/promotion-outcomes-review.md), and [promotion example](examples/promotion-from-research-to-distribution.md)
 - [Google Ads Search blueprint](templates/google-ads-search-campaign-blueprint.md), [RSA creative asset sheet](templates/google-search-rsa-and-assets.md), [optimization/experiment brief](templates/google-ads-optimization-and-experiments.md), and [worked campaign](examples/google-ads-search-campaign-example.md)
