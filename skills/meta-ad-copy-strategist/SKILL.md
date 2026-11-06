@@ -1,10 +1,10 @@
 ---
 name: meta-ad-copy-strategist
-description: Evidence-grounded ecommerce marketing workflows and Meta (Facebook/Instagram) ad copy. Diagnose product economics, buying occasions, customer motivations, brand memory, competitive positioning, product benefits, offers, objections, trust, purchase paths and campaign results; turn answers into positioning, channel plans, complete ads, experiments, merchandising and retention actions. Use for product launches, ad campaigns, store conversion, brand strategy, testing and growth. Plan creative strategy, visual direction, Instagram-native Reels/Stories, scripts, creator rights, placement crops and ad QA.
+description: Evidence-grounded ecommerce marketing workflows and Meta (Facebook/Instagram) ad copy. Diagnose product economics, buying occasions, customer motivations, brand memory, competitive positioning, product benefits, offers, objections, trust, purchase paths and campaign results; turn answers into positioning, channel plans, complete ads, experiments, merchandising and retention actions. Use for brand discovery, voice and copy style definition, product launches, ad campaigns, store conversion, brand strategy, testing and growth. Plan creative strategy, visual direction, Instagram-native Reels/Stories, scripts, creator rights, placement crops and ad QA.
 license: MIT
 compatibility: Agent Skills compatible; Python 3.10+ optionally supports ad copy validation. Live platform documentation, real product data and customer research improve accuracy.
 metadata:
-  version: '4.0.0'
+  version: '4.1.0'
   category: marketing
 ---
 
@@ -34,6 +34,8 @@ For requests to **launch a product, market or sell an offering, create a campaig
 
 `commercial viability → buyer/occasion discovery → positioning/brand → offer/PDP → channel plan → creative/ad unit → launch QA → measurement/experiments → retention/scale`.
 
+**When asked to discover a brand, identify its voice or create a reusable brand copy library**, start with [Brand discovery → messaging (Workflow 3A)](workflows/03a-brand-discovery-and-messaging.md). Investigate claimed vs expressed vs customer-perceived identity, goals, advantages, personality, perspective, proof and vocabulary; then produce a [brand discovery brief](templates/brand-discovery-intake.md), [voice reference](references/brand-voice-and-copy-system.md), and [approved messaging/copy library](templates/brand-messaging-library.md). If a brand guide already exists, assess and adapt it rather than inventing an identity. 
+
 **Follow the evidence, not the diagram mechanically.** For existing underperforming ads, start at [measurement diagnosis](workflows/08-measure-diagnose-experiment.md); for a new product, start at [commercial diagnosis](workflows/01-commercial-diagnosis.md); for a scoped copywriting job, use [creative production](workflows/06-creative-production.md) without forcing a business audit. Each stage must transform inputs into a named decision and output; record gaps, stop conditions and the next workflow. Use [the operating brief](templates/operating-brief.md), [creative production brief](templates/creative-production-brief.md) and [experiment decision log](templates/experiment-decision-log.md) as relevant.
 
 **Required decision packet for multistep work:** `finding → evidence/status → implication → recommended intervention → concrete deliverable → success measure → next decision`. Distinguish **what we know** from **what to test**. A recommendation may be: fix shipping, change product images, rework price/offer, build brand associations, test a new ad angle, repair tracking, contact opted-in customers, or choose not to advertise yet. Never fabricate inputs to make the workflow appear complete.
@@ -47,6 +49,7 @@ For requests to **launch a product, market or sell an offering, create a campaig
 | Creator/UGC collaboration or Instagram idiom/tone | Real creator rights/disclosure and authentic format choice → script/direction | [Creator permissions](references/creator-partnerships-and-rights.md), [platform idioms](references/platform-idioms-and-voice.md), [creative QC](references/creative-quality-control.md) |
 | Quick rewrite of supplied copy | Understand offer and intended customer, verify claims, polish, review truncation/policy | [Meta fields](references/meta-fields.md), [quality rubric](references/quality-rubric.md), [compliance](references/compliance.md) |
 | New ads for a product | Facts → buyer jobs → alternatives → value/objections → distinct angles → Meta fields | [Buyer research](references/buyer-research.md), [product value](references/product-value-and-pricing.md), [positioning](references/market-positioning.md), [Meta fields](references/meta-fields.md) |
+| Brand discovery / voice / copy style / reusable messaging | Sources and customer language → claimed/expressed/perceived identity → voice + differentiation → proof and message hierarchy → bullets, headlines, descriptions and channel assets | [Workflow 3A](workflows/03a-brand-discovery-and-messaging.md), [voice/copy guide](references/brand-voice-and-copy-system.md), [messaging template](templates/brand-messaging-library.md) |
 | Brand or positioning strategy | Market diagnosis → positioning → brand memory/identity → customer evidence → messaging | [Marketing fundamentals](references/marketing-fundamentals.md), [positioning](references/market-positioning.md), [brand](references/brand-strategy.md) |
 | Trust, persuasion or objections | Identify real barrier → evidence, signals and UX vs messaging → ethical treatment | [Persuasion/signaling](references/persuasion-and-signaling.md), [value/pricing](references/product-value-and-pricing.md), [positioning/objections](references/positioning-and-objections.md) |
 | Underperforming campaigns / experiments | Diagnose product/offer/measurement → compare hypotheses → test causal changes | [Marketing effectiveness](references/marketing-effectiveness.md), [testing and learning](references/testing-and-learning.md) |
@@ -54,6 +57,8 @@ For requests to **launch a product, market or sell an offering, create a campaig
 **Progressive disclosure:** read only relevant references and workflow stages; never force a lengthy strategy report for an ordinary text-edit request. For strategy or new-campaign tasks, the complete reasoning chain below is the default.
 
 ## Workflow
+
+**Brand discovery option:** For a brand-first task, run [Workflow 3A](workflows/03a-brand-discovery-and-messaging.md) before selecting ad angles. Its output is a documented voice system, claim register, brand perspective and copy bank; neither founder aspirations nor hypothesized customer perceptions should be treated as verified product claims. See [worked brand example](examples/brand-discovery-to-copy.md).
 
 ### 0. Define the decision and goal
 
