@@ -153,6 +153,8 @@ Test the **substitution test** (could any competitor say the same?) and **proof 
 
 **Discovery-to-purchase channel extensions:** for an offering whose customers actively search, use [SEO 5A](05a-seo-and-organic-search.md); where AI-answer discovery matters, [AEO 5B](05b-aeo-ai-search-visibility.md); and where product pages or checkout underperform, [CRO 4A](04a-conversion-rate-optimization.md). Reuse the same brand/product proof ledger and honest limitations across page content, AI-answer resources and sales conversion.
 
+**Promotion and paid search handoff:** When product/service proof, audience and economics are understood, consult [Integrated Promotion 5C](05c-promotion-strategy-and-distribution.md), [Social/Content 5D](05d-social-content-hooks-and-community.md), [Creators/Collaborations 5E](05e-creators-influencers-and-collaborations.md), [PR 5F](05f-pr-earned-media-and-press-releases.md) or [Google Ads Paid Search 5G](05g-paid-search-google-ads.md). Use the same feature→benefit→proof and objections ledger in every channel. Do not assume social, paid, press or an influencer is automatically the right next step.
+
 ## 9. Produce a prioritized go-to-market and improvement plan
 
 The deliverable is **not** a pile of copy. It is an ordered decision plan:
