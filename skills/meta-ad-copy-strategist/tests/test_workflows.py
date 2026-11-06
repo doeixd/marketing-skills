@@ -27,6 +27,24 @@ class TestWorkflows(unittest.TestCase):
         for heading in ('brand reality', 'voice', 'selling points', 'headline', 'description', 'Handoff'):
             self.assertIn(heading.lower(), workflow.lower())
 
+    def test_offering_discovery_subworkflow(self):
+        paths = (
+            'workflows/01a-offering-discovery-and-marketing-plan.md',
+            'references/offering-research-and-marketing-planning.md',
+            'templates/offering-discovery-intake.md',
+            'templates/offering-dossier-and-marketing-plan.md',
+            'examples/offering-discovery-to-marketing-plan.md',
+        )
+        for name in paths:
+            self.assertTrue((ROOT / name).is_file(), name)
+        workflow = (ROOT / paths[0]).read_text(encoding='utf-8').lower()
+        for term in ('brand', 'buyer', 'alternatives', 'feature', 'benefit', 'drawback', 'objection', 'pricing', 'assurances', 'creative', 'headline', 'description', 'handoff'):
+            self.assertIn(term, workflow)
+        skill = (ROOT / 'SKILL.md').read_text(encoding='utf-8')
+        self.assertIn('(workflows/01a-offering-discovery-and-marketing-plan.md)', skill)
+        plan = (ROOT / 'WORKFLOWS.md').read_text(encoding='utf-8')
+        self.assertIn('Workflow 1A', plan)
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
