@@ -8,6 +8,8 @@
 
 **Promotion and demand-capture extensions:** Choose [Promotion 5C](05c-promotion-strategy-and-distribution.md) when coordinating paid/earned/shared/owned work, [Social 5D](05d-social-content-hooks-and-community.md) for hooks/content/community, [Creator 5E](05e-creators-influencers-and-collaborations.md) for micro-influencers/affiliates/UGC and proper rights, [PR 5F](05f-pr-earned-media-and-press-releases.md) for genuine news and editorial outreach, and [Paid Search 5G](05g-paid-search-google-ads.md) when buyers actively search for a solution/product. Google Search must use correct conversion goals, match and negative keyword policies, real landing evidence and budget authorization. See [promotion plan](../templates/promotion-campaign-brief.md) and [Google Ads blueprint](../templates/google-ads-search-campaign-blueprint.md).
 
+**Shopify ecommerce extension:** [SEO/Markets 5H](05h-shopify-ecommerce-seo.md) connects organic search with real collections/products; [Shopping/Meta Ads 5I](05i-shopify-shopping-ads-and-tracking.md) handles product feed eligibility, pixel consent, SKU economics and campaign QA. Both start from an accurate Shopify catalog, [Store Diagnosis 1B](01b-shopify-ecommerce-diagnosis.md) and [Merchandising 3B](03b-shopify-catalog-and-merchandising.md). Do not increase traffic until buyers can complete a real purchase.
+
 ## A. Choose the commercial job before the channel
 
 | Commercial job | Buyer state / business question | Candidate channels or tactics | Primary evaluation |
