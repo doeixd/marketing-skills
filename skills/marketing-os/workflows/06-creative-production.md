@@ -8,6 +8,8 @@
 
 **Broader creative handoffs:** Meta/Instagram visual creative is not the only promotion format. Use [Social/Hook 5D](05d-social-content-hooks-and-community.md) for platform-native content and reply strategy, [Creator 5E](05e-creators-influencers-and-collaborations.md) for authentic partnership content/permissions, [PR 5F](05f-pr-earned-media-and-press-releases.md) for factual editorial materials, and [Google Ads 5G](05g-paid-search-google-ads.md) for intent-first responsive search ads, [RSA assets](../templates/google-search-rsa-and-assets.md), sitelinks and policy/landing consistency. Different channels require different hooks, proof and approval gates.
 
+**Shopify ecommerce creative:** use [Merchandising 3B](03b-shopify-catalog-and-merchandising.md) for actual variant materials/photos, [Shopify SEO/Markets 5H](05h-shopify-ecommerce-seo.md) for query/category and localized landing context, and [Shopping/Meta Ads 5I](05i-shopify-shopping-ads-and-tracking.md) to ensure product-set price/stock and catalog labels match creative. No imaginary SKU, free shipping, sale or durability claims.
+
 ## A. Construct a concept from a specific decision
 
 For each concept answer:
