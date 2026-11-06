@@ -20,6 +20,7 @@ An evidence-grounded Agent Skill for ecommerce marketing and Facebook/Instagram 
 - [Shopify SEO and international Markets](skills/marketing-os/workflows/05h-shopify-ecommerce-seo.md)
 - [Shopify Google/Meta shopping feeds and conversion tracking](skills/marketing-os/workflows/05i-shopify-shopping-ads-and-tracking.md)
 - [Shopify lifecycle email/SMS and customer retention](skills/marketing-os/workflows/09a-shopify-lifecycle-retention.md)
+- [Shopify seasonal campaigns, discounts and bundles](skills/marketing-os/workflows/05j-shopify-ecommerce-promotions.md)
 - [Curated Shopify ecommerce skills and resources](skills/marketing-os/references/shopify-ecommerce-skill-and-resource-library.md)
 - [Google Ads campaign blueprint](skills/marketing-os/templates/google-ads-search-campaign-blueprint.md)
 - [Product/service offering discovery and marketing-plan workflow](skills/marketing-os/workflows/01a-offering-discovery-and-marketing-plan.md)
