@@ -107,6 +107,23 @@ Last reviewed: **2026-11-06**. This is a *research reading list*, not a guarante
 - That AI-inferred motivations are facts about actual customers.
 - That an AI's compliance checklist guarantees platform approval.
 
+## SEO, AEO and CRO research — reviewed 2026-11-06
+
+Use these as **primary documentation and user-research evidence**, not claims of guaranteed traffic or uplift. The operational synthesis is in [SEO](seo-fundamentals-and-ecommerce.md), [AEO](aeo-generative-search-and-citations.md), and [CRO](cro-research-and-experimentation.md).
+
+- **[Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)** — search discoverability, organization and useful content.
+- **[Google JS SEO](https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics)** — crawling, rendering, indexation, HTML links, canonical and SPA pitfalls.
+- **[Google Product/Offer Merchant Listings](https://developers.google.com/search/docs/appearance/structured-data/merchant-listing)** and **[Product data/feeds](https://developers.google.com/search/docs/appearance/structured-data/product)** — qualified product rich results and catalog accuracy.
+- **[Google Structured Data](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data)** — supported markup, match visible facts and validate before deployment.
+- **[Google Helpful Content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)** and **[Search Spam Policies](https://developers.google.com/search/docs/essentials/spam-policies)** — original people-first value; scaled AI-generated commodity pages can violate spam policies.
+- **[Google AI Features and Your Website](https://developers.google.com/search/docs/appearance/ai-features)** and **[2026 Guide to Generative AI Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)** — SEO fundamentals remain applicable; no additional special requirements or llms.txt mandate for Google AI Search.
+- **[Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a)** and **[AI Performance](https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c)** — AI grounding and cited-page reporting; citations do not equal clicks or commercial results.
+- **[Google Search Console + GA4](https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console)** — search discovery and post-click measurement.
+- **[Core Web Vitals](https://web.dev/articles/vitals)** — field LCP, INP and CLS page experience.
+- **[Baymard Product Pages](https://baymard.com/research/product-page)**, **[2026 Product Page findings](https://baymard.com/research-articles/current-state-ecommerce-product-page-ux)**, **[Checkout UX](https://baymard.com/research/checkout-usability)** — observed ecommerce usability and buying friction.
+- **[Nielsen Norman Group Product Pages](https://www.nngroup.com/reports/ecommerce-ux-product-pages-including-reviews/)** and **[Trust & Credibility](https://www.nngroup.com/reports/ecommerce-ux-trust-and-credibility/)** — product information, visual evidence, policy and trust.
+- **[Corey Haines Marketing Skills](https://github.com/coreyhaines31/marketingskills)** — inspect `seo-audit`, `ai-seo`, `programmatic-seo`, `schema`, `site-architecture`, `cro`, `signup`, `onboarding`, `analytics`, `conversion-tracking`, `ab-testing`. These are *implementation/workflow examples*, not proof of search ranking efficacy. Respect the license of any reused material.
+
 ## Research maintenance
 
 Review Meta specs and policies when campaigns are launched and at major platform changes. Periodically check source URLs, note publication dates, and update any platform-dependent instructions. Cite customer and business data from its actual provenance rather than treating this general bibliography as evidence about a given product.
