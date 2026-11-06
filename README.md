@@ -5,10 +5,16 @@ Marketing skills
 
 ### [Marketing OS](skills/marketing-os/SKILL.md)
 
-An evidence-grounded Agent Skill for ecommerce marketing and Facebook/Instagram ads. Includes holistic product/service discovery and go-to-market plans, brand and voice research, positioning, SEO and ecommerce search, AEO/AI-answer visibility, CRO and experimentation, product and landing-page conversion, ad copy, visual direction, Reels/Stories production, testing, and retention.
+An evidence-grounded Agent Skill for ecommerce marketing and Facebook/Instagram ads. Includes brand and offering discovery, positioning, SEO/AEO/CRO, social media and hook strategy, creator partnerships and micro-influencers, press relations/releases and newswire strategy, Google Ads paid search and RSA creative, Meta/Instagram advertising, experimentation, and sustainable growth.
 
 - [Getting started](skills/marketing-os/README.md)
 - [Marketing workflows](skills/marketing-os/WORKFLOWS.md)
+- [Integrated promotion / PESO workflow](skills/marketing-os/workflows/05c-promotion-strategy-and-distribution.md)
+- [Social media strategy and hooks workflow](skills/marketing-os/workflows/05d-social-content-hooks-and-community.md)
+- [Creators, micro-influencers and collaborations](skills/marketing-os/workflows/05e-creators-influencers-and-collaborations.md)
+- [PR, press releases and newswire workflow](skills/marketing-os/workflows/05f-pr-earned-media-and-press-releases.md)
+- [Google Ads paid search workflow](skills/marketing-os/workflows/05g-paid-search-google-ads.md)
+- [Google Ads campaign blueprint](skills/marketing-os/templates/google-ads-search-campaign-blueprint.md)
 - [Product/service offering discovery and marketing-plan workflow](skills/marketing-os/workflows/01a-offering-discovery-and-marketing-plan.md)
 - [SEO and organic search workflow](skills/marketing-os/workflows/05a-seo-and-organic-search.md)
 - [AEO / AI-answer visibility workflow](skills/marketing-os/workflows/05b-aeo-ai-search-visibility.md)
