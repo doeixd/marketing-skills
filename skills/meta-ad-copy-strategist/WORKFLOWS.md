@@ -1,6 +1,6 @@
 # Marketing operating system — question → evidence → decision → action → learning
 
-This is the **operational layer** of [Meta Ad Copy Strategist](SKILL.md). It is a repeatable, evidence-grounded approach to choosing what marketing work to do, making it, and learning whether it worked. **Never jump directly from product title to ad copy unless the user only requests a quick rewrite.** The full system is modular, not a compulsory nine-stage report.
+This is the **operational layer** of [Meta Ad Copy Strategist](SKILL.md). It is a repeatable, evidence-grounded approach to choosing what marketing work to do, making it, and learning whether it worked. **Never jump directly from product title to ad copy unless the user only requests a quick rewrite.** The full system is modular, not a compulsory nine-stage report. For an unknown brand, insert [Workflow 3A: brand discovery → voice → messaging library](workflows/03a-brand-discovery-and-messaging.md) before positioning or creative; it is an optional sub-workflow, not an additional mandatory stage.
 
 ## The operating loop
 
@@ -34,6 +34,7 @@ flowchart TD
 | [1. Diagnose business and product](workflows/01-commercial-diagnosis.md) | What product, objective, profit constraint, inventory, time horizon? | Catalog, price, costs, sales, inventory, returns | Commercial scorecard and chosen product/job | Product, objective, allowable economics, and known unknowns are clear |
 | [2. Research buyers and occasions](workflows/02-buyer-discovery.md) | Who buys, when, why, instead of what, with which doubts? | Reviews, support, interviews, search, analytics | Buyer/job/occasion map and objection register | At least one plausible buying situation and evidence/confidence are documented |
 | [3. Position and build brand](workflows/03-positioning-and-brand.md) | Why this vs alternatives; what should people recognize? | Competitor offers, product proof, assets, buyer data | Positioning statement, reasons to believe, brand cue map | Claims are supportable and the fit is coherent |
+| [3A. Discover the brand and distill copy](workflows/03a-brand-discovery-and-messaging.md) *(optional within stage 3)* | What are its demonstrated identity, perspective, voice, selling points, personality and competitive advantages? | Site, owned copy, product evidence, customer language, reviews, competitors, owner goals | Voice guide, brand truth and approved [messaging library](templates/brand-messaging-library.md) | Claims, voice confidence and approval status are clear |
 | [4. Build the offer and store](workflows/04-offer-and-conversion.md) | Does the page/price/fulfillment resolve purchase risk? | PDP, cart, payment, shipping, return policies | Offer/PDP readiness review, prioritized blockers | No critical trust/claim, stock, margin, or checkout issue is ignored |
 | [5. Plan channels and campaigns](workflows/05-channel-and-campaign.md) | Create memory, capture demand, convert, or retain? | Objectives, capacity, budget, customer journey | Channel roles, campaign hypothesis and measurement plan | Each channel has a job and success metric |
 | [6. Produce ads and creative](workflows/06-creative-production.md) | Which buyer insight becomes which distinct angle, visual, message? | Verified claim ledger, positioning, real creative | Creative matrix, primary text/headline/description, landing page link | Ads are distinct, grounded, coherent, brand-linked and policy-reviewed |
@@ -46,6 +47,7 @@ flowchart TD
 | Situation | Start here | Why |
 |---|---|---|
 | New product with no sales | 1 → 2 → 3 → 4 | Validate demand and economics before buying reach |
+| New or unfamiliar brand; scattered, inconsistent copy | 2 → 3A → 3 → 6 | Discover brand reality, customer perception, voice and approved language before creating ads |
 | New Meta campaign for an existing profitable SKU | 2 → 3 → 5 → 6 → 7 | Product economics may be known; still ground message |
 | Ad has clicks but no purchases | 8 → 4 → 2 or 6 | Could be traffic quality, mismatch, trust, price, checkout or tracking |
 | Many purchases, low profit | 1 → 4 → 8 | Fix contribution, returns, offer and acquisition cost |
@@ -72,6 +74,7 @@ flowchart TD
 | [Commercial + product brief](templates/operating-brief.md) | Workflow 1 | All subsequent stages |
 | Buyer/occasion map + evidence ledger | Workflow 2 | Positioning, ad production, PDP, lifecycle |
 | Positioning / reason-to-believe / brand cues | Workflow 3 | Offer, creative, channels |
+| [Brand voice and copy library](templates/brand-messaging-library.md) + [discovery intake](templates/brand-discovery-intake.md) | Workflow 3A | Positioning, creative, web copy, lifecycle, product catalog |
 | Product page and offer checklist | Workflow 4 | Ad claims and landing page QA |
 | Campaign hypothesis and measurement plan | Workflow 5 | Creative, launch, experiment |
 | [Creative concept brief](templates/creative-production-brief.md) + [direction/storyboard](templates/creative-direction-brief.md) | Workflow 6 | Production team, placement adaptations, launch QA |
