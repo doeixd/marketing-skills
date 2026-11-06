@@ -2,6 +2,8 @@
 
 **Trigger:** Buyer evidence exists; the product seems interchangeable; price comparison is difficult; customers don't recognize the brand; new product/category entry.
 
+**Brand not yet understood?** Run [Workflow 3A — discover brand identity, voice, positioning and copy system](03a-brand-discovery-and-messaging.md) first. It separates owner aspiration, observed product/communication reality and buyer perception, then delivers a reusable copy bank. Use the [voice reference](../references/brand-voice-and-copy-system.md) and [messaging library](../templates/brand-messaging-library.md). Proceed with this competitive-positioning workflow to scrutinize the candidate promises against alternatives.
+
 ## A. Competitive positioning procedure
 
 Follow **alternatives → capabilities → value → best-fit buying situations → useful category context**.
