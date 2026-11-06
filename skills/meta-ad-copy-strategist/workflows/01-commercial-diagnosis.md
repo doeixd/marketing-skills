@@ -2,6 +2,8 @@
 
 **Trigger:** New product/campaign; poor margins; uncertain which product to promote; proposed increase in ad spend.
 
+**Need holistic research for one selected product, service, package or subscription?** Run [Workflow 1A — Offering Discovery → Marketing Plan](01a-offering-discovery-and-marketing-plan.md) after or alongside this commercial check. It produces [an offering dossier](../templates/offering-dossier-and-marketing-plan.md) with buyer jobs, alternative choices, features/benefits, actual tradeoffs, positioning, pricing/assurances, a copy bank and recommended marketing actions.
+
 ## A. Questions → evidence
 
 | Question | Evidence to inspect | Consequence |
