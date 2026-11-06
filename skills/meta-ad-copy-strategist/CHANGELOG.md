@@ -1,5 +1,13 @@
 # Changelog
 
+## 4.3.0 — 2026-11-06
+
+- Added **SEO 5A**, **AEO/AI-answer visibility 5B**, and **CRO 4A** as optional specialist workflows within the nine-stage marketing system.
+- Added in-depth research guides for technical/ecommerce SEO, search intent and content, structured data, merchant product feeds, Google/Bing AI visibility, citation measurement, conversion usability, attribution quality and controlled experimentation.
+- Linked current official Google Search Central, Bing Webmaster, web.dev, Baymard, Nielsen Norman Group and open-source AI skill references. Clarified that Google AI Search does not need special AI schema/llms.txt or guarantee citations.
+- Added a search/answer/conversion audit, experiment brief and worked offering-level example; integrated search and conversion into skill routing, product/channel/offer handoffs and CI checks.
+
+
 ## 4.2.0 — 2026-11-06
 
 - Added optional **Workflow 1A — Offering Discovery → Marketing Plan**, a research-to-decision playbook for one physical product, SaaS, service, subscription, bundle or other commercial offering.
