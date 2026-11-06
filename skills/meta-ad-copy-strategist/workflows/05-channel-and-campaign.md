@@ -4,6 +4,8 @@
 
 **Product/service-specific plan:** Use [Offering Discovery 1A](01a-offering-discovery-and-marketing-plan.md) to establish whom the offering serves, what purchase occasions exist, what evidence and creative assets are available, what blockers remain and how the offer economics constrain spend. Its [offering dossier](../templates/offering-dossier-and-marketing-plan.md) supplies input here. Choose channels by buyer intent and feasibility rather than defaulting to Meta.
 
+**Organic discovery extension:** [SEO 5A](05a-seo-and-organic-search.md) maps real search intent to findable/helpful pages and catalog/merchant data; [AEO 5B](05b-aeo-ai-search-visibility.md) investigates AI-answer source quality and citation observability. Neither guarantees rankings or citations. For landing-page failures see [CRO 4A](04a-conversion-rate-optimization.md).
+
 ## A. Choose the commercial job before the channel
 
 | Commercial job | Buyer state / business question | Candidate channels or tactics | Primary evaluation |
