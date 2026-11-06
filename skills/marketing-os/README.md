@@ -1,10 +1,26 @@
 # Marketing OS
 
-**Version 5.2 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.3 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.3: Email, SMS, lifecycle, customer analytics and causal measurement
+
+Marketing OS now supports **campaign strategy and copy, deliverability and consent audits, text marketing, cross-channel lifecycle orchestration, event/KPI design, RFM/cohorts/CLV, attribution and incremental lift experiments**.
+
+- [Marketing Analytics 8A](workflows/08a-marketing-analytics-and-measurement.md) and [analytics reference](references/marketing-analytics-data-model-and-reporting.md): trustworthy GA4/Shopify/CRM/ESP metrics, event integrity and [KPI dictionary](templates/marketing-measurement-and-kpi-dictionary.md).
+- [Attribution and Incrementality 8B](workflows/08b-attribution-incrementality-and-experiments.md) and [causal reference](references/attribution-incrementality-experimentation-and-mmm.md): platform credit versus impact, eligible holdouts, geo tests, MMM/GeoX and [experiment plan](templates/marketing-attribution-and-incrementality-plan.md).
+- [Customer RFM/Cohorts 8C](workflows/08c-customer-segmentation-rfm-and-clv.md) and [segmentation research](references/customer-analytics-segmentation-rfm-and-clv.md): net value, real purchase cycles and [segment treatment brief](templates/customer-rfm-cohort-and-segment-plan.md).
+- [Email Marketing 9B](workflows/09b-email-marketing-campaigns-and-copy.md) and [copy/strategy guide](references/email-marketing-strategy-copy-and-creative.md): newsletters, welcome/checkout/postpurchase, subject/preheader/hero/CTA and [creative brief](templates/email-campaign-and-creative-brief.md).
+- [SMS/Text Marketing 9C](workflows/09c-sms-text-and-messaging-marketing.md) and [SMS/consent guide](references/sms-text-marketing-and-compliance.md): separate opt-in, A2P/carrier/STOP/HELP, quiet hours, costs, content and [SMS brief](templates/sms-campaign-and-compliance-brief.md).
+- [Lifecycle Orchestration 9D](workflows/09d-cross-channel-lifecycle-and-segmentation.md) and [journey guide](references/lifecycle-orchestration-and-channel-governance.md): customer state, channel choice, suppressions, trigger/exit logic and [journey matrix](templates/cross-channel-lifecycle-journey-map.md).
+- [Deliverability 9E](workflows/09e-email-deliverability-and-list-health.md) and [sender research](references/email-deliverability-consent-and-reputation.md): SPF/DKIM/DMARC, Gmail bulk one-click unsubscribe, list hygiene and [sender audit](templates/email-deliverability-and-consent-audit.md).
+- [Agent skills and resources index](references/email-sms-analytics-skills-and-resources.md): Corey Haines, Rebecca Rae's Klaviyo/GA4/Braze, specialist email skills, official Google/Shopify/Twilio/FCC/FTC sources.
+- [Worked ecommerce lifecycle example](examples/email-sms-ecommerce-lifecycle-example.md), [analytics/holdout example](examples/marketing-analytics-cohort-decision-example.md), and [messaging plan structural checker](scripts/check_messaging_plan.py).
+
+**Guardrails:** US CAN-SPAM commercial email does not universally require prior opt-in; ESP rules and other jurisdictions may be stricter. SMS marketing commonly needs separate, stronger permission. **Email permission ≠ SMS permission.** Apple Mail Privacy Protection distorts opens; ESP-attributed sales do not prove incremental revenue. No live sends, contact uploads, tracking changes or automation activations without explicit authorization.
 
 ## New in v5.2: Shopify and ecommerce operating system
 
@@ -170,6 +186,14 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 
 | Document | When to read |
 |---|---|
+| [Email marketing strategy and copy](references/email-marketing-strategy-copy-and-creative.md) | Subject, preheader, creative, subscriber value and campaigns |
+| [Email deliverability and permission](references/email-deliverability-consent-and-reputation.md) | Sender authentication, Gmail requirements, CAN-SPAM and opt-out |
+| [SMS/text marketing](references/sms-text-marketing-and-compliance.md) | TCPA/carrier/consent, STOP and timely messaging |
+| [Cross-channel lifecycle](references/lifecycle-orchestration-and-channel-governance.md) | Channel collision, customer state, trigger and suppression |
+| [Marketing analytics](references/marketing-analytics-data-model-and-reporting.md) | Tracking, GA4/Shopify/CRM truth, KPI definitions and dashboards |
+| [Attribution and incrementality](references/attribution-incrementality-experimentation-and-mmm.md) | Holdouts, MMM, geo testing and profit effects |
+| [Customer analytics, RFM, CLV](references/customer-analytics-segmentation-rfm-and-clv.md) | Cohorts, realistic segments and customer value |
+| [Email/SMS/analytics skills and resources](references/email-sms-analytics-skills-and-resources.md) | Curated agent skills, official docs and limitations |
 | [Shopify commerce strategy and economics](references/shopify-ecommerce-strategy-and-economics.md) | Profit, assortment, store health and commerce roadmap |
 | [Shopify catalog and merchandising](references/shopify-catalog-merchandising-and-data.md) | Variants, collections, Search & Discovery, metafields and accurate copy |
 | [Shopify ecommerce SEO and Markets](references/shopify-ecommerce-seo-and-markets.md) | Product/collection discovery, schema and international store search |
@@ -212,9 +236,13 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 
 ## Operational workflows
 
-See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), Shopify diagnosis (1B), brand discovery (3A), Shopify catalog (3B), CRO (4A/4B), SEO (5A/5H), AEO (5B), promotion/social/creators/PR (5C–5F), Google Ads (5G), Shopify ads/feed tracking (5I) and lifecycle (9A)**, decision gates, and the source-backed operating loop.
+See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage runbooks **plus optional offering discovery (1A), Shopify diagnosis (1B), brand discovery (3A), Shopify catalog (3B), CRO (4A/4B), SEO (5A/5H), AEO (5B), promotion/social/creators/PR (5C–5F), Google Ads (5G), Shopify ads/feed tracking (5I) and Shopify lifecycle (9A), analytics/attribution/cohorts (8A–8C) and email/SMS/orchestration/deliverability (9B–9E)**, decision gates, and the source-backed operating loop.
 
 ## Templates and examples
+
+- [Email campaign brief](templates/email-campaign-and-creative-brief.md), [sender/consent audit](templates/email-deliverability-and-consent-audit.md), [SMS creative/permission brief](templates/sms-campaign-and-compliance-brief.md), [cross-channel journey map](templates/cross-channel-lifecycle-journey-map.md).
+- [Marketing KPI dictionary](templates/marketing-measurement-and-kpi-dictionary.md), [incrementality experiment plan](templates/marketing-attribution-and-incrementality-plan.md), [RFM/cohort segments](templates/customer-rfm-cohort-and-segment-plan.md), [campaign performance review](templates/marketing-campaign-performance-review.md).
+- [Ecommerce lifecycle example](examples/email-sms-ecommerce-lifecycle-example.md), [holdout/analytics example](examples/marketing-analytics-cohort-decision-example.md), [draft fixture](examples/messaging-plan-draft.json) and [checker](scripts/check_messaging_plan.py).
 
 - [Shopify seasonal/bundle promotion brief](templates/shopify-ecommerce-promotion-brief.md)
 - [Shopify store audit](templates/shopify-store-audit-and-roadmap.md), [collection/PDP content](templates/shopify-product-collection-content-brief.md), [Shopify CRO brief](templates/shopify-pdp-cro-brief.md), [SEO/merchandising audit](templates/shopify-search-merchandising-audit.md), [feed and pixel QA](templates/shopify-merchant-feed-and-pixel-qa.md), [lifecycle plan](templates/shopify-lifecycle-and-retention-plan.md) and [Shopify ecommerce worked example](examples/shopify-ecommerce-end-to-end.md)
@@ -246,6 +274,7 @@ All example products, buyer motives and ads are **illustrative**; do not treat t
 python3 scripts/check_copy.py examples/ad-variants.json
 python3 scripts/check_creative.py examples/creative-manifest.json
 python3 scripts/check_search_ads.py examples/google-search-rsa-draft.json
+python3 scripts/check_messaging_plan.py examples/messaging-plan-draft.json
 python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 ```
