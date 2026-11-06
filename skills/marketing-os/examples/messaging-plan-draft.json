@@ -1,0 +1,30 @@
+{
+  "scenario": "Fictional example; no real sender, contact consent or authorization",
+  "messages": [
+    {
+      "id": "email-style-detail-01",
+      "channel": "email",
+      "status": "draft",
+      "audience": "Hypothetical email subscribers who are legally eligible for this marketing",
+      "subject": "A closer look at the pattern",
+      "preheader": "Explore the vintage-inspired details.",
+      "body": "See the design details and check real product information before you choose.",
+      "landing_url_or_action": "PENDING_VERIFIED_PRODUCT_URL",
+      "gmail_bulk_sender": false,
+      "recipient_eligibility_verified": false,
+      "claims_verified": false,
+      "activated_by_authorized_human": false
+    },
+    {
+      "id": "sms-restock-opt-in-01",
+      "channel": "sms",
+      "status": "draft",
+      "audience": "Hypothetical customers with separate SMS opt-in who requested a real restock",
+      "body": "[Brand]: [Variant] is available again. View: [URL]. Reply STOP to opt out.",
+      "landing_url_or_action": "PENDING_VERIFIED_PRODUCT_URL",
+      "sms_specific_opt_in_verified": false,
+      "sender_route_verified": false,
+      "activated_by_authorized_human": false
+    }
+  ]
+}

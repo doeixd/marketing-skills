@@ -2,10 +2,11 @@
 
 ## 5.3.0 — 2026-11-06
 
-- Added Stage **8B Marketing Data Pipelines and Measurement** integrating attribution/analytics engineering with the existing marketing operating system, plus implementation blueprint, event/UTM QA plan and hypothetical Shopify/Etsy/Amazon pipeline example.
-- Researched and added separate references for **ETL/ELT and warehouse contracts; Meta datasets, Pixel/CAPI dedup and conversion QA; GA4 ecommerce, Measurement Protocol, BigQuery, GTM and consent mode; Amazon SP-API/Attribution and Etsy v3 API; SKU/order reconciliation; audience identity, suppression and reverse ETL**.
-- Curated and classified **real agent skills** from dbt Labs, RudderStack, Shopify, Corey Haines and Dataslayer plus Airbyte, dlt, Meltano, dbt, DuckDB, Great Expectations, official APIs and learning resources. External skills are optional references, not automatically installed.
-- Added governance for marketplace buyer data, source-scoped identities, data quality, event deduplication, privacy and activation approval; linked the data specialist into Meta/Shopify ads and measurement routes.
+- Added seven specialist workflows: **Analytics 8A**, **Attribution/Incrementality 8B**, **Customer RFM/Cohorts/CLV 8C**, **Email Marketing 9B**, **SMS/Text Marketing 9C**, **Cross-Channel Lifecycle 9D**, **Email Deliverability/List Health 9E**.
+- Added eight research references on email creative, sender authentication/Gmail bulk rules/consent, SMS/TCPA/carriers/STOP, GA4/Shopify metric integrity, cohort/RFM/CLV, attribution/holdouts/Meridian MMM, lifecycle/flow collisions and open-source marketing skills.
+- Added eight production and analytical templates (email, sender, SMS, lifecycle, KPI/event dictionary, attribution experiment, cohorts, performance review), two worked examples, and a deterministic email/SMS draft-manifest checker with tests.
+- Integrated specialists into Marketing OS routing, Stage 8/9 and Shopify lifecycle handoffs, source bibliography, README and CI validation.
+- Emphasized **email consent is not SMS consent**, differences between US CAN-SPAM, ESP/receiver and other jurisdictions, one-click unsubscribe/Gmail deliverability, Apple MPP open-rate artifacts, attribution vs incremental profit and explicit approval for every live send or data mutation.
 
 
 ## 5.2.0 — 2026-11-06

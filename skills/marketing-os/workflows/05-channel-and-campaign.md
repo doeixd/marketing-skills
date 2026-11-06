@@ -10,6 +10,8 @@
 
 **Shopify ecommerce extension:** [SEO/Markets 5H](05h-shopify-ecommerce-seo.md) connects organic search with real collections/products; [Shopping/Meta Ads 5I](05i-shopify-shopping-ads-and-tracking.md) handles product feed eligibility, pixel consent, SKU economics and campaign QA. Both start from an accurate Shopify catalog, [Store Diagnosis 1B](01b-shopify-ecommerce-diagnosis.md) and [Merchandising 3B](03b-shopify-catalog-and-merchandising.md). Do not increase traffic until buyers can complete a real purchase.
 
+**Retention and permissioned communications:** when the customer is already in a legitimate relationship or has opted into relevant marketing, [Email 9B](09b-email-marketing-campaigns-and-copy.md) and [SMS 9C](09c-sms-text-and-messaging-marketing.md) may be more appropriate than buying another impression. Before recommending them verify channel-specific legal eligibility, product value and sender/flow readiness via [9D](09d-cross-channel-lifecycle-and-segmentation.md)/[9E](09e-email-deliverability-and-list-health.md); measure incremental quality with [8A](08a-marketing-analytics-and-measurement.md)/[8B](08b-attribution-incrementality-and-experiments.md).
+
 ## A. Choose the commercial job before the channel
 
 | Commercial job | Buyer state / business question | Candidate channels or tactics | Primary evaluation |

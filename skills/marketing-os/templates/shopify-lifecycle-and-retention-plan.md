@@ -2,6 +2,8 @@
 
 Use [Lifecycle 9A](../workflows/09a-shopify-lifecycle-retention.md).
 
+**Detailed handoffs:** [Email creative](email-campaign-and-creative-brief.md), [SMS preflight](sms-campaign-and-compliance-brief.md), [cross-channel journey logic](cross-channel-lifecycle-journey-map.md), [email deliverability](email-deliverability-and-consent-audit.md), [RFM/cohorts](customer-rfm-cohort-and-segment-plan.md), and [KPI definitions](marketing-measurement-and-kpi-dictionary.md).
+
 ## Customer/business context
 - Actual repeat/gift/replenishment pattern, cohort economics and margin:
 - Shopify Messaging/Flow/Forms or connected ESP and integration status:

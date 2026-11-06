@@ -1,6 +1,6 @@
 # Marketing data engineering: ETL/ELT, pipelines, reliability and canonical models
 
-**Reviewed 2026-11-06.** Use for marketing data warehouses, API ingestion, historical backfills, attribution marts, marketplace reconciliation, feed pipelines, identity joins and reporting reliability. Pair with [measurement](measurement-pixels-ga4-and-attribution.md), [commerce integrations](commerce-data-shopify-etsy-amazon.md), [audience activation](audiences-identity-and-reverse-etl.md), [tools/skills](marketing-data-tools-skills-and-resources.md), and [Workflow 8B](../workflows/08b-marketing-data-pipelines-and-measurement.md).
+**Reviewed 2026-11-06.** Use for marketing data warehouses, API ingestion, historical backfills, attribution marts, marketplace reconciliation, feed pipelines, identity joins and reporting reliability. Pair with [measurement](measurement-pixels-ga4-and-attribution.md), [commerce integrations](commerce-data-shopify-etsy-amazon.md), [audience activation](audiences-identity-and-reverse-etl.md), [tools/skills](marketing-data-tools-skills-and-resources.md), and [Workflow 8D](../workflows/08d-marketing-data-pipelines-and-measurement.md).
 
 ## Start from decisions, not a stack diagram
 
