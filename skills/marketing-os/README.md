@@ -15,6 +15,7 @@ The new Shopify expansion connects **verified catalog/variant/brand data → buy
 - [Shopify Ecommerce CRO 4B](workflows/04b-shopify-ecommerce-cro.md) and [CRO/checkout reference](references/shopify-ecommerce-cro-and-checkout.md): mobile collection/PDP/cart/checkout diagnosis, plan-eligible checkout customization, buyer trust, accurate policy/price, valid tests and contribution.
 - [Shopify Ecommerce SEO 5H](workflows/05h-shopify-ecommerce-seo.md) and [Shopify SEO/Markets reference](references/shopify-ecommerce-seo-and-markets.md): search-intent pages, Shopify default SEO, canonical/facet/variant URLs, original descriptions, eligible merchant schema, localization and catalog availability.
 - [Shopify Shopping/Meta Ads and Tracking 5I](workflows/05i-shopify-shopping-ads-and-tracking.md) and [feed/pixel reference](references/shopify-shopping-ads-feeds-and-attribution.md): Google & YouTube/Merchant Center, Shopping/PMax, Meta catalogs, product sync/IDs/stock, sandboxed Web Pixels, consent, deduplication and profit-oriented ads.
+- [Shopify Promotions 5J](workflows/05j-shopify-ecommerce-promotions.md) and [seasonal/bundle reference](references/shopify-promotions-bundles-and-seasonal-campaigns.md): verified seasonal and gifting occasions, real discounts, bundle limitations, price/stock and shipping compatibility, campaign calendars and incremental contribution.
 - [Shopify Lifecycle Retention 9A](workflows/09a-shopify-lifecycle-retention.md) and [lifecycle reference](references/shopify-lifecycle-retention-and-automation.md): Shopify Messaging, Flow, Forms, segments, welcome/cart/checkout/postpurchase/winback, customer consent and real cohort economics.
 - [Technical storefront and analytics](references/shopify-theme-performance-and-measurement.md): Liquid/theme performance, app weight, Web Vitals, plan-specific checkout and Shopify's late-September 2026 sessions/conversion measurement change.
 - [Curated ecommerce skills and resource library](references/shopify-ecommerce-skill-and-resource-library.md): Shopify's official developer agent skills, ecommerce/Shopify marketing skill libraries, Baymard usability, search/merchant, Klaviyo and cross-channel references. Skills vary in scope/maturity and are not automatically installed.
@@ -175,6 +176,7 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 | [Shopify CRO/checkout](references/shopify-ecommerce-cro-and-checkout.md) | PDP/cart/checkout usability, plan-specific extensions and experiments |
 | [Shopify Shopping/Meta feeds and pixels](references/shopify-shopping-ads-feeds-and-attribution.md) | Merchant sync, ads/product data, Web Pixels, events and contribution |
 | [Shopify lifecycle and retention](references/shopify-lifecycle-retention-and-automation.md) | Messaging/Flow, segments, consent and customer lifetime |
+| [Shopify promotions and seasonal campaigns](references/shopify-promotions-bundles-and-seasonal-campaigns.md) | Discount classes/stacking, bundles, gift occasions, fulfillment and margin |
 | [Shopify performance and measurement](references/shopify-theme-performance-and-measurement.md) | Liquid/theme/app performance, analytics and safe rollout |
 | [Ecommerce skills/resources](references/shopify-ecommerce-skill-and-resource-library.md) | Official Shopify developer skills and audited third-party workflow examples |
 | [SEO fundamentals and ecommerce](references/seo-fundamentals-and-ecommerce.md) | Technical eligibility, buyer intent, architecture, on-page copy and product search features |
@@ -214,6 +216,7 @@ See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage 
 
 ## Templates and examples
 
+- [Shopify seasonal/bundle promotion brief](templates/shopify-ecommerce-promotion-brief.md)
 - [Shopify store audit](templates/shopify-store-audit-and-roadmap.md), [collection/PDP content](templates/shopify-product-collection-content-brief.md), [Shopify CRO brief](templates/shopify-pdp-cro-brief.md), [SEO/merchandising audit](templates/shopify-search-merchandising-audit.md), [feed and pixel QA](templates/shopify-merchant-feed-and-pixel-qa.md), [lifecycle plan](templates/shopify-lifecycle-and-retention-plan.md) and [Shopify ecommerce worked example](examples/shopify-ecommerce-end-to-end.md)
 
 - [Integrated promotion brief](templates/promotion-campaign-brief.md), [social hooks/calendar](templates/social-content-and-hooks-calendar.md), [creator collaboration brief](templates/creator-and-collaboration-brief.md), [press release/pitch kit](templates/pr-newsroom-and-pitch.md), [promotion review](templates/promotion-outcomes-review.md), and [promotion example](examples/promotion-from-research-to-distribution.md)
