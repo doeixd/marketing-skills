@@ -168,6 +168,60 @@ class TestWorkflows(unittest.TestCase):
         self.assertIn("Plus", (ROOT / "references/shopify-ecommerce-cro-and-checkout.md").read_text(encoding="utf-8"))
         self.assertIn("Web Pixels", (ROOT / "references/shopify-shopping-ads-feeds-and-attribution.md").read_text(encoding="utf-8"))
 
+    def test_email_sms_analytics_specialists(self):
+        paths = (
+            "workflows/08a-marketing-analytics-and-measurement.md",
+            "workflows/08b-attribution-incrementality-and-experiments.md",
+            "workflows/08c-customer-segmentation-rfm-and-clv.md",
+            "workflows/09b-email-marketing-campaigns-and-copy.md",
+            "workflows/09c-sms-text-and-messaging-marketing.md",
+            "workflows/09d-cross-channel-lifecycle-and-segmentation.md",
+            "workflows/09e-email-deliverability-and-list-health.md",
+            "references/email-marketing-strategy-copy-and-creative.md",
+            "references/email-deliverability-consent-and-reputation.md",
+            "references/sms-text-marketing-and-compliance.md",
+            "references/lifecycle-orchestration-and-channel-governance.md",
+            "references/marketing-analytics-data-model-and-reporting.md",
+            "references/attribution-incrementality-experimentation-and-mmm.md",
+            "references/customer-analytics-segmentation-rfm-and-clv.md",
+            "references/email-sms-analytics-skills-and-resources.md",
+            "templates/email-campaign-and-creative-brief.md",
+            "templates/email-deliverability-and-consent-audit.md",
+            "templates/sms-campaign-and-compliance-brief.md",
+            "templates/cross-channel-lifecycle-journey-map.md",
+            "templates/marketing-measurement-and-kpi-dictionary.md",
+            "templates/marketing-attribution-and-incrementality-plan.md",
+            "templates/customer-rfm-cohort-and-segment-plan.md",
+            "templates/marketing-campaign-performance-review.md",
+            "examples/email-sms-ecommerce-lifecycle-example.md",
+            "examples/marketing-analytics-cohort-decision-example.md",
+            "examples/messaging-plan-draft.json",
+            "scripts/check_messaging_plan.py",
+            "tests/test_messaging_plan.py",
+        )
+        for path in paths:
+            self.assertTrue((ROOT / path).is_file(), path)
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        os = (ROOT / "WORKFLOWS.md").read_text(encoding="utf-8")
+        for name in ("08a-marketing-analytics-and-measurement.md",
+                     "08b-attribution-incrementality-and-experiments.md",
+                     "08c-customer-segmentation-rfm-and-clv.md",
+                     "09b-email-marketing-campaigns-and-copy.md",
+                     "09c-sms-text-and-messaging-marketing.md",
+                     "09d-cross-channel-lifecycle-and-segmentation.md",
+                     "09e-email-deliverability-and-list-health.md"):
+            self.assertIn(name, skill)
+            self.assertIn(name, os)
+        sms = (ROOT / "references/sms-text-marketing-and-compliance.md").read_text(encoding="utf-8")
+        self.assertIn("Email opt-in", sms)
+        self.assertIn("STOP", sms)
+        deliverability = (ROOT / "references/email-deliverability-consent-and-reputation.md").read_text(encoding="utf-8")
+        self.assertIn("DMARC", deliverability)
+        self.assertIn("one-click", deliverability)
+        analytics = (ROOT / "references/marketing-analytics-data-model-and-reporting.md").read_text(encoding="utf-8")
+        self.assertIn("transaction_id", analytics)
+        self.assertIn("contribution", analytics)
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
