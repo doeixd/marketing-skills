@@ -29,5 +29,7 @@ jobs:
         run: python scripts/check_search_ads.py examples/google-search-rsa-draft.json
       - name: Validate email and SMS plan draft
         run: python scripts/check_messaging_plan.py examples/messaging-plan-draft.json
+      - name: Validate marketing data pipeline manifest
+        run: python scripts/check_marketing_data_plan.py examples/marketing-data-pipeline-manifest.json
       - name: Validate internal links
         run: python scripts/check_links.py .
