@@ -222,6 +222,36 @@ class TestWorkflows(unittest.TestCase):
         self.assertIn("transaction_id", analytics)
         self.assertIn("contribution", analytics)
 
+    def test_data_pipelines_implementation_extensions(self):
+        files = (
+            "workflows/08d-marketing-data-pipelines-and-measurement.md",
+            "workflows/08e-event-instrumentation-and-conversion-qa.md",
+            "workflows/08f-marketplace-etl-and-reconciliation.md",
+            "workflows/08g-audience-activation-and-utm-governance.md",
+            "references/2026-platform-data-api-updates.md",
+            "references/campaign-utm-and-identity-governance.md",
+            "templates/event-destination-and-consent-matrix.md",
+            "templates/marketplace-extraction-and-reconciliation-contract.md",
+            "templates/audience-activation-and-suppression-brief.md",
+            "examples/marketing-data-pipeline-manifest.json",
+            "scripts/check_marketing_data_plan.py",
+            "tests/test_marketing_data_plan.py",
+        )
+        for path in files:
+            self.assertTrue((ROOT / path).is_file(), path)
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        workflow = (ROOT / "WORKFLOWS.md").read_text(encoding="utf-8")
+        for p in (
+            "08e-event-instrumentation-and-conversion-qa.md",
+            "08f-marketplace-etl-and-reconciliation.md",
+            "08g-audience-activation-and-utm-governance.md",
+        ):
+            self.assertIn(p, skill)
+            self.assertIn(p, workflow)
+        refs = (ROOT / "references/2026-platform-data-api-updates.md").read_text(encoding="utf-8")
+        for term in ("Shopify", "Etsy", "Amazon", "Meta", "Data Manager", "2026-01"):
+            self.assertIn(term, refs)
+
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):
             self.assertTrue((ROOT / name).is_file(), name)
