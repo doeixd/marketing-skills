@@ -9,6 +9,11 @@ An evidence-grounded Agent Skill for ecommerce marketing and Facebook/Instagram 
 
 - [Getting started](skills/marketing-os/README.md)
 - [Marketing data/ETL and analytics workflow 8D](skills/marketing-os/workflows/08d-marketing-data-pipelines-and-measurement.md)
+- [Event instrumentation and Meta/GA4/Google conversion QA 8E](skills/marketing-os/workflows/08e-event-instrumentation-and-conversion-qa.md)
+- [Shopify/Etsy/Amazon marketplace ETL and finance reconciliation 8F](skills/marketing-os/workflows/08f-marketplace-etl-and-reconciliation.md)
+- [Meta audiences, reverse ETL, consent and UTM governance 8G](skills/marketing-os/workflows/08g-audience-activation-and-utm-governance.md)
+- [Current 2026 Shopify/Etsy/Amazon/Meta/Google data API notes](skills/marketing-os/references/2026-platform-data-api-updates.md)
+- [Synthetic pipeline manifest validator](skills/marketing-os/scripts/check_marketing_data_plan.py)
 - [Data engineering and ETL reference](skills/marketing-os/references/marketing-data-engineering-and-etl.md)
 - [Meta Pixel/CAPI, GA4, GTM, UTMs and attribution](skills/marketing-os/references/measurement-pixels-ga4-and-attribution.md)
 - [Shopify/Etsy/Amazon API integration](skills/marketing-os/references/commerce-data-shopify-etsy-amazon.md)
