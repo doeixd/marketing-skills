@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.5.0 — 2026-11-09
+
+- Built on v5.4's existing ETL/GA4/Meta/Shopify/Etsy/Amazon work with three focused implementation workflows: **8E first-party event instrumentation**, **8F marketplace ETL/financial reconciliation**, and **8G audiences, datasets, reverse ETL and UTM governance**.
+- Added primary-source-verified November 2026 API notes for Shopify 2026-01 bulk-query concurrency, Etsy v3 order/listing/inventory webhooks and rate limits, Amazon SP-API/Ads/Attribution boundaries, GA4 Measurement Protocol and Consent Mode v2, Google Data Manager API after June 2026 upload restrictions, and Meta Pixel/CAPI dedup fields.
+- Added identity/campaign UTM governance reference, event destination/consent mapping, marketplace ingestion and reconciliation contract, and audience activation/suppression brief.
+- Added synthetic multi-marketplace source→event→audience→campaign URL JSON manifest and an offline Python preflight validator with ten regression tests. Checks structural correctness, source-scoped keys, browser/server Meta event IDs, purchase values, sensitive URL parameters, activation approvals and marketplace restricted-data gates.
+- Wired specialists, revised source index, templates, README and CI without replacing core Marketing OS or granting access to customer, ads, or store data.
+- Validation scripts and documents are guides only; no live pixel edits, customer data ingestion, audience upload, ad spend or tracking changes.
+
+
 ## 5.4.0 — 2026-11-06
 
 - Added Stage **8D Marketing Data Pipelines and Measurement** integrating attribution/analytics engineering with the existing marketing operating system, plus implementation blueprint, event/UTM QA plan and hypothetical Shopify/Etsy/Amazon pipeline example.
