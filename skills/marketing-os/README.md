@@ -1,10 +1,16 @@
 # Marketing OS
 
-**Version 5.9 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.10 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.10: Behavior evals and verified facts
+
+- **41 eval cases** in the repo's [`evals/`](https://github.com/doeixd/marketing-skills/tree/main/evals), run with `claude plugin eval`: routing, should-not-trigger, no invented facts, guardrails and output quality. The first runs found two real gaps in when the skill triggers (replying to a bad review; adding scripts such as a back-button survey to a page), both fixed in the description.
+- The repo is now also a Claude Code plugin (`.claude-plugin/plugin.json`).
+- Facts previously resting on trade press were checked at the source where possible: Google's review policy, TikTok GMV Max, the vacated FTC click-to-cancel rule and the retired Business Profile Q&A. See the [improvement plan](https://github.com/doeixd/marketing-skills/blob/main/docs/improvement-plan.md) for what is still unconfirmed.
 
 ## New in v5.9: Landing pages in depth
 

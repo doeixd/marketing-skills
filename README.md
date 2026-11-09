@@ -60,6 +60,6 @@ New to marketing? Start with the [30-day quickstart](skills/marketing-os/workflo
 
 Getting started: put brand facts in `.marketing-context/brand-truth.md` (see the [context template](skills/marketing-os/templates/marketing-context.md)) so every workflow reuses them instead of asking again.
 
-Maintainers: see the [skill architecture and authoring guide](docs/skill-architecture.md).
+Maintainers: see the [skill architecture and authoring guide](docs/skill-architecture.md), the [improvement plan](docs/improvement-plan.md) and the [behavior evals](evals/README.md).
 
 Validated with Python unit tests, example checks, local-link validation, and an Agent Skills spec/context-budget check.

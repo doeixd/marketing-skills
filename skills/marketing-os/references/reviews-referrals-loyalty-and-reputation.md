@@ -19,7 +19,7 @@ The FTC [Endorsement Guides](https://www.ecfr.gov/current/title-16/chapter-I/sub
 
 | Platform | Key rules |
 |---|---|
-| Google (Business Profile / Maps) | No incentives of any kind; no review gating; reported April 2026 additions: no on-premises pressure or kiosks, no staff quotas, no telling customers what to write |
+| Google (Business Profile / Maps) | No incentives of any kind (payment, discounts, free goods); no review gating (discouraging negative or selectively soliciting positive reviews); no pressure to review while on the premises; no staff quotas; no asking for specific content (policy page checked 2026-11-09) |
 | Amazon | No incentives, no asking for positive reviews, no selective solicitation; use "Request a Review" and Vine |
 | Yelp | Don't ask for reviews at all |
 | Trustpilot and similar | Invite all customers the same way; incentives must be disclosed and unconditional |

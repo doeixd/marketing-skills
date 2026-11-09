@@ -15,7 +15,7 @@ Google Business Profile is usually the highest-leverage asset.
 - Correct primary and secondary categories, name exactly as used in the real world (no keyword stuffing), address or hidden address for service-area businesses, phone, hours including holidays, services and products, attributes, booking link.
 - Real, recent photos of premises, team, work and products.
 - Regular posts and offers that are actually valid.
-- *(Reported)* Google is retiring the Q&A section in favor of an AI "Ask Maps" answer built from the profile's fields and reviews. Put the answers customers need into services, attributes, descriptions and the website FAQ rather than relying on Q&A.
+- Google removed the profile Q&A section: its API was shut off in November 2025, and a December 2025 notice in the Business Profile help forum *(reported by trade press)* said an AI "Ask Maps" answer, built from the profile's fields, reviews and website, replaces it. Put the answers customers need into services, attributes, descriptions and the website FAQ rather than relying on Q&A.
 - One profile per real location; no virtual offices or fake addresses (suspension risk).
 - Claim and align the same facts on Apple Business Connect, Bing Places and the directories that matter in the category.
 
@@ -25,7 +25,7 @@ A page per real location or service with unique, useful content (not city-name d
 
 ## 4. Earn reviews the permitted way
 
-- Ask **every** customer shortly after service, with a direct link or QR code. Never ask only happy customers first (review gating), offer incentives for Google reviews, set staff quotas, use an on-premises review kiosk, or tell customers what to write. *(Reported)* Google made these explicit violations in April 2026; they also conflict with the FTC reviews rule.
+- Ask **every** customer shortly after service, with a direct link or QR code. Never ask only happy customers first (review gating), offer incentives for Google reviews, set staff quotas for reviews, pressure customers to review while on the premises, or tell customers what to write. Google's Maps contribution policy prohibits each of these (checked 2026-11-09); they also conflict with the FTC reviews rule.
 - Yelp discourages asking for reviews at all; follow each platform's own policy.
 - Reply to all reviews, positive and negative, factually and without revealing customer details. See the response guide in the [reviews reference](../references/reviews-referrals-loyalty-and-reputation.md).
 

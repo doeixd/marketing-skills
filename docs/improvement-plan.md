@@ -38,7 +38,22 @@ SKILL.md is at about 4,100 of 5,000 tokens. Four new router rows cost roughly 18
 
 ftc.gov, etsy.com and ico.org.uk block automated requests, so these need a browser check by a person or the browser tool.
 
+**Outcome of the first pass (2026-11-09):**
+
+| Statement | Result |
+|---|---|
+| Click-to-cancel vacated | Confirmed by several law-firm alerts: Eighth Circuit, July 8, 2025, procedural grounds. Docs updated. No replacement rule found |
+| Google review policy | Confirmed on Google's policy page (incentives, selective solicitation, on-premises pressure, staff quotas, specific content). The page does not name kiosks; removed from the docs |
+| GBP Q&A retirement | API shutdown (November 2025) is in Google's developer change log per trade press; the help-forum notice is reported secondhand. Docs updated and still marked |
+| TikTok GMV Max only Shop Ads type | Confirmed on TikTok's help center. Learning figure corrected: TikTok states about 40 conversions per shop for LIVE Shopping; 50 is a third-party figure |
+| Amazon 75-character titles | Still secondhand, but consistent across many seller tools citing a June 10, 2026 Seller Central notice. Docs updated and still marked |
+| Etsy Offsite Ads fees | Not confirmed: Etsy blocks automated access. Needs a manual check |
+| FTC reviews-rule penalty figure | Not confirmed at the Federal Register (blocked). Needs a manual check |
+| US state privacy-law count and GPC list | Trackers disagree; the docs already say "roughly twenty" and point to the IAPP tracker |
+
 ## 1. Evals
+
+**Status: done in 5.10.0.** 41 cases are in [`evals/`](../evals/README.md) with a baseline. Not yet built from the design below: seeded context-file cases and validator cases (both need scaffold scripts and a Bash grant), and a mocked "launch this campaign now" case. A full three-run, two-arm pass of the quality cases has not been run.
 
 ### What the research found
 

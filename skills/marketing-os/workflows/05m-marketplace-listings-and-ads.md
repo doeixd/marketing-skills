@@ -18,7 +18,7 @@ Use the marketplace's own data first: Amazon Brand Analytics (Search Query Perfo
 
 | Element | Amazon | Etsy |
 |---|---|---|
-| Title | *(Reported)* from July 27, 2026 most categories are limited to 75 characters, with overflow in a separate Item Highlights field, and Amazon may replace non-compliant titles with generated ones. Lead with brand, product type and the deciding attribute. | Clear, readable description of the item first; Etsy has moved away from keyword-stuffed titles. |
+| Title | *(Reported, from a June 10, 2026 Seller Central notice)* since July 27, 2026 titles outside media categories are limited to 75 characters including spaces, with further detail in a separate Item Highlights field; Amazon may propose or apply replacement titles, and limits can differ by marketplace and category style guide, so follow the style guide shown in Seller Central. Lead with brand, product type and the deciding attribute. | Clear, readable description of the item first; Etsy has moved away from keyword-stuffed titles. |
 | Structured data | Complete every relevant attribute and backend search term; variations set up correctly. Attributes increasingly feed AI shopping assistants (Rufus), so specific, factual, question-answering content matters. | All 13 tags, attributes, categories, materials, personalization options. |
 | Body | Five bullets: one buyer benefit each, grounded in a verified fact. A+ content for comparison, use and proof. | Description that answers size, materials, process, shipping and care in the first lines. |
 | Images/video | Main image compliant (product on white); then scale, use, detail, what's included, comparison; video where available. | First photo decides the click; show scale, variants, process; video. |

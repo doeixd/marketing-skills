@@ -1,0 +1,48 @@
+name: Marketing OS evals (manual)
+
+# Behavior evals call the model and cost usage, so they run only when started by hand.
+# Requires an ANTHROPIC_API_KEY repository secret.
+on:
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: "Space-separated tags to run (routing no-trigger no-fabrication guardrail quality)"
+        default: "routing no-trigger"
+      runs:
+        description: "Runs per case"
+        default: "1"
+      max_cost_usd:
+        description: "Hard cost ceiling in USD"
+        default: "10"
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+      - name: Run evals
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude plugin eval . \
+            --tag ${{ inputs.tags }} \
+            --runs ${{ inputs.runs }} \
+            --ablation none \
+            --judge-model sonnet \
+            --threshold 0.8 \
+            --max-cost-usd ${{ inputs.max_cost_usd }} \
+            --trust-plugin \
+            --no-publish \
+            --json results.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: eval-results
+          path: |
+            results.json
+            evals/results/**/report.html

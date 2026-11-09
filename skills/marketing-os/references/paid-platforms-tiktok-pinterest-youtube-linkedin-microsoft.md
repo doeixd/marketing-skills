@@ -5,8 +5,8 @@ Used by [Workflow 5L](../workflows/05l-paid-social-and-video-platforms.md). Plat
 ## TikTok
 
 - **Signal:** TikTok Pixel + Events API with deduplication; check match quality in Events Manager.
-- **Campaign types:** **Smart+** automates targeting, bidding, budget and creative selection, similar in spirit to Meta's Advantage+. **Spark Ads** run an existing organic post (your own or a creator's, with their authorization code) as an ad and keep its engagement. **GMV Max** is the automated campaign type for TikTok Shop and is *(reported)* the only supported Shop Ads type since mid-2025; it optimizes total shop GMV including organic and affiliate content, so read its ROI as blended, not ad-only.
-- **Learning:** about 50 conversions per ad group per week *(reported; figures vary)*. Avoid major edits in the first week.
+- **Campaign types:** **Smart+** automates targeting, bidding, budget and creative selection, similar in spirit to Meta's Advantage+. **Spark Ads** run an existing organic post (your own or a creator's, with their authorization code) as an ad and keep its engagement. **GMV Max** is the automated campaign type for TikTok Shop and has been the default and only supported campaign type for TikTok Shop Ads since July 2025 (TikTok help center); it optimizes total shop GMV including organic and affiliate content, so read its ROI as blended, not ad-only.
+- **Learning:** TikTok's own figures vary by product: its LIVE Shopping help page says about 40 conversions per shop to exit learning, while third-party guides commonly cite about 50 per ad group per week. Check the delivery status instead of assuming, and avoid major edits in the first week.
 - **Creative:** vertical, sound-on, fast to the point, creator-style. Creative wears out quickly, so plan a steady supply rather than one hero video. Only use sounds licensed for commercial use (the Commercial Music Library), never trending consumer audio.
 - **Watch for:** click-heavy low-intent traffic when optimizing for clicks or views; attribution windows shorter than Meta's defaults; restricted categories.
 - Docs: [TikTok Business Help Center](https://ads.tiktok.com/help/).
@@ -46,5 +46,5 @@ Used by [Workflow 5L](../workflows/05l-paid-social-and-video-platforms.md). Plat
 
 ## Sources and limits
 
-- Pinterest figures are Pinterest's own reported results. TikTok learning-phase and GMV Max details are from third-party summaries ([Journify](https://www.journify.io/resources/tiktok-ads-not-optimizing/), [Supermetrics release note](https://docs.supermetrics.com/docs/tiktok-ads-smart-ads-and-gmv-max-campaign-reporting-august-10-2026-1)).
+- Pinterest figures are Pinterest's own reported results. TikTok GMV Max status is from TikTok's [Product Shopping Ads help page](https://ads.tiktok.com/help/article/considerations-for-product-shopping-ads) and the learning figure from its [LIVE Shopping budget page](https://ads.tiktok.com/help/article/best-practices-for-setting-a-live-shopping-ads-budget); other TikTok details are from third-party summaries ([Journify](https://www.journify.io/resources/tiktok-ads-not-optimizing/), [Supermetrics release note](https://docs.supermetrics.com/docs/tiktok-ads-smart-ads-and-gmv-max-campaign-reporting-august-10-2026-1)).
 - No platform's reported ROAS is a measure of incremental sales. Platform availability and ad policies vary by country.

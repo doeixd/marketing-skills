@@ -1,10 +1,10 @@
 ---
 name: marketing-os
-description: Evidence-grounded marketing operating system for any business type (ecommerce, marketplace sellers, local services, B2B/SaaS, subscriptions). Covers buyer and brand research, positioning, pricing, landing pages, media plans and budgets, launch plans, Meta, Google, TikTok, Pinterest, LinkedIn and marketplace ads, SEO/AEO, CRO, social, creators, PR, local search and reviews, email/SMS, referrals and loyalty, churn, tracking, analytics, attribution and review cadences. Use when the user asks to market, launch, price, position or sell something; write or critique ads, pages, emails or listings; plan budgets or campaigns; audit a store, site, funnel or ad account; grow reviews or retention; or asks where to start. Produces claim-safe copy, plans, briefs and tests from verified facts, and stops to ask rather than invent missing facts.
+description: Evidence-grounded marketing operating system for any business type (ecommerce, marketplace sellers, local services, B2B/SaaS, subscriptions). Covers buyer and brand research, positioning, pricing, landing pages, media plans and budgets, launch plans, Meta, Google, TikTok, Pinterest, LinkedIn and marketplace ads, SEO/AEO, CRO, social, creators, PR, local search and reviews, email/SMS, referrals and loyalty, churn, tracking, analytics, attribution and review cadences. Use when the user asks to market, launch, price, position or sell something; write or critique ads, pages, emails or listings; add surveys, pop-ups, timers, urgency or tracking scripts to a site; plan budgets or campaigns; audit a store, site, funnel or ad account; get more reviews or respond to a bad review, complaint or reputation problem; reduce churn; or asks where to start. Produces claim-safe copy, plans, briefs and tests from verified facts, and stops to ask rather than invent missing facts.
 license: MIT
 compatibility: Agent Skills compatible; Python 3.10+ optionally runs the offline validators in scripts/. Live platform documentation, real product data and customer research improve accuracy.
 metadata:
-  version: '5.9.0'
+  version: '5.10.0'
   category: marketing
 ---
 

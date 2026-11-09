@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.10.0 — 2026-11-09
+
+- Added a behavior eval suite (`evals/`, 41 cases: 21 routing, 4 no-trigger, 6 no-fabrication, 7 guardrail, 3 quality) for `claude plugin eval`, a portable `evals/evals.json` copy inside the skill, a structure test, a manually triggered CI workflow and a plugin manifest.
+- Description changes driven by eval failures: now triggers on responding to bad reviews, complaints and reputation problems, and on adding surveys, pop-ups, timers, urgency or tracking scripts to a site.
+- Corrected facts after checking sources: Google's review policy wording (no mention of kiosks; on-premises pressure, staff quotas, selective solicitation and incentives confirmed), TikTok GMV Max status and learning figure, the July 2025 vacatur of the FTC click-to-cancel rule, the Business Profile Q&A retirement timeline, and the Amazon title-limit wording.
+
 ## 5.9.0 — 2026-11-09
 
 - Added `references/landing-page-design-and-copy.md`, compiled from NN/g and Baymard research, practitioner frameworks (Dry, Gardner, Wiebe, Laja, MECLABS, LIFT), the Unbounce benchmark, the FTC native advertising guide, WCAG/European Accessibility Act and Core Web Vitals, with evidence-quality labels and a list of related agent skills.

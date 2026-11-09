@@ -41,7 +41,7 @@ Consider the **structure** before the number: what is included, tiers (each tier
 
 ## 6. Decide and roll out
 
-Give the owner the options with contribution math, evidence strength and risks. For an increase: decide how existing customers and subscribers are treated, give clear notice, and update every surface (site, feeds, ads, emails, marketplaces) at once so prices never contradict. Subscriptions need clear pre-purchase disclosure of price and renewal terms, consent, and simple cancellation (US ROSCA and state automatic-renewal laws; the FTC's 2024 "click-to-cancel" amendments were vacated in 2025, so check current status).
+Give the owner the options with contribution math, evidence strength and risks. For an increase: decide how existing customers and subscribers are treated, give clear notice, and update every surface (site, feeds, ads, emails, marketplaces) at once so prices never contradict. Subscriptions need clear pre-purchase disclosure of price and renewal terms, consent, and simple cancellation (US ROSCA, Section 5 of the FTC Act and state automatic-renewal laws, many of them strict. The FTC's 2024 "click-to-cancel" rule was vacated on procedural grounds by the Eighth Circuit on July 8, 2025, and no replacement rule was found as of November 2026).
 
 **Stop conditions:** unknown costs; a proposed reference price with no real selling history; a test design the owner or counsel has not approved.
 
