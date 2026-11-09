@@ -4,6 +4,8 @@
 
 **Place:** Stage 5 specialist. Read [Shopify Shopping/feeds reference](../references/shopify-shopping-ads-feeds-and-attribution.md), [Google Search 5G](05g-paid-search-google-ads.md), [Meta creative](06-creative-production.md), [Paid/Promotion 5C](05c-promotion-strategy-and-distribution.md), [Shopify ecommerce economics](../references/shopify-ecommerce-strategy-and-economics.md). Complete [Merchant Feed and Pixel QA](../templates/shopify-merchant-feed-and-pixel-qa.md). When implementing Meta CAPI/datasets, GA4/BigQuery, UTM contracts, marketplace ETL or tracking QA, route to [Stage 8D](08d-marketing-data-pipelines-and-measurement.md) and its [tracking implementation reference](../references/measurement-pixels-ga4-and-attribution.md).
 
+**Technical tracking handoff:** choose [8E](08e-event-instrumentation-and-conversion-qa.md) for Shopify Web Pixels, Meta Pixel/CAPI, GA4 ecommerce, Google Data Manager or conversion duplicates; [8F](08f-marketplace-etl-and-reconciliation.md) for multi-marketplace order/fee/feed pipelines; [8G](08g-audience-activation-and-utm-governance.md) for audience restrictions and UTM-to-cost-mart mapping. Measurement correctness and customer data permission come before new ad spend.
+
 ## 0. Decide the customer and business objective
 
 Identify actual category/brand/variant, target market, purchase occasion, margin, stock, budget, first/returning demand, paid vs organic/Shopping intent, Shopify plan, active channels and product availability. Distinguish search query capture, catalog product discovery, Meta visual demand generation, retargeting and retention. Don't assume a multichannel campaign is better than a narrow one.
