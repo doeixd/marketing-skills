@@ -4,6 +4,8 @@
 
 **Place:** Specialist within [Stage 8](08-measure-diagnose-experiment.md). Read [Analytics Fundamentals](../references/marketing-analytics-data-model-and-reporting.md), [KPI Dictionary](../templates/marketing-measurement-and-kpi-dictionary.md), [Performance Review](../templates/marketing-campaign-performance-review.md); use [Attribution 8B](08b-attribution-incrementality-and-experiments.md), [Cohorts/RFM 8C](08c-customer-segmentation-rfm-and-clv.md) and [Shopify 1B](01b-shopify-ecommerce-diagnosis.md) when relevant.
 
+**Engineering prerequisite:** if data comes from Shopify/Etsy/Amazon ETL, Web Pixels, Meta/Google event ingestion or UTM-tagged campaigns, inspect [8D pipelines](08d-marketing-data-pipelines-and-measurement.md), [8E event tracking](08e-event-instrumentation-and-conversion-qa.md), [8F marketplace sources](08f-marketplace-etl-and-reconciliation.md) and [8G audience/UTM governance](08g-audience-activation-and-utm-governance.md). A dashboard must preserve distinct commerce-ledger, behavioral and platform-attributed grains and source eligibility.
+
 ## 0. Ask what decision is needed
 
 Define specific owner decision and commercial/brand goal: increase qualified leads, validate organic acquisition, allocate paid budget, improve PDP conversion, retain profitable customers, or evaluate promotion. Specify period, market, store/CRM ground truth, current data and tool access. Do not claim live access to Shopify, Google Analytics, ESP or ad platforms without verifying. If files are provided, read them; if not, request necessary narrow exports **only when critical**.
