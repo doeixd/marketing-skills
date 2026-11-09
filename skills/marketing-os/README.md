@@ -1,10 +1,24 @@
 # Marketing OS
 
-**Version 5.4 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.5 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.5: Source-verified data integration, tracking and audience activation
+
+Builds on the existing v5.4 data-pipeline foundation with **implementation-grade** source-specific instructions and offline structural validation.
+
+- [8E Event and Conversion Instrumentation](workflows/08e-event-instrumentation-and-conversion-qa.md): Shopify Web Pixel/consent, Meta Pixel+CAPI event identity and dedup, GA4 Measurement Protocol and value/transaction IDs, Google Ads Data Manager offline conversions and observed QA.
+- [8F Marketplace ETL and Finance Reconciliation](workflows/08f-marketplace-etl-and-reconciliation.md): Shopify Admin GraphQL bulk and webhook ingestion, Etsy v3 orders/listings/inventory webhooks, Amazon SP-API/Ads/Attribution sources, scoped keys, backfills, retries, SKU bridges, payments/adjustments and money/fee reports.
+- [8G Audiences, Datasets, Reverse ETL and UTM Governance](workflows/08g-audience-activation-and-utm-governance.md): Meta datasets versus audience objects, source/purpose-specific consent, marketplace buyer restrictions, Google Customer Match, deletion/opt-out propagation, click IDs, stable campaign tags and cost-import joins.
+- [Current November 2026 Platform API Notes](references/2026-platform-data-api-updates.md): Shopify 2026-01 concurrent bulk query limits, expanded Etsy webhook domains, Amazon SP-API rate limits, GA4 Measurement Protocol, Google Consent Mode v2, post-June-2026 Data Manager guidance and Meta CAPI dedup rules.
+- [Campaign UTMs and Identity Reference](references/campaign-utm-and-identity-governance.md): source/merchant/grain identity, allowed click IDs, external campaign URL rules, avoiding PII in parameters, marketplace vs DTC permissions.
+- Reusable [Event/destination/consent QA matrix](templates/event-destination-and-consent-matrix.md), [marketplace extraction and reconciliation contract](templates/marketplace-extraction-and-reconciliation-contract.md), and [audience/suppression brief](templates/audience-activation-and-suppression-brief.md).
+- A [synthetic JSON pipeline manifest](examples/marketing-data-pipeline-manifest.json), [Python structural QA](scripts/check_marketing_data_plan.py) and tests check identifiers, purchase mapping, Meta browser/server event IDs, UTM privacy, activation readiness and marketplace audience restrictions.
+
+**Important:** A passing JSON linter is not proof of a lawful consent state, real Shopify/Google/Meta/Etsy/Amazon API authorization, successful event delivery or financial reconciliation. No live account or customer data was touched.
 
 ## New in v5.4: Marketing data, ETL, Meta/GA4 measurement, audiences and marketplace analytics
 
@@ -212,6 +226,8 @@ For Claude Code, the local folder can be `.claude/skills/marketing-os/`. See you
 | [Shopify catalog and merchandising](references/shopify-catalog-merchandising-and-data.md) | Variants, collections, Search & Discovery, metafields and accurate copy |
 | [Shopify ecommerce SEO and Markets](references/shopify-ecommerce-seo-and-markets.md) | Product/collection discovery, schema and international store search |
 | [Shopify CRO/checkout](references/shopify-ecommerce-cro-and-checkout.md) | PDP/cart/checkout usability, plan-specific extensions and experiments |
+| [2026 official data API change notes](references/2026-platform-data-api-updates.md) | Shopify, Etsy, Amazon, GA4, Google Data Manager and Meta Pixel/CAPI details |
+| [Campaign UTM and identity governance](references/campaign-utm-and-identity-governance.md) | Source-specific customer/product IDs, URL tracking, consent and audience permissions |
 | [Marketing data engineering / ETL](references/marketing-data-engineering-and-etl.md) | Data pipelines, idempotency, backfills, warehouses, source reconciliation and QA |
 | [Meta Pixel/CAPI, GA4/BigQuery, GTM and UTM tracking](references/measurement-pixels-ga4-and-attribution.md) | Event contracts, conversion deduplication, consent, attribution, Measurement Protocol |
 | [Shopify/Etsy/Amazon data integrations](references/commerce-data-shopify-etsy-amazon.md) | Seller APIs, marketplace limits, financial events and cross-channel product ID bridge |
@@ -259,6 +275,8 @@ See [the complete workflow guide](WORKFLOWS.md), which links to nine core stage 
 
 ## Templates and examples
 
+- [Event/destination/consent QA matrix](templates/event-destination-and-consent-matrix.md), [marketplace ETL/reconciliation contract](templates/marketplace-extraction-and-reconciliation-contract.md), [audience/UTM activation brief](templates/audience-activation-and-suppression-brief.md), [sample pipeline manifest](examples/marketing-data-pipeline-manifest.json) and [validator](scripts/check_marketing_data_plan.py).
+
 - [Email campaign brief](templates/email-campaign-and-creative-brief.md), [sender/consent audit](templates/email-deliverability-and-consent-audit.md), [SMS creative/permission brief](templates/sms-campaign-and-compliance-brief.md), [cross-channel journey map](templates/cross-channel-lifecycle-journey-map.md).
 - [Marketing KPI dictionary](templates/marketing-measurement-and-kpi-dictionary.md), [incrementality experiment plan](templates/marketing-attribution-and-incrementality-plan.md), [RFM/cohort segments](templates/customer-rfm-cohort-and-segment-plan.md), [campaign performance review](templates/marketing-campaign-performance-review.md).
 - [Ecommerce lifecycle example](examples/email-sms-ecommerce-lifecycle-example.md), [holdout/analytics example](examples/marketing-analytics-cohort-decision-example.md), [draft fixture](examples/messaging-plan-draft.json) and [checker](scripts/check_messaging_plan.py).
@@ -294,6 +312,7 @@ python3 scripts/check_copy.py examples/ad-variants.json
 python3 scripts/check_creative.py examples/creative-manifest.json
 python3 scripts/check_search_ads.py examples/google-search-rsa-draft.json
 python3 scripts/check_messaging_plan.py examples/messaging-plan-draft.json
+python3 scripts/check_marketing_data_plan.py examples/marketing-data-pipeline-manifest.json
 python3 scripts/check_links.py
 python3 -m unittest discover -s tests -v
 ```
