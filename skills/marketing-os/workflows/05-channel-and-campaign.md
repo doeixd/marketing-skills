@@ -24,6 +24,8 @@
 
 Don't claim Meta cannot reach high intent or that email inherently retains everyone; channels can play multiple roles. Choose based on where the customer can be reached, what the business can realistically supply, and what can be measured.
 
+Turn the chosen channel roles into money and expected results with the [media plan 5P](05p-media-plan-and-budget-allocation.md). Beyond Meta and Google Search see [5L](05l-paid-social-and-video-platforms.md); marketplaces [5M](05m-marketplace-listings-and-ads.md); local [5N](05n-local-marketing-and-reviews.md); B2B/SaaS [5O](05o-b2b-saas-demand-generation.md).
+
 ## B. Essential campaign questions
 
 1. Is the objective **immediate activation, brand memory, or both**? If both, specify distinct outputs and measurement expectations.

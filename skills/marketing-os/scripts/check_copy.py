@@ -9,6 +9,8 @@ from pathlib import Path
 
 VALID_STATUSES = {"verified", "buyer-reported", "inferred", "hypothesis", "unknown"}
 DEFAULT_TARGETS = {"primary_text": 125, "headline": 40, "description": 30}
+UNRESOLVED_MARKERS = ("[NEEDS INPUT", "[NEEDS HUMAN REVIEW")
+COPY_FIELDS = ("primary_text", "headline", "description", "cta")
 
 
 def check(data: dict) -> tuple[list[str], list[str]]:
@@ -71,6 +73,10 @@ def check(data: dict) -> tuple[list[str], list[str]]:
         for field in ("primary_text", "headline"):
             if not isinstance(ad.get(field), str) or not ad[field].strip():
                 errors.append(f"ads[{i}].{field} must be nonempty text.")
+        for field in COPY_FIELDS:
+            value = ad.get(field)
+            if isinstance(value, str) and any(m in value.upper() for m in UNRESOLVED_MARKERS):
+                errors.append(f"ads[{i}].{field} contains an unresolved [NEEDS INPUT]/[NEEDS HUMAN REVIEW] marker; resolve it before treating copy as publishable.")
         for field, target in DEFAULT_TARGETS.items():
             value = ad.get(field, "")
             if isinstance(value, str) and len(value) > target:

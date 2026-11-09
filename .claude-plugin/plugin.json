@@ -1,0 +1,10 @@
+{
+  "name": "marketing-skills",
+  "version": "5.10.0",
+  "description": "Marketing OS: an evidence-grounded marketing skill covering research, positioning, pricing, landing pages, ads, SEO, lifecycle, analytics and reviews for ecommerce, local, marketplace and B2B businesses.",
+  "author": {
+    "name": "Patrick Glenn"
+  },
+  "repository": "https://github.com/doeixd/marketing-skills",
+  "license": "MIT"
+}

@@ -12,6 +12,8 @@
 
 ## A. Construct a concept from a specific decision
 
+Read the [marketing context file](../templates/marketing-context.md) first. Ground concepts in real customer language and source material ([grounding tools](../references/content-grounding-and-production-tools.md)); for multi-channel output, draft one master asset and transform it per platform ([pipeline](../references/social-media-strategy-hooks-and-community.md#master-asset--platform-transformation-pipeline)).
+
 For each concept answer:
 
 1. **Who is making what choice, in what situation?** Buyer, user, recipient and category-entry point (if known).

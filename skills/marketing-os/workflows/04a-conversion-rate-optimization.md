@@ -6,6 +6,8 @@
 
 **Goal:** improve **qualified** customer success, not just click-to-cart or form volume.
 
+For a single page, score it with the [landing page review scorecard](../templates/landing-page-review-scorecard.md) and the [landing page reference](../references/landing-page-design-and-copy.md); to build a replacement use [4D](04d-landing-page-build.md).
+
 ## 0. Goal, definition and data quality
 - Specify the true conversion event (completed purchase, profitable order, qualified lead, appointment attended, activation or retained customer), metric denominator, reporting dates and relevant traffic sources.
 - Reconcile store/CRM outcomes with GA4/pixel/session data. Check currency, tax/shipping, duplicate events, consent, bot traffic, seasonality, refunds and model attribution. Don't treat marketing platform ROAS as net incremental profit.

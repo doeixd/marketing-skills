@@ -80,6 +80,21 @@ Turn features into benefits with `fact → consequence → valued result → sup
 
 Avoid formulaic AIDA/PAS output unless it serves a clear purpose. Specificity, relevant information and verifiability typically outperform ornamental hype as *quality criteria*; never promise a CTR or ROAS advantage without experimental evidence.
 
+### Copy structures: optional scaffolds, chosen by situation
+
+Classic direct-response structures are useful **sequencing aids** once the buyer situation, awareness lens and evidence are known. They are practitioner heuristics, not evidence of performance. Pick one per asset, or none.
+
+| Structure | Sequence | Reasonable fit | Misuse to avoid |
+|---|---|---|---|
+| **AIDA** | Attention → Interest → Desire → Action | Longer sales/landing pages and cold-traffic explainers where the buyer needs a full path | Ornamental hooks; "desire" built from invented outcomes |
+| **PAS** | Problem → Agitation → Solution | Short direct response, email and ads **when a real, buyer-reported problem exists** | Manufacturing or exaggerating pain for pleasure, gift or aspirational purchases; fear appeals in sensitive categories |
+| **ACCA** | Awareness → Comprehension → Conviction → Action | Educational, technical or B2B offers where understanding and proof precede commitment | Skipping the comprehension step with jargon |
+| **4 Cs filter** | Clear → Concise → Compelling → Credible | An **editing pass** on any draft, after structure is chosen | Treating "compelling" as permission to drop qualifiers; "credible" means traceable to a `verified` evidence ID |
+
+Map structure to the [awareness lens](positioning-and-objections.md#3-awareness-and-message-selection): unaware audiences rarely respond to PAS agitation of a problem they don't feel; most-aware buyers usually need offer clarity, not a full AIDA arc.
+
+**Brief the copy task explicitly (ARC-E):** state the **A**ction (exact asset and fields), the **R**ole/perspective to write from, the **C**ontext (buyer situation, awareness lens, evidence IDs, voice rules from the [marketing context file](../templates/marketing-context.md)) and the **E**valuation criteria (quality rubric, character targets, claim checks). A brief missing any of the four produces generic copy; write `[NEEDS INPUT]` for the missing part instead.
+
 ## 6. Copy compression without losing truth
 
 Write one core proposition; then create 3–5 message pillars and map each to proof. For every copy asset preserve a claim ID and audience/angle:

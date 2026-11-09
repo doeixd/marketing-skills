@@ -21,6 +21,8 @@ jobs:
           python-version: "3.12"
       - name: Run tests
         run: python -m unittest discover -s tests -v
+      - name: Validate SKILL.md spec and context budget
+        run: python scripts/check_skill_spec.py .
       - name: Validate copy example
         run: python scripts/check_copy.py examples/ad-variants.json
       - name: Validate creative example
@@ -31,5 +33,11 @@ jobs:
         run: python scripts/check_messaging_plan.py examples/messaging-plan-draft.json
       - name: Validate marketing data pipeline manifest
         run: python scripts/check_marketing_data_plan.py examples/marketing-data-pipeline-manifest.json
+      - name: Validate media plan example
+        run: python scripts/check_media_plan.py examples/media-plan.json
+      - name: Validate context file example
+        run: python scripts/check_context_file.py examples/brand-truth-example.md --today 2026-11-09
+      - name: Validate landing page example
+        run: python scripts/check_page_meta.py examples/landing-page-skeleton.html
       - name: Validate internal links
         run: python scripts/check_links.py .

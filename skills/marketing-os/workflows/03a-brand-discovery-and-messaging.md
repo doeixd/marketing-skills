@@ -8,6 +8,8 @@
 
 ## 0. Scope the brand decision
 
+If `.marketing-context/brand-truth.md` exists, start from it and treat this run as an update; otherwise this workflow is the usual way to create it (see [marketing context file](../templates/marketing-context.md)).
+
 Ask which entity is being studied (parent company, product brand, collection, specific SKU), market/geography, business goal, buyer, audience, use channels and known constraints. Ask what the copy must accomplish: build recognition, clarify difference, create desire, help evaluation, resolve objections, convert, or retain. Gather URLs/files and approved claims when available. Do not block on an incomplete questionnaire: proceed with visible unknowns.
 
 ## 1. Collect first-party and outside evidence
@@ -119,7 +121,7 @@ Score each concept 1–5 on **truth, specificity, buyer relevance, brand fit, di
 
 Review voice and positioning with a brand decision-maker. When feasible, test comprehension/association with customers and compare genuinely different concepts using business outcomes and/or appropriate brand research. A familiar founder description is not necessarily the buyer's understanding. Record approvals, rejected interpretations and what evidence would change the conclusion.
 
-**Handoff:** brand discovery brief, evidence ledger, voice guide, positioning/pillars, approved-claim register, messaging library, candidate tests → [Workflow 3](03-positioning-and-brand.md), [creative production](06-creative-production.md), [offer/PDP](04-offer-and-conversion.md), [measurement](08-measure-diagnose-experiment.md).
+**Handoff:** brand discovery brief, evidence ledger, voice guide, positioning/pillars, approved-claim register, messaging library, candidate tests, and an approved draft of the [marketing context file](../templates/marketing-context.md) (identity, claim register, voice rules, distinctive assets, open questions) → [Workflow 3](03-positioning-and-brand.md), [creative production](06-creative-production.md), [offer/PDP](04-offer-and-conversion.md), [measurement](08-measure-diagnose-experiment.md).
 
 **Stop conditions:** missing verified product facts for specific claims; unreconciled brand-owner approval for proposed voice; contradictory guarantees/policies; a positioning promise that real delivery cannot support. Deliver hypotheses and information requests rather than fabricated certainty.
 

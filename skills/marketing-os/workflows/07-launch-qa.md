@@ -2,6 +2,8 @@
 
 **Trigger:** Campaign creative and product destination have been drafted; before publishing, spending, or changing a live campaign.
 
+For a dated product or campaign launch across channels, plan it with [7A launch plan](07a-launch-plan.md); this workflow is the final pre-flight check.
+
 ## A. Hard-stop checks (must pass)
 
 - **Authority:** User/business owner explicitly authorizes account changes, spend, schedule and final publication. A copywriting request is not permission to publish.
@@ -33,6 +35,8 @@
 ## C. During initial delivery
 
 Monitor delivery and tracking sanity, spend versus authorized limits, site uptime, customer complaints and early order quality. Don't 'optimize' the campaign based solely on noisy first-day CTR or interrupt learning with constant changes. Follow current platform recommendations, actual scale and business urgency. Only take authorized actions.
+
+**Comments:** review ad comments at least daily during launch and after budget increases. A single repellent, false or unanswered comment can sink an ad. Answer real questions, escalate service problems, and hide only spam, abuse or policy violations per a written policy; never delete legitimate criticism or seed fake praise. **Visitor behavior:** review consented session recordings and exit/intercept survey answers on the landing page; never hijack the back button ([why](../references/meta-ads-campaign-setup-and-signal-quality.md#7-feedback-loops-beyond-the-dashboard)).
 
 ## D. Stop/pause conditions
 

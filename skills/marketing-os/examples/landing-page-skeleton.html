@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Hypothetical demonstration page for Workflow 4D (see landing-page-brief-example.md) and scripts/check_page_meta.py. Not a real brand or offer. -->
+  <title>Marguerite Vintage-Style Silver Ring | Example Ring Co.</title>
+  <meta name="description" content="A new sterling silver ring in an ornate period style. Whole sizes 5 to 10, ships in 2 business days, 30-day returns.">
+  <link rel="canonical" href="https://www.example.com/rings/marguerite">
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="Marguerite Vintage-Style Silver Ring">
+  <meta property="og:description" content="Ornate period styling in new sterling silver. Whole sizes 5 to 10.">
+  <meta property="og:image" content="https://www.example.com/images/marguerite-on-hand.jpg">
+  <meta property="og:url" content="https://www.example.com/rings/marguerite">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Marguerite Vintage-Style Silver Ring",
+    "brand": {"@type": "Brand", "name": "Example Ring Co."},
+    "material": "Sterling silver",
+    "offers": {
+      "@type": "Offer",
+      "price": "68.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://www.example.com/rings/marguerite"
+    }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <a href="/">Example Ring Co.</a>
+  </header>
+  <main>
+    <section id="hero">
+      <h1>A vintage-style silver ring she hasn't seen everywhere</h1>
+      <p>New sterling silver with period engraving. Pick her size, or use our printable sizer. Ships in 2 business days.</p>
+      <img src="/images/marguerite-on-hand.jpg" alt="Marguerite silver ring with floral engraving worn on a ring finger, in daylight" width="1200" height="1500">
+      <a href="#offer">Choose her size</a>
+      <p>Free gift box. Returns within 30 days.</p>
+    </section>
+    <section id="details">
+      <h2>What you get</h2>
+      <ul>
+        <li>Sterling silver, stamped 925</li>
+        <li>Whole sizes 5 to 10 (no half sizes)</li>
+        <li>Gift box included</li>
+      </ul>
+      <img src="/images/marguerite-stamp.jpg" alt="Close-up of the 925 stamp inside the ring band" width="1200" height="1200">
+    </section>
+    <section id="offer">
+      <h2>Price and delivery</h2>
+      <p>$68. US shipping calculated at checkout. Returns within 30 days; you pay return postage.</p>
+      <form action="/cart/add" method="post">
+        <label for="size">Ring size</label>
+        <select id="size" name="size">
+          <option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option>
+        </select>
+        <button type="submit">Add to cart</button>
+      </form>
+    </section>
+    <section id="faq">
+      <h2>Questions before you buy</h2>
+      <h3>What if it doesn't fit?</h3>
+      <p>Use the printable sizer before ordering. If the size is wrong, return it within 30 days for an exchange or refund.</p>
+      <h3>Is it an antique?</h3>
+      <p>No. It is a new ring made in a vintage style.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Example Ring Co. · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></p>
+  </footer>
+</body>
+</html>

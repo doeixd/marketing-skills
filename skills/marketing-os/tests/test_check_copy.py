@@ -12,6 +12,12 @@ class TestCopyLint(unittest.TestCase):
         self.assertEqual(errors, [])
         self.assertEqual(warnings, [])
 
+    def test_unresolved_marker_is_error(self):
+        errors, _ = check({"ads": [{"primary_text": "Ships in [NEEDS INPUT: delivery window] days.", "headline": "Browse"}]})
+        self.assertTrue(any("unresolved" in x for x in errors))
+        errors, _ = check({"ads": [{"primary_text": "Fine.", "headline": "[needs human review: claim] Best ring"}]})
+        self.assertTrue(any("unresolved" in x for x in errors))
+
     def test_missing_text(self):
         errors, _ = check({"ads": [{"headline": "A"}]})
         self.assertTrue(any("primary_text" in x for x in errors))

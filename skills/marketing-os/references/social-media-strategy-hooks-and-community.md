@@ -34,6 +34,21 @@ For each specify intended audience, their "job," core message, sourcing, visual/
 
 **Repurpose intelligently:** one real demo, interview, guide or press source → platform-native Reel, carousel, clip, FAQ, email, partner pitch. Preserve factual context/claims and adapt hook, pace, captions, format and CTA; don't simply repost identically everywhere.
 
+### Master asset → platform transformation pipeline
+
+1. **Ground** in real source material, not model priors: customer interviews and support transcripts, reviews, founder or expert recordings, and the brand's own best-performing posts. Capture verbatim language and hooks with source IDs. See [grounding tools](content-grounding-and-production-tools.md).
+2. **Draft one master asset** (guide, demo, interview, data story) against the [marketing context file](../templates/marketing-context.md): one core proposition, verified proof and voice rules.
+3. **Transform per platform** with a constraint sheet. Change hook, length, structure and CTA; keep facts, qualifiers and claim IDs identical.
+4. **Review each derivative** against the source claim IDs before scheduling. Publishing stays with an authorized human.
+
+| Destination | Transformation constraints (check current platform limits before use) |
+|---|---|
+| LinkedIn post | The opening line or two must carry the point before the "see more" fold; short paragraphs with line breaks; one idea; professional proof or a lesson; a link in the post may reduce reach, so test it |
+| X post / thread | Character limits depend on the account tier (280 for standard accounts); for threads, the first post stands alone, posts are numbered (1/n), and each post makes one point |
+| Short vertical video (Reels/Shorts/TikTok) | Hook → setup → payoff → CTA beat structure (see [video storytelling](video-storytelling.md)); captions for muted viewing; product visible early |
+| Instagram carousel | One claim per slide; the first slide frames the promise; the last slide gives the next step |
+| Email | The subject line and preheader carry the core proposition; one primary CTA; eligibility checked under [9B](../workflows/09b-email-marketing-campaigns-and-copy.md) |
+
 ## 3. Hook mechanics: choose attention for a useful reason
 
 A hook is the **initial visual, line, question, action or thumbnail/title promise** that helps the right person decide to keep looking. It is not a manipulative cliffhanger.

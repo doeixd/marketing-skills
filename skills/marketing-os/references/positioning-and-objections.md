@@ -37,11 +37,19 @@ Adapt Schwartz's awareness-stage framing as a **creative lens**, not a fact abou
 |---|---|---|---|
 | Unaware | No active interest yet | Show a relevant appealing use case or situation | Inventing a painful problem |
 | Problem / occasion aware | Has need or upcoming decision | Name the goal and demonstrate relevance | Overexplaining the category |
-| Solution / category aware | Comparing kinds of solutions | Explain advantages/tradeoffs of the product type | Unsubstantiated superiority |
+| Solution / category aware | Comparing kinds of solutions | Explain the product's *mechanism*: the verified reason it works differently from the alternatives they know | Unsubstantiated superiority; a pseudo-scientific "secret" mechanism |
 | Product aware | Knows the product or brand | Address an objection; show proof or real distinction | Repeating broad lifestyle slogans |
 | Most aware | Has considered buying | Clarify actual offer, price, availability, delivery terms | False scarcity or pressure |
 
 If the audience is broad, vary creative angles rather than assigning demographic stereotypes. Retargeting may shift copy emphasis toward unanswered questions; avoid disclosing or assuming individual browsing behavior in ad language.
+
+## 3a. Competitor teardown: find positioning gaps from public evidence
+
+Break each real alternative's public funnel (ads, landing page, PDP, emails, social) into a comparable record. Use the [Meta Ad Library](https://www.facebook.com/ads/library/) and live pages as **examples of messaging, never as proof of profitability**.
+
+`competitor | asset/URL + date | buyer situation targeted | awareness lens | hook type (question, demo, claim, story, offer) | stated mechanism | proof points offered (and whether verifiable) | offer structure (price, bundle, guarantee, trial, shipping) | CTA | brand cues | gaps or unanswered objections`
+
+Then look across rows for gaps: buyer situations nobody addresses, objections everyone ignores, proof everyone lacks, and crowded claims to avoid. A gap is a *hypothesis* until buyer evidence shows the unaddressed need matters. Don't copy competitor wording or creative, and don't make comparative claims without substantiation.
 
 ## 4. Objection vs. drawback vs. friction
 
