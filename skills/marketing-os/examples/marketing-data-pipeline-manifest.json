@@ -1,0 +1,133 @@
+{
+  "description": "All hypothetical. No merchant platform access or audience permission has been granted.",
+  "purpose": "Reconcile source-scoped Shopify/Etsy/Amazon net orders with GA4/Meta attributed purchase events, campaign tags and spend before decisions.",
+  "sources": [
+    {
+      "id": "shopify_orders",
+      "platform": "shopify",
+      "account_scope": "example-shop.myshopify.com",
+      "grain": "paid_order",
+      "primary_key": [
+        "shop_id",
+        "order_id"
+      ],
+      "mode": "bulk",
+      "privacy_policy": "Merchant-owned order data only, minimize and restrict protected customer fields",
+      "destination": "raw.shopify_orders",
+      "reconciliation_owner": "Merchant finance owner",
+      "status": "draft"
+    },
+    {
+      "id": "etsy_receipts",
+      "platform": "etsy",
+      "account_scope": "hypothetical_etsy_shop_id",
+      "grain": "receipt",
+      "primary_key": [
+        "shop_id",
+        "receipt_id"
+      ],
+      "mode": "api",
+      "privacy_policy": "Etsy seller data only for contractually permitted commerce reporting; no independent buyer ad audiences",
+      "destination": "raw.etsy_receipts",
+      "reconciliation_owner": "Merchant finance owner",
+      "status": "draft"
+    },
+    {
+      "id": "amazon_orders",
+      "platform": "amazon_sp_api",
+      "account_scope": "hypothetical_seller_marketplace",
+      "grain": "order",
+      "primary_key": [
+        "seller_id",
+        "marketplace_id",
+        "amazon_order_id"
+      ],
+      "mode": "report",
+      "privacy_policy": "Amazon SP-API seller data only, no buyer PII in ad audiences",
+      "destination": "raw.amazon_orders",
+      "reconciliation_owner": "Merchant finance owner",
+      "status": "draft"
+    },
+    {
+      "id": "shopify_pixel",
+      "platform": "shopify",
+      "account_scope": "hypothetical_storefront",
+      "grain": "customer_event",
+      "primary_key": [
+        "shop_id",
+        "event_id"
+      ],
+      "mode": "webhook",
+      "privacy_policy": "Event processing conditional on actual Shopify privacy settings and customer consent",
+      "destination": "staging.shopify_events",
+      "reconciliation_owner": "Measurement engineer",
+      "status": "draft"
+    },
+    {
+      "id": "meta_ads",
+      "platform": "meta_ads",
+      "account_scope": "hypothetical_ad_account",
+      "grain": "campaign_day",
+      "primary_key": [
+        "ad_account",
+        "campaign_id",
+        "date"
+      ],
+      "mode": "api",
+      "privacy_policy": "Campaign aggregated metrics only, no ad-platform raw user identities",
+      "destination": "raw.meta_campaigns",
+      "reconciliation_owner": "Paid media analyst",
+      "status": "draft"
+    }
+  ],
+  "events": [
+    {
+      "id": "shopify_purchase",
+      "canonical_name": "purchase",
+      "origin_source": "shopify_pixel",
+      "consent_rule": "Collect and forward only if Shopify/customer region privacy and destination policy permits",
+      "order_id_field": "order.id",
+      "currency_field": "order.currency",
+      "value_field": "order.items_value_excluding_shipping_tax",
+      "status": "draft",
+      "destinations": [
+        {
+          "platform": "ga4",
+          "transport": "browser",
+          "event_name": "purchase",
+          "event_id_field": "event_id"
+        },
+        {
+          "platform": "meta",
+          "transport": "browser",
+          "event_name": "Purchase",
+          "event_id_field": "event_id"
+        },
+        {
+          "platform": "meta",
+          "transport": "server",
+          "event_name": "Purchase",
+          "event_id_field": "event_id"
+        }
+      ]
+    }
+  ],
+  "audiences": [
+    {
+      "id": "recent_permissioned_buyers_proposed",
+      "source": "shopify_orders",
+      "source_platform": "shopify",
+      "purpose": "Proposed exclusion of recent buyers if eligible",
+      "eligibility_rule": "Permissioned first-party shoppers only with verified ad targeting purpose",
+      "suppression_rule": "Remove opted-out/deleted/unsupported market/customer states every sync",
+      "status": "draft",
+      "consent_verified": false
+    }
+  ],
+  "campaign_urls": [
+    {
+      "url": "https://shop.example.com/products/ring?utm_source=facebook&utm_medium=paid_social&utm_campaign=holiday_gifts_2026&utm_content=reel_product_02&utm_id=123",
+      "notes": "Fictional URL, no live tracking or spend"
+    }
+  ]
+}
