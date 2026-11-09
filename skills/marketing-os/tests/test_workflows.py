@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class TestWorkflows(unittest.TestCase):
     def test_all_nine_workflows_present(self):
-        files = sorted((ROOT / "workflows").glob("[0-9][0-9]-*.md"))
+        files = sorted((ROOT / "workflows").glob("0[1-9]-*.md"))
         self.assertEqual(len(files), 9)
         for p in files:
             txt = p.read_text(encoding="utf-8")
@@ -251,6 +251,58 @@ class TestWorkflows(unittest.TestCase):
         refs = (ROOT / "references/2026-platform-data-api-updates.md").read_text(encoding="utf-8")
         for term in ("Shopify", "Etsy", "Amazon", "Meta", "Data Manager", "2026-01"):
             self.assertIn(term, refs)
+
+    def test_meta_ads_setup_specialist(self):
+        for name in ("workflows/05k-meta-ads-campaign-setup-and-optimization.md",
+                     "references/meta-ads-campaign-setup-and-signal-quality.md",
+                     "templates/meta-ads-campaign-blueprint.md"):
+            self.assertTrue((ROOT / name).is_file(), name)
+        for doc in ("SKILL.md", "WORKFLOWS.md"):
+            self.assertIn("05k-meta-ads-campaign-setup-and-optimization.md", (ROOT / doc).read_text(encoding="utf-8"))
+        ref = (ROOT / "references/meta-ads-campaign-setup-and-signal-quality.md").read_text(encoding="utf-8")
+        for term in ("Conversions API", "event_id", "learning phase", "lookalike", "living in or recently in",
+                     "back button", "comments", "ROAS", "CAC", "read-only"):
+            self.assertIn(term, ref)
+        self.assertIn("Comments", (ROOT / "workflows/07-launch-qa.md").read_text(encoding="utf-8"))
+
+    def test_business_type_planning_and_advocacy_specialists(self):
+        workflows = ("00-quickstart-first-30-days.md", "04c-pricing-research-and-tests.md", "04d-landing-page-build.md",
+                     "05l-paid-social-and-video-platforms.md", "05m-marketplace-listings-and-ads.md",
+                     "05n-local-marketing-and-reviews.md", "05o-b2b-saas-demand-generation.md",
+                     "05p-media-plan-and-budget-allocation.md", "07a-launch-plan.md", "08h-marketing-review-cadence.md",
+                     "09f-advocacy-reviews-referrals-and-reputation.md", "09g-subscription-retention-and-churn.md")
+        skill = (ROOT / "SKILL.md").read_text(encoding="utf-8")
+        system = (ROOT / "WORKFLOWS.md").read_text(encoding="utf-8")
+        for name in workflows:
+            self.assertTrue((ROOT / "workflows" / name).is_file(), name)
+            self.assertIn(name, skill)
+            self.assertIn(name, system)
+            self.assertIn("Stop conditions", (ROOT / "workflows" / name).read_text(encoding="utf-8"), name)
+        for name in ("references/marketing-glossary.md", "references/privacy-consent-and-data-protection.md",
+                     "references/reviews-referrals-loyalty-and-reputation.md",
+                     "references/paid-platforms-tiktok-pinterest-youtube-linkedin-microsoft.md",
+                     "templates/media-plan-and-budget.md", "templates/launch-plan.md", "templates/landing-page-brief.md",
+                     "templates/advocacy-and-reputation-plan.md", "examples/brand-truth-example.md"):
+            self.assertTrue((ROOT / name).is_file(), name)
+        reviews = (ROOT / "references/reviews-referrals-loyalty-and-reputation.md").read_text(encoding="utf-8")
+        for term in ("16 CFR Part 465", "gating", "suppression", "Holding statement"):
+            self.assertIn(term, reviews)
+        privacy = (ROOT / "references/privacy-consent-and-data-protection.md").read_text(encoding="utf-8")
+        for term in ("GDPR", "Global Privacy Control", "Not legal advice"):
+            self.assertIn(term, privacy)
+
+    def test_landing_page_material(self):
+        for name in ("references/landing-page-design-and-copy.md", "templates/landing-page-brief.md",
+                     "templates/landing-page-review-scorecard.md", "examples/landing-page-brief-example.md",
+                     "examples/landing-page-skeleton.html"):
+            self.assertTrue((ROOT / name).is_file(), name)
+        ref = (ROOT / "references/landing-page-design-and-copy.md").read_text(encoding="utf-8")
+        for term in ("Rule of one", "message match", "Attention ratio", "MECLABS", "Advertisement",
+                     "Labels above fields", "LCP", "WCAG", "Five-second test", "Message testing"):
+            self.assertIn(term, ref)
+        workflow = (ROOT / "workflows/04d-landing-page-build.md").read_text(encoding="utf-8")
+        for link in ("landing-page-design-and-copy.md", "landing-page-review-scorecard.md", "check_page_meta.py"):
+            self.assertIn(link, workflow)
 
     def test_core_handoffs_present(self):
         for name in ("WORKFLOWS.md", "templates/operating-brief.md", "templates/creative-production-brief.md", "templates/experiment-decision-log.md", "examples/workflow-from-research-to-sales.md"):

@@ -1,10 +1,48 @@
 # Marketing OS
 
-**Version 5.5 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
+**Version 5.9 — an evidence-grounded marketing operating system, creative director and Meta ad-writing Agent Skill.**
 
 A reusable [Agent Skills](https://agentskills.io/specification) package for understanding brands, offerings, markets, and buyers, then planning discovery, conversion and growth across organic search, AI answer engines, paid advertising, and customer experiences. It combines marketing fundamentals, JTBD research, competitive positioning, brand memory, perceived value and pricing, ethical persuasion and signaling, genuine objections, creative concepts, and experiments.
 
 > **Core philosophy:** Think about **why customers would choose the offering**, **what else they could choose**, **what makes the promise believable**, **what prevents purchase**, and **whether copy is even the best intervention**. Then write selective, compelling ads.
+
+## New in v5.9: Landing pages in depth
+
+- [Landing page reference](references/landing-page-design-and-copy.md): page types, the rule of one, message and design match, the first screen, section order, copy, forms, design, speed, accessibility and advertorial labeling, pre-launch tests, and the practitioners and skills worth learning from. Each section says whether it rests on research, practitioner experience or vendor data.
+- [Workflow 4D](workflows/04d-landing-page-build.md) now covers choosing the page type, writing and testing the first screen, a design direction, the confirmation page, a testing ladder, and reviewing an existing page.
+- New [review scorecard](templates/landing-page-review-scorecard.md), a fuller [brief](templates/landing-page-brief.md) and a [worked example](examples/landing-page-brief-example.md) matching the [HTML skeleton](examples/landing-page-skeleton.html).
+- The [page checker](scripts/check_page_meta.py) now also warns about heading order, generic button text, too many exit links, images without dimensions, a lazy-loaded hero, render-blocking scripts, mistyped email and phone fields, and hard-to-read copy.
+
+## New in v5.8: Every business type, planning, advocacy and a beginner path
+
+- **Beginner path:** [30-day quickstart](workflows/00-quickstart-first-30-days.md) and a [glossary](references/marketing-glossary.md).
+- **Planning:** [pricing 4C](workflows/04c-pricing-research-and-tests.md), [landing page build 4D](workflows/04d-landing-page-build.md), [media plan and budget 5P](workflows/05p-media-plan-and-budget-allocation.md), [launch plan 7A](workflows/07a-launch-plan.md) and a weekly/monthly/quarterly [review cadence 8H](workflows/08h-marketing-review-cadence.md).
+- **More channels and business types:** [TikTok, Pinterest, YouTube, LinkedIn and Microsoft ads 5L](workflows/05l-paid-social-and-video-platforms.md), [Amazon/Etsy listings and ads 5M](workflows/05m-marketplace-listings-and-ads.md), [local marketing 5N](workflows/05n-local-marketing-and-reviews.md) and [B2B/SaaS demand generation 5O](workflows/05o-b2b-saas-demand-generation.md).
+- **After the sale:** [reviews, referrals, loyalty and reputation 9F](workflows/09f-advocacy-reviews-referrals-and-reputation.md) and [subscription retention 9G](workflows/09g-subscription-retention-and-churn.md).
+- **References:** [privacy and consent](references/privacy-consent-and-data-protection.md), [reviews and reputation rules](references/reviews-referrals-loyalty-and-reputation.md), [paid platform notes](references/paid-platforms-tiktok-pinterest-youtube-linkedin-microsoft.md).
+- **Templates and examples:** [media plan](templates/media-plan-and-budget.md), [launch plan](templates/launch-plan.md), [landing page brief](templates/landing-page-brief.md), [advocacy plan](templates/advocacy-and-reputation-plan.md), a filled-in [context file example](examples/brand-truth-example.md), a [media plan JSON](examples/media-plan.json) and a [landing page skeleton](examples/landing-page-skeleton.html).
+- **Three new offline validators:** [media plan](scripts/check_media_plan.py), [context file](scripts/check_context_file.py) and [HTML page](scripts/check_page_meta.py).
+
+## New in v5.7: Meta Ads campaign setup and signal quality
+
+- [Workflow 5K Meta Ads setup](workflows/05k-meta-ads-campaign-setup-and-optimization.md), [reference](references/meta-ads-campaign-setup-and-signal-quality.md) and [campaign blueprint](templates/meta-ads-campaign-blueprint.md). These cover:
+  - optimizing for the highest-intent event, and the ~50 events/week learning threshold
+  - verifying Pixel + CAPI deduplication and match quality before spending
+  - geography as a hard control, and consented custom-audience lookalikes tested at several scales
+  - ROAS/CAC/CLV checked against store orders rather than Meta alone
+  - session recordings, exit surveys (never back-button hijacking) and daily comment monitoring
+  - agent access to the Meta Marketing API (e.g. Composio), read-only by default
+- Added comment and visitor-behavior monitoring to [launch QA](workflows/07-launch-qa.md), and recordings and survey guidance to the [CRO reference](references/cro-research-and-experimentation.md).
+
+## New in v5.6: Lean activation layer, persistent brand context and stop-don't-invent contract
+
+- **SKILL.md cut from ~12k to ~3.5k tokens.** The always-loaded body is now a router table, guardrails and a done-checklist. The 11-step strategy procedure moved to [core reasoning chain](references/core-reasoning-chain.md) and the detailed routing rules and depth table to [routing guide](references/routing-guide.md); both load only when needed. Nothing was deleted.
+- **Persistent [marketing context file](templates/marketing-context.md)** at `.marketing-context/brand-truth.md` in the user's project: evidence-labeled identity, offerings, buyer situations, claim register, voice rules and open questions. Every workflow reads it first; 1A and 3A propose approved updates at handoff.
+- **`[NEEDS INPUT: …]` / `[NEEDS HUMAN REVIEW: …]` markers** for missing facts and undecidable self-review calls, with blocking vs non-blocking rules. The [copy linter](scripts/check_copy.py) rejects ad copy that still contains them.
+- **Read-only by default** (principle 20): writes to any external system need a named human confirmation per action.
+- **Practitioner frameworks, applied with guardrails:** [copy structures](references/brand-voice-and-copy-system.md#copy-structures-optional-scaffolds-chosen-by-situation) (AIDA, PAS, ACCA, the 4 Cs editing pass, ARC-E copy briefs), a [competitor teardown](references/positioning-and-objections.md#3a-competitor-teardown-find-positioning-gaps-from-public-evidence), a mechanism-focused solution-aware stage, a [master asset → platform transformation pipeline](references/social-media-strategy-hooks-and-community.md#master-asset--platform-transformation-pipeline), hook/setup/payoff/CTA video beats and [programmatic video](references/video-storytelling.md#programmatic-code-generated-video) (Remotion, HyperFrames).
+- **[Grounding and production tools](references/content-grounding-and-production-tools.md):** the read-only vs external-write boundary, transcript and Readwise grounding, Search Console/GA4 MCP options, pre-publication link/meta/schema checks, and a comparison with other marketing-skill repos.
+- **[Spec checker](scripts/check_skill_spec.py)** in CI: name/directory match, 64-char name and 1,024-char description limits, 500-line and ~5k-token SKILL.md budget, every workflow routed, no orphaned references or templates.
 
 ## New in v5.5: Source-verified data integration, tracking and audience activation
 

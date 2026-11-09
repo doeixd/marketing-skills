@@ -24,6 +24,8 @@
 | 6–11s | Show scale, option, objection answer | Honest proof or comparison | One evidence cue | Actual materials/policy if present |
 | 11–15s | Full product and handoff to website | Concrete next step | Short CTA consistent with app | Name, exact destination |
 
+**Hook → setup → payoff → CTA** is a common practitioner beat structure for educational short video. Illustrative timing is roughly hook 0–3s (specific claim, question or visible result), setup to ~15s (context or problem), payoff to ~45s (the actual tip, demo or breakdown) and CTA in the final seconds (one low-friction action). Treat it as a starting storyboard, not a rule. Product-first openings and shorter cuts often fit commerce better.
+
 15 seconds is *one storyboard option*; a 6-, 10-, 20- or 30-second execution may better serve another message. Don't pad duration with transitions or rush accessibility/disclosure text.
 
 ## Production direction
@@ -35,6 +37,15 @@
 - **Typography:** Use short readable overlays, clear high-contrast type, hold long enough for reading; don't place key text under UI rails/CTA. Test at actual phone size.
 - **Closing:** Show a brand-linked product frame, truthful CTA, actual destination/offer. Don't defer *all* branding until the final moment.
 - **Audio/visual accessibility:** Meaning should be available without sound when practical; captions for speech, don't hide essential information only in tiny lower-third overlays, avoid flashes/overly rapid edits.
+
+## Programmatic (code-generated) video
+
+Agents can now produce motion graphics, text overlays, captions, data visualizations and preview cuts from code, rendered locally. Examples are [Remotion](https://www.remotion.dev/) (React; check its license, since companies above a small size need a paid company license) and HeyGen's [HyperFrames](https://github.com/heygen-com/hyperframes) (HTML/CSS → MP4 with headless Chrome and FFmpeg; Apache-2.0, released April 2026, with installable agent skills).
+
+- Use them for **overlays, typography, product-spec cards, captions, data stories and storyboard previews** built from real footage and approved claims.
+- **Never render fabricated product features, fake UI, invented reviews or synthetic "customer" footage.** The rights and authenticity rules in [creative QC](creative-quality-control.md) apply to every rendered frame.
+- Keep the composition source (code plus asset manifest) under version control with claim IDs, so a corrected fact can be re-rendered everywhere.
+- Rendering locally is a read-only action. Cloud rendering or uploading to an account or ad platform is an external write and needs human confirmation.
 
 ## What 'native' means—and does not mean
 

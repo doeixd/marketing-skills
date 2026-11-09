@@ -8,6 +8,8 @@
 
 **When traffic is present but qualified conversion is weak**, run [CRO Workflow 4A](04a-conversion-rate-optimization.md) with the [CRO reference](../references/cro-research-and-experimentation.md) and [experiment brief](../templates/cro-experiment-brief.md). Diagnose actual visitor friction and economic outcomes before rewriting a hero headline or increasing spend.
 
+Specialists: [pricing research and tests 4C](04c-pricing-research-and-tests.md) and [building a new landing page 4D](04d-landing-page-build.md).
+
 ## A. Distinguish the product from the offer
 
 - **Product:** actual physical/digital attributes and outcomes.

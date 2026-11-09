@@ -15,11 +15,13 @@ The central question is: **where does a willing, qualified buyer encounter avoid
 Start with:
 1. **Business/analytics integrity:** compare store/CRM orders with GA4 events and ad platform reporting; check duplicate events, time-zone differences, source attribution, refunds, chargebacks, consent, bot traffic and broken pixels. Never conclude a page failed from unreliable data.
 2. **Funnel breakdown:** channel/query/campaign → landing-page arrival → product/offer comprehension → variant/quote selection → add-to-cart/form → checkout/lead submission → purchase → fulfillment, retention, refunds. Segment by mobile/desktop, new/returning, intent, country, inventory and relevant product category without p-hacking.
-3. **Qualitative evidence:** usability task observation, customer support, site search, real objections, customer interviews, consented surveys, accessibility review, QA on devices/browsers; recordings/heatmaps are optional, privacy-controlled clues rather than a stand-in for user research.
+3. **Qualitative evidence:** usability task observation, customer support, site search, real objections, customer interviews, consented surveys, accessibility review, QA on devices/browsers; recordings/heatmaps (e.g. PostHog, Microsoft Clarity, Hotjar) are privacy-controlled clues (mask inputs, honor consent) rather than a stand-in for user research; for paid traffic, watch recordings segmented by campaign/UTM to see what ad visitors look at and where they leave. Ask non-buyers why with exit-intent, scroll-depth or one-question on-page surveys and post-purchase "what almost stopped you?" questions. **Never hijack the back button** or trap navigation: it angers visitors and is a [Google Search spam-policy violation](https://developers.google.com/search/blog/2026/04/back-button-hijacking) enforced from June 15, 2026.
 4. **Page/offering reality:** ad/search promise vs product page, missing product facts, wrong hero/scale, opaque price/shipping/returns, unavailable variants, slow rendering, form errors, account walls.
 5. **Competing explanations:** wrong traffic, seasonality, promotions, stock, platform delivery, measurement error, price and actual customer fit—not automatically "weak copy."
 
 Use [Baymard's Product Page UX research](https://baymard.com/research/product-page) and [Checkout UX research](https://baymard.com/research/checkout-usability). Their benchmarking describes common friction among sampled sites, **not a guarantee** that a specific fix lifts conversion by a particular percentage.
+
+Page-level structure, copy, forms, design and pre-launch tests are covered in the [landing page reference](landing-page-design-and-copy.md).
 
 ## 3. Fundamental user experience tests
 

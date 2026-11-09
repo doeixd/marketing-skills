@@ -1,0 +1,61 @@
+{
+  "_note": "Hypothetical example for the media plan validator. Not real data or benchmarks.",
+  "period_days": 28,
+  "total_budget": 6000,
+  "currency": "USD",
+  "targets": {
+    "allowable_cac": 30,
+    "breakeven_roas": 2.5,
+    "goal": "180 new customers in 28 days"
+  },
+  "measurement": {
+    "source_of_truth": "Store orders (Shopify), reconciled weekly",
+    "incrementality": "Two-state geo holdout on Meta in weeks 3-4"
+  },
+  "unallocated_reserve": 300,
+  "channels": [
+    {
+      "name": "Google Search (non-brand, exact and phrase)",
+      "role": "capture",
+      "markets": ["US"],
+      "budget": 1800,
+      "optimization_event": "purchase",
+      "expected_cost_per_event": 28,
+      "ad_sets": 1,
+      "primary_kpi": "New-customer orders and contribution",
+      "countermetric": "Search terms outside intent",
+      "forecast": {"conversions": {"low": 45, "base": 64, "high": 80}}
+    },
+    {
+      "name": "Meta (Advantage+ sales, one ad set)",
+      "role": "convert",
+      "markets": ["US"],
+      "budget": 3300,
+      "optimization_event": "purchase",
+      "expected_cost_per_event": 16,
+      "ad_sets": 1,
+      "primary_kpi": "Store-verified new customers at or under allowable CAC",
+      "countermetric": "Refund rate of ad-acquired orders",
+      "forecast": {"conversions": {"low": 90, "base": 110, "high": 140}}
+    },
+    {
+      "name": "Email to existing customers (referral ask)",
+      "role": "retain",
+      "markets": ["US"],
+      "budget": 600,
+      "primary_kpi": "Referred first orders",
+      "countermetric": "Unsubscribe and complaint rate"
+    }
+  ],
+  "reallocation_rules": {
+    "review_cadence": "Weekly review; reallocate at most every 2 weeks",
+    "minimum_data": "14 days and 50 conversions per channel",
+    "max_change_per_step": "20% of a channel's budget"
+  },
+  "stop_conditions": [
+    "Tracking fails reconciliation with store orders",
+    "Blended CAC above 45 for 14 days",
+    "Stock below 2 weeks of forecast demand"
+  ],
+  "approved_by": "Owner (hypothetical), 2026-11-09"
+}

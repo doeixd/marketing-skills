@@ -1,5 +1,39 @@
 # Changelog
 
+## 5.9.0 — 2026-11-09
+
+- Added `references/landing-page-design-and-copy.md`, compiled from NN/g and Baymard research, practitioner frameworks (Dry, Gardner, Wiebe, Laja, MECLABS, LIFT), the Unbounce benchmark, the FTC native advertising guide, WCAG/European Accessibility Act and Core Web Vitals, with evidence-quality labels and a list of related agent skills.
+- Rewrote Workflow 4D to cover page-type choice, first-screen drafting and tests, design direction, confirmation page, pre-launch testing and reviews of existing pages.
+- Added `templates/landing-page-review-scorecard.md` and `examples/landing-page-brief-example.md`; expanded the landing page brief; aligned the HTML skeleton with the worked example.
+- Extended `check_page_meta.py` with heading-order, button-text, exit-link, image-dimension, lazy-hero, blocking-script, input-type and reading-level warnings, with tests.
+- Linked the landing page material from 4A, 5K, the CRO reference, the routing guide and sources.
+
+## 5.8.0 — 2026-11-09
+
+- Added twelve workflows: 0 quickstart, 4C pricing, 4D landing page build, 5L other paid platforms (TikTok, Pinterest, YouTube/Demand Gen, LinkedIn, Microsoft), 5M marketplace listings and ads, 5N local marketing, 5O B2B/SaaS demand generation, 5P media plan and budget, 7A launch plan, 8H review cadence, 9F advocacy and reputation, 9G subscription retention.
+- Added references: paid platforms beyond Meta and Google Search; reviews, referrals, loyalty and reputation (FTC 16 CFR 465, platform review policies, response guide, severity matrix); privacy, consent and data protection (GDPR/ePrivacy, US state laws, GPC); marketing glossary.
+- Added templates (media plan, launch plan, landing page brief, advocacy and reputation plan) and examples (filled-in context file, media plan JSON, landing page HTML skeleton).
+- Added validators `check_media_plan.py`, `check_context_file.py` and `check_page_meta.py` with 14 tests and CI steps.
+- Rewrote the skill description for all business types; principle 16 now covers genuine reviews; principle 19 points to the privacy reference. Time-sensitive platform and legal facts are dated and marked where they come from third-party reports.
+
+## 5.7.0 — 2026-11-09
+
+- Added Workflow 5K (Meta Ads campaign setup and optimization), `references/meta-ads-campaign-setup-and-signal-quality.md` and `templates/meta-ads-campaign-blueprint.md`, built from an ecommerce operator's field tips and checked against Meta, Google and practitioner sources. They cover objective and event choice, learning-phase volume, Pixel/CAPI dedup and match quality, geography controls, custom/lookalike tests, ROAS/CAC/CLV vs platform reporting, recordings, exit surveys, comment moderation, and Marketing API/Composio access with write gates.
+- Broadened principle 14 from paid search to all paid media; routed 5K from SKILL.md, WORKFLOWS.md and the routing guide.
+- Launch QA now requires comment and visitor-behavior monitoring; the CRO reference names recording tools and bans back-button hijacking (Google spam policy, enforced June 15, 2026).
+
+## 5.6.0 — 2026-11-09
+
+- Reduced SKILL.md from ~48.7 KB (~12k tokens) to ~14 KB (~3.5k tokens) to fit the Agent Skills activation-tier budget. Moved the 11-step reasoning chain to `references/core-reasoning-chain.md` and the detailed routing rules/depth table to `references/routing-guide.md` verbatim, and replaced the routing prose with a one-row-per-workflow router table plus a done-checklist.
+- Rewrote the frontmatter description as "what it does + when to use it" (826 chars) instead of a keyword list.
+- Added a persistent marketing context file (`templates/marketing-context.md` → `.marketing-context/brand-truth.md`) with status-labeled rows, a claim register, freshness and approval rules; wired it into SKILL.md, WORKFLOWS.md and workflows 1A/3A.
+- Added `[NEEDS INPUT]` / `[NEEDS HUMAN REVIEW]` conventions; `check_copy.py` now errors on unresolved markers in copy fields.
+- Added principle 20 (read-only by default; per-action human confirmation for external writes).
+- Added `scripts/check_skill_spec.py` (spec + budget + routing + orphan checks), tests, and a CI step.
+- Added practitioner frameworks with guardrails: AIDA/PAS/ACCA/4 Cs table and ARC-E copy brief (brand voice reference), competitor teardown (positioning reference, linked from Workflow 3), a mechanism note for solution-aware buyers, a master asset → per-platform transformation pipeline with LinkedIn/X/video/carousel/email constraints, hook/setup/payoff/CTA beats, and programmatic video guidance (Remotion, HyperFrames).
+- Added `references/content-grounding-and-production-tools.md`: read-only vs write boundary, transcript/Readwise grounding, Search Console/GA4 MCP options, pre-publication checks, and a comparison with other marketing-skill repos. Tool names were verified on 2026-11-09; unverifiable names from external suggestions were omitted.
+- Added `docs/skill-architecture.md` (maintainer guide: disclosure tiers, frontmatter including client-specific extensions, writing rules, roadmap with phase status).
+
 ## 5.5.0 — 2026-11-09
 
 - Built on v5.4's existing ETL/GA4/Meta/Shopify/Etsy/Amazon work with three focused implementation workflows: **8E first-party event instrumentation**, **8F marketplace ETL/financial reconciliation**, and **8G audiences, datasets, reverse ETL and UTM governance**.

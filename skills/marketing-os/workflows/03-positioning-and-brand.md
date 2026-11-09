@@ -8,6 +8,8 @@
 
 ## A. Competitive positioning procedure
 
+When alternatives are poorly understood, start with a [competitor teardown](../references/positioning-and-objections.md#3a-competitor-teardown-find-positioning-gaps-from-public-evidence).
+
 Follow **alternatives → capabilities → value → best-fit buying situations → useful category context**.
 
 1. **Alternatives:** name realistic competitors, substitutes, doing nothing, and default habits. Include why they may win.

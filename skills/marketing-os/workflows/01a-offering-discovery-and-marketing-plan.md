@@ -8,7 +8,7 @@
 
 ## How much brand research first?
 
-**Brand context is valuable but not an absolute prerequisite.** If a brand guide is available, load its voice, advantages, restrictions, approved claims, distinctive assets, strategy, audience and goals. If not, do a *short brand pass*: official website, About, existing copy, product catalog, stated mission, recognizable visual assets. Label identity claims as owner-stated or observed, not proven consumer perceptions. When brand voice/positioning materially determines the output, run [Brand Discovery 3A](03a-brand-discovery-and-messaging.md). Do not block the product's factual investigation while awaiting a complete brand strategy.
+**Read `.marketing-context/brand-truth.md` first** (see [marketing context file](../templates/marketing-context.md)); skip any intake questions it already answers. **Brand context is valuable but not an absolute prerequisite.** If a brand guide is available, load its voice, advantages, restrictions, approved claims, distinctive assets, strategy, audience and goals. If not, do a *short brand pass*: official website, About, existing copy, product catalog, stated mission, recognizable visual assets. Label identity claims as owner-stated or observed, not proven consumer perceptions. When brand voice/positioning materially determines the output, run [Brand Discovery 3A](03a-brand-discovery-and-messaging.md). Do not block the product's factual investigation while awaiting a complete brand strategy.
 
 **Sequence is iterative:** brand context → offer reality → buyer jobs and choice situations → alternatives → differentiated value/positioning → price and purchase risk → creative/copy → marketing plan → validation. The product may reveal brand positioning opportunities or contradictions; feed those discoveries back into 3A. Brand purpose is context, not a substitute for product evidence.
 
@@ -181,7 +181,7 @@ For acquisition, prioritize contribution/profit and qualified purchases/leads ov
 
 **Customer validation:** verify comprehension, most valued benefits and objections with actual buyers. User/founder approval validates the description of business intent; it does not establish actual demand or willingness to pay.
 
-**Handoff:** [offering dossier and plan](../templates/offering-dossier-and-marketing-plan.md), evidence/claim ledger, buyer-by-job matrix, alternatives grid, feature-benefit map, objection-response matrix, selected positioning, approved copy bank, creative brief, page/offer fixes, channel plan, test plan → Stages 3–9 as relevant.
+**Handoff:** [offering dossier and plan](../templates/offering-dossier-and-marketing-plan.md), evidence/claim ledger, buyer-by-job matrix, alternatives grid, feature-benefit map, objection-response matrix, selected positioning, approved copy bank, creative brief, page/offer fixes, channel plan, test plan → Stages 3–9 as relevant. Propose updates to the [marketing context file](../templates/marketing-context.md): the offering row, verified claims (with proof and expiry), buyer situations, objections and open `[NEEDS INPUT]` items; write them only after user approval.
 
 **Stop and recommend a non-copy intervention** when the offering is poorly understood, unsuitable for its audience, unsafe, economically unviable, or cannot deliver the proposed promise. For unavailable facts, produce clearly marked provisional hypotheses and exact research requests instead of confident invention.
 
